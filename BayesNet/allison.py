@@ -5,6 +5,7 @@
 import imageHandler
 import bayes
 
+
 print("########## Starting allison.py ##########") 
 
 fileName = "files/digitdata/trainingimages"
@@ -29,3 +30,4 @@ bayes.mapImageToCase(testTrainingImages, testTrainingLabels)
 bayes.mapImageToCase(testTrainingImages, testTrainingLabels) 
 bayes.mapImageToCase(testTrainingImages, testTrainingLabels) 
 
+print(bayes.digitCase) 

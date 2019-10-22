@@ -44,14 +44,14 @@ def isEndOfFile(fFile):
 def mapImageToCase(fTrainingImageFile, fTrainingLabelFile):
     global digitCase
 
-
     thisImage = imageHandler.readImageFromFile(fTrainingImageFile)
     thisCase = int(fTrainingLabelFile.readline()) 
-
 
     #debugging
     imageHandler.printImage(thisImage)
     print(thisCase) 
+
+    digitCase[thisCase].append(thisImage) 
 
 
     
