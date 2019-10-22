@@ -4,7 +4,7 @@ Date:       2019 10 22
 Course:     CSC 412 - Introduction to AI
 Prof.:      Dr. Bo Li
 
-This defines the methods necessary to read in an image file and 
+This file defines the methods necessary to read in an image file and 
     store the drawn image into a case.
 
     An image is a 28 by 28 grid of ASCII characters, 
@@ -28,9 +28,18 @@ imageSize = 28
 #read image
 #   this function reads an image in from a file and
 #   stores it into a 2D array of ASCII characters.
-def readImageFromFile(fFilename):
-    file = open(fFileName, r)
+def readImageFromFile(fFile):
 
-    image = file.readlines(imageSize*imageSize) 
+    image = fFile.readlines(imageSize*imageSize) 
+
+    for line in image:
+        line.rstrip('\n') 
 
     return image
+#end read image
+
+
+#print an image
+def printImage(fImage):
+    for line in fImage:
+        print(line, end='') 
