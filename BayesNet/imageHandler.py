@@ -43,3 +43,6 @@ def readImageFromFile(fFile):
 def printImage(fImage):
     for line in fImage:
         print(line, end='') 
+
+    print()
+#end print an image

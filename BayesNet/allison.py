@@ -17,9 +17,15 @@ file = open(fileName, 'r')
 #    imageHandler.printImage(image1) 
 
 
-testFile1 = open("files/testEOF", 'r')
+testTrainingImages = open("files/digitdata/tinyTrainingImages", 'r')
+testTrainingLabels = open("files/digitdata/tinyTrainingLabels", 'r')
 
-while (not bayes.isEndOfFile(testFile1)): 
-    print(testFile1.readline()) 
-    #print("Debugging") 
+
+#while (not bayes.isEndOfFile(testFile1)): 
+    
+
+bayes.mapImageToCase(testTrainingImages, testTrainingLabels) 
+bayes.mapImageToCase(testTrainingImages, testTrainingLabels) 
+bayes.mapImageToCase(testTrainingImages, testTrainingLabels) 
+bayes.mapImageToCase(testTrainingImages, testTrainingLabels) 
 

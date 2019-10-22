@@ -18,6 +18,7 @@ This map is then used to predict the case of new images where
 """
 
 import imageHandler
+import copy
 
 #dimension of each side of a square image
 imageSize = imageHandler.imageSize  
@@ -28,9 +29,8 @@ digitCase = [ [], [], [], [], [], [], [], [], [] ,[] ]
 
 #determine if at the end of a file
 def isEndOfFile(fFile):
-    position = fFile.tell()
-    line = fFile.readline()
-    fFile.seek(position)
+    tempFile = copy.deepcopy(fFile)
+    line = tempFile.readLine()
 
     #print(line)
 
@@ -44,10 +44,14 @@ def isEndOfFile(fFile):
 def mapImageToCase(fTrainingImageFile, fTrainingLabelFile):
     global digitCase
 
-    while(not isEndOfFile(fFile)):
-        thisImage = imageHandler.readImageFromFile(fTrainingImagesFile)
 
-        #debugging
-        imageHandler.printImage(thisImage)
+    thisImage = imageHandler.readImageFromFile(fTrainingImageFile)
+    thisCase = int(fTrainingLabelFile.readline()) 
 
-    #end while not eof
+
+    #debugging
+    imageHandler.printImage(thisImage)
+    print(thisCase) 
+
+
+    
