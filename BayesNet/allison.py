@@ -18,16 +18,16 @@ file = open(fileName, 'r')
 #    imageHandler.printImage(image1) 
 
 
-testTrainingImages = open("files/digitdata/tinyTrainingImages", 'r')
-testTrainingLabels = open("files/digitdata/tinyTrainingLabels", 'r')
+testTrainingImages = open("files/digitdata/trainingimages", 'r')
+testTrainingLabels = open("files/digitdata/traininglabels", 'r')
 
 
 #while (not bayes.isEndOfFile(testFile1)): 
     
+for i in range(bayes.numTrainingSamples):
+    bayes.mapImageToDigitCase(testTrainingImages, testTrainingLabels) 
 
-bayes.mapImageToCase(testTrainingImages, testTrainingLabels) 
-bayes.mapImageToCase(testTrainingImages, testTrainingLabels) 
-bayes.mapImageToCase(testTrainingImages, testTrainingLabels) 
-bayes.mapImageToCase(testTrainingImages, testTrainingLabels) 
 
-print(bayes.digitCase) 
+for i in bayes.digitCase:
+    for j in i:
+        imageHandler.printImage(j) 

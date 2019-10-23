@@ -26,6 +26,8 @@ imageSize = imageHandler.imageSize
 #list of all cases for digits 0 through 9
 digitCase = [ [], [], [], [], [], [], [], [], [] ,[] ]
 
+#number of samples to be processed from training data
+numTrainingSamples = 50
 
 #determine if at the end of a file
 def isEndOfFile(fFile):
@@ -38,10 +40,11 @@ def isEndOfFile(fFile):
         return True
     else:
         return False
+#end is end of file
 
 
 #map one image to one case
-def mapImageToCase(fTrainingImageFile, fTrainingLabelFile):
+def mapImageToDigitCase(fTrainingImageFile, fTrainingLabelFile):
     global digitCase
 
     thisImage = imageHandler.readImageFromFile(fTrainingImageFile)
@@ -52,6 +55,36 @@ def mapImageToCase(fTrainingImageFile, fTrainingLabelFile):
     print(thisCase) 
 
     digitCase[thisCase].append(thisImage) 
+#end map image to case
 
 
-    
+#transform each case to Bayes Map
+def caseToMaps(fCaseList):
+    global imageSize
+    global numTrainingSamples
+
+    maps = []
+
+    for i in fCaseList:                         #for each case
+        tempMap = buildTempMap()                #produce one map for each case
+        for j in i:                             #itereate through images in that case
+            for k in range(int(imageSize)):     #loop through 2D array of the image
+                for l in range(int(imageSize)):
+                    if j[k][l] == ' ':          #white pixel
+                        None    #do nothing
+                    elif j[k][l] == '+':        #grey pixel
+                        tempMap[k][l] += 0.5
+                    elif j[k][l] == '#':        #black pixel
+                        tempMap[k][l] += 1.0
+        maps.append(tempMap)
+    #end for each case
+
+    #average out the pixels in each case map
+    for m in maps:                              #for each case
+        for n in range(int(imageSize)):         #loop through 2D array of pixels
+            for o in range(int(imageSize)):
+                m[n][o] /= numTrainingSamples
+    #end for each map
+
+    return maps
+#end caseToMaps
