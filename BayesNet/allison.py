@@ -31,9 +31,11 @@ for i in range(bayes.numTrainingSamples):
 maps = bayes.caseToMaps(bayes.digitCases)
 
 for i in maps:
-    for j in range(imageHandler.imageSize):
-        for k in range(imageHandler.imageSize):
-            print(str("%.2f" % i[j][k]) + ' ', end='')
-        print()
-    print()
+    bayes.printTrueMap(i)
+#end for i j k 
+
+
+# _.-~=+%@#
+for i in maps:
+    bayes.printMapAsHeatmap(i)
 #end for i j k 

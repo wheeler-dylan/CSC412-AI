@@ -27,7 +27,7 @@ imageSize = imageHandler.imageSize
 digitCases = [ [], [], [], [], [], [], [], [], [] ,[] ]
 
 #number of samples to be processed from training data
-numTrainingSamples = 50
+numTrainingSamples = 5000
 
 #determine if at the end of a file
 def isEndOfFile(fFile):
@@ -76,11 +76,16 @@ def caseToMaps(fCaseList):
     global imageSize
     global numTrainingSamples
 
+    #store one map for each case
     maps = []
+    #count number of images used to produce each map for averaging
+    mapImageCount = []
 
-    for i in fCaseList:                         #for each case
+    for i in fCaseList:                  #for each case
         tempMap = buildTempMap()                #produce one map for each case
+        counter = 0
         for j in i:                             #itereate through images in that case
+            counter += 1
             for k in range(int(imageSize)):     #loop through 2D array of the image
                 for l in range(int(imageSize)):
                     if j[k][l] == ' ':          #white pixel
@@ -90,14 +95,57 @@ def caseToMaps(fCaseList):
                     elif j[k][l] == '#':        #black pixel
                         tempMap[k][l] += 1.0
         maps.append(tempMap)
+        mapImageCount.append(counter)
     #end for each case
 
     #average out the pixels in each case map
+    indexCounter = 0
     for m in maps:                              #for each case
         for n in range(int(imageSize)):         #loop through 2D array of pixels
             for o in range(int(imageSize)):
-                m[n][o] /= (numTrainingSamples/10)
+                m[n][o] /= (mapImageCount[indexCounter])
+        indexCounter += 1
     #end for each map
+
+    print(mapImageCount) 
 
     return maps
 #end caseToMaps
+
+
+#print a ASCII character heatmap of a map
+def printMapAsHeatmap(fMap):
+    for j in range(imageHandler.imageSize):
+        for k in range(imageHandler.imageSize):
+            if fMap[j][k] < .1:
+                print('  ',end='')
+            elif fMap[j][k] < .2:
+                print('_ ',end='')
+            elif fMap[j][k] < .3:
+                print('. ',end='')
+            elif fMap[j][k] < .4:
+                print('- ',end='')
+            elif fMap[j][k] < .5:
+                print('~ ',end='')
+            elif fMap[j][k] < .6:
+                print('= ',end='')
+            elif fMap[j][k] < .7:
+                print('+ ',end='')
+            elif fMap[j][k] < .8:
+                print('% ',end='')
+            elif fMap[j][k] < .9:
+                print('@ ',end='')
+            else:
+                print('# ',end='')
+        print()
+#end print heatmap
+
+
+#print a 'true' map as a percentage of each pixel
+def printTrueMap(fMap):
+    for j in range(imageHandler.imageSize):
+        for k in range(imageHandler.imageSize):
+            print(str("%.2f" % fMap[j][k]) + ' ', end='')
+        print()
+    print()
+#end print truemap
