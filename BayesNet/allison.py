@@ -28,6 +28,12 @@ for i in range(bayes.numTrainingSamples):
     bayes.mapImageToDigitCase(testTrainingImages, testTrainingLabels) 
 
 
-for i in bayes.digitCase:
-    for j in i:
-        imageHandler.printImage(j) 
+maps = bayes.caseToMaps(bayes.digitCases)
+
+for i in maps:
+    for j in range(imageHandler.imageSize):
+        for k in range(imageHandler.imageSize):
+            print(str("%.2f" % i[j][k]) + ' ', end='')
+        print()
+    print()
+#end for i j k 

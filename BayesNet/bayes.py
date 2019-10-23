@@ -24,7 +24,7 @@ import copy
 imageSize = imageHandler.imageSize  
 
 #list of all cases for digits 0 through 9
-digitCase = [ [], [], [], [], [], [], [], [], [] ,[] ]
+digitCases = [ [], [], [], [], [], [], [], [], [] ,[] ]
 
 #number of samples to be processed from training data
 numTrainingSamples = 50
@@ -45,17 +45,30 @@ def isEndOfFile(fFile):
 
 #map one image to one case
 def mapImageToDigitCase(fTrainingImageFile, fTrainingLabelFile):
-    global digitCase
+    global digitCases
 
     thisImage = imageHandler.readImageFromFile(fTrainingImageFile)
     thisCase = int(fTrainingLabelFile.readline()) 
 
     #debugging
-    imageHandler.printImage(thisImage)
-    print(thisCase) 
+    #imageHandler.printImage(thisImage)
+    #print(thisCase) 
 
-    digitCase[thisCase].append(thisImage) 
+    digitCases[thisCase].append(thisImage) 
 #end map image to case
+
+
+#build square a 2D array of 0's of the dimensions of imageSize
+def buildTempMap():
+    global imageSize
+    map = []
+    for i in range(int(imageSize)):
+        map.append([])
+        for j in range(int(imageSize)):
+            map[i].append(0) 
+    #end for
+    return map
+#end build temp map
 
 
 #transform each case to Bayes Map
@@ -83,7 +96,7 @@ def caseToMaps(fCaseList):
     for m in maps:                              #for each case
         for n in range(int(imageSize)):         #loop through 2D array of pixels
             for o in range(int(imageSize)):
-                m[n][o] /= numTrainingSamples
+                m[n][o] /= (numTrainingSamples/10)
     #end for each map
 
     return maps
