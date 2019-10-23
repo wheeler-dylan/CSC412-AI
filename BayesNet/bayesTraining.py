@@ -18,7 +18,7 @@ This map is then used to predict the case of new images where
 """
 
 import imageHandler
-import copy
+#import copy
 
 #dimension of each side of a square image
 imageSize = imageHandler.imageSize  
@@ -29,18 +29,18 @@ digitCases = [ [], [], [], [], [], [], [], [], [] ,[] ]
 #number of samples to be processed from training data
 numTrainingSamples = 5000
 
-#determine if at the end of a file
-def isEndOfFile(fFile):
-    tempFile = copy.deepcopy(fFile)
-    line = tempFile.readLine()
+##determine if at the end of a file
+#def isEndOfFile(fFile):
+#    tempFile = copy.deepcopy(fFile)
+#    line = tempFile.readLine()
 
-    #print(line)
+#    #print(line)
 
-    if line == '':
-        return True
-    else:
-        return False
-#end is end of file
+#    if line == '':
+#        return True
+#    else:
+#        return False
+##end is end of file
 
 
 #map one image to one case
@@ -107,7 +107,7 @@ def caseToMaps(fCaseList):
         indexCounter += 1
     #end for each map
 
-    print(mapImageCount) 
+    #print(mapImageCount)           #debugging
 
     return maps
 #end caseToMaps
@@ -142,10 +142,13 @@ def printMapAsHeatmap(fMap):
 
 
 #print a 'true' map as a percentage of each pixel
-def printTrueMap(fMap):
+def printTrueMap(fMap, fOmitLow):
     for j in range(imageHandler.imageSize):
         for k in range(imageHandler.imageSize):
-            print(str("%.2f" % fMap[j][k]) + ' ', end='')
+            if fOmitLow and fMap[j][k] < 0.05:
+                print('     ',end='')
+            else:
+                print(str("%.2f" % fMap[j][k]) + ' ', end='')
         print()
     print()
 #end print truemap

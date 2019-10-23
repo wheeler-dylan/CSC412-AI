@@ -46,3 +46,19 @@ def printImage(fImage):
 
     print()
 #end print an image
+
+
+#convert an image of ASCII pixels to a 2D array of floats
+#   white pixels are 0.0, grey pixels are 0.5, black pixels are 1.0
+def convertAsciiImageToFloatArray(fImage):
+    global imageSize
+
+    array = []
+    for i in range(imageSize):
+        array.append([])
+        for j in range(imageSize):
+            array[i].append(0)
+    #end for i j
+
+    #print(array)        #debugging
+#end convert ASCII to Array

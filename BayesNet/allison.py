@@ -3,39 +3,33 @@
 #SANDBOX
 
 import imageHandler
-import bayes
+import bayesTraining
+import bayesTesting
 
 
 print("########## Starting allison.py ##########") 
 
-fileName = "files/digitdata/trainingimages"
-
-file = open(fileName, 'r')
-
-
-#for i in range(5):
-#    image1 = imageHandler.readImageFromFile(file)
-#    imageHandler.printImage(image1) 
+trainingImages = open("files/digitdata/trainingimages", 'r')
+trainingLabels = open("files/digitdata/traininglabels", 'r')
+testImages = open("files/digitdata/testimages", 'r')
+testLabels = open("files/digitdata/testlabels", 'r')
 
 
-testTrainingImages = open("files/digitdata/trainingimages", 'r')
-testTrainingLabels = open("files/digitdata/traininglabels", 'r')
 
+for i in range(bayesTraining.numTrainingSamples):
+    bayesTraining.mapImageToDigitCase(trainingImages, trainingLabels) 
+#
 
-#while (not bayes.isEndOfFile(testFile1)): 
-    
-for i in range(bayes.numTrainingSamples):
-    bayes.mapImageToDigitCase(testTrainingImages, testTrainingLabels) 
+maps = bayesTraining.caseToMaps(bayesTraining.digitCases)
 
-
-maps = bayes.caseToMaps(bayes.digitCases)
-
+"""
 for i in maps:
-    bayes.printTrueMap(i)
-#end for i j k 
+    bayesTraining.printTrueMap(i, True)
+    bayesTraining.printMapAsHeatmap(i)
+#
+"""
 
-
-# _.-~=+%@#
-for i in maps:
-    bayes.printMapAsHeatmap(i)
-#end for i j k 
+for i in range(1):
+    thisImage = imageHandler.readImageFromFile(testImages)
+    bayesTesting.compareImageToMaps(thisImage, maps)
+#
