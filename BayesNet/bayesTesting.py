@@ -60,5 +60,5 @@ def compareImageToMaps(fImage, fMapSet):
         score /= numPixels
         candidacyScores.append(score)
     #end for
-    print(candidacyScores)      #debugging
+    return candidacyScores.index(max(candidacyScores))      #debugging
 #end compare image to maps
