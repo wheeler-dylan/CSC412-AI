@@ -113,6 +113,16 @@ def caseToMaps(fCaseList):
 #end caseToMaps
 
 
+#apply smoothing to a map, the k value is passed as a parameter 
+#   as is the map to be smoothed.
+def smoothMap(fMap, k):
+    global imageSize
+    for i in range(imageSize):
+        for j in range(imageSize):
+            fMap[i][j] = (fMap[i][j] + k)/(1+(k*3))
+#end smooth map
+
+
 #print a ASCII character heatmap of a map
 def printMapAsHeatmap(fMap):
     for j in range(imageHandler.imageSize):

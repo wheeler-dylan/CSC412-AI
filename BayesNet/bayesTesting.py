@@ -23,6 +23,7 @@ import bayesTraining
 digitCases = bayesTraining.digitCases
 imageSize = imageHandler.imageSize
 numPixels = (imageSize * imageSize)
+numTests = 1000
 
 
 #pixel alliance compares a pixel from a test image to a
@@ -62,3 +63,28 @@ def compareImageToMaps(fImage, fMapSet):
     #end for
     return candidacyScores.index(max(candidacyScores))      #debugging
 #end compare image to maps
+
+
+#find the accuracy rating when testing a set of tests
+#   takes in the test image file and test label file
+#   takes in the list of bayes maps
+#   returns a float value of teh percantage of accuracy
+def reportAccuracy(fTestImagesFile, fTestLabels, fMaps):
+    global numTests
+
+    accuracy = 0
+    
+    for i in range(numTests):
+        thisImage = imageHandler.readImageFromFile(fTestImagesFile)
+        labelText = fTestLabels.readline()
+        labelText.rstrip('\n')
+        labelInt = int(labelText)
+        #print(labelInt)
+        if (labelInt == compareImageToMaps(thisImage, fMaps)):
+            accuracy += 1
+    #end for i 
+
+    accuracy /= numTests
+
+    return accuracy 
+#end report accuracy 

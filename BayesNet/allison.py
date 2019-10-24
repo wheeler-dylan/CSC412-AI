@@ -23,13 +23,13 @@ for i in range(bayesTraining.numTrainingSamples):
 maps = bayesTraining.caseToMaps(bayesTraining.digitCases)
 
 
-#for i in maps:
-#    bayesTraining.printTrueMap(i, True)
-#    bayesTraining.printMapAsHeatmap(i)
-##
-
-
-for i in range(10):
-    thisImage = imageHandler.readImageFromFile(testImages)
-    print(bayesTesting.compareImageToMaps(thisImage, maps))
+for i in maps:
+    #bayesTraining.printTrueMap(i, True)
+    #bayesTraining.printMapAsHeatmap(i)
+    bayesTraining.smoothMap(i, .1)
+    #bayesTraining.printTrueMap(i, True)
+    #bayesTraining.printMapAsHeatmap(i)
 #
+
+
+print(bayesTesting.reportAccuracy(testImages, testLabels, maps))
