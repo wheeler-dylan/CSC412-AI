@@ -23,13 +23,22 @@ for i in range(bayesTraining.numTrainingSamples):
 maps = bayesTraining.caseToMaps(bayesTraining.digitCases)
 
 
+k = bayesTraining.findBestK(maps, testImages, testLabels)
+print("Allison says: best k value found: " + str(k)) 
+if k > 0:
+    bayesTraining.smoothMap(i, k)
+
+
+
 for i in maps:
     #bayesTraining.printTrueMap(i, True)
     #bayesTraining.printMapAsHeatmap(i)
-    bayesTraining.smoothMap(i, .1)
+    #bayesTraining.smoothMap(i, .3)
     #bayesTraining.printTrueMap(i, True)
-    #bayesTraining.printMapAsHeatmap(i)
+    bayesTraining.printMapAsHeatmap(i)
+    print()
 #
+
 
 
 print(bayesTesting.reportAccuracy(testImages, testLabels, maps))

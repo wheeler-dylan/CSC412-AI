@@ -19,6 +19,7 @@ Methods will also be included to test the accuracy of this testing module.
 
 import imageHandler
 import bayesTraining 
+import math
 
 digitCases = bayesTraining.digitCases
 imageSize = imageHandler.imageSize
@@ -42,7 +43,7 @@ def pixelAlliance(fTestPixel, fCasePixel):
 
 #test an image by comparing to to each map and finding the most similar map
 #   returns the index of the map set of which the image is most similar
-#   simularity is scored by the averaged sum of pixel alliances over the number of pixels
+#   simularity is scored by the averaged sum of the log of pixel alliances 
 def compareImageToMaps(fImage, fMapSet):
     global imageSize
     global numPixels
@@ -57,11 +58,12 @@ def compareImageToMaps(fImage, fMapSet):
         score = 0.00
         for j in range(imageSize):          #for each pixel
             for k in range(imageSize):
-                score += pixelAlliance(fImage[j][k], map[j][k]) 
-        score /= numPixels
+                pA = pixelAlliance(fImage[j][k], map[j][k])
+                if  pA > 0:
+                    score += math.log(pA)
         candidacyScores.append(score)
     #end for
-    return candidacyScores.index(max(candidacyScores))      #debugging
+    return candidacyScores.index(max(candidacyScores))     
 #end compare image to maps
 
 
@@ -71,6 +73,8 @@ def compareImageToMaps(fImage, fMapSet):
 #   returns a float value of teh percantage of accuracy
 def reportAccuracy(fTestImagesFile, fTestLabels, fMaps):
     global numTests
+    fTestImagesFile.seek(0)
+    fTestLabels.seek(0)
 
     accuracy = 0
     

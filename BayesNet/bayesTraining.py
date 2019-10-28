@@ -18,7 +18,8 @@ This map is then used to predict the case of new images where
 """
 
 import imageHandler
-#import copy
+import copy 
+import toolkit
 
 #dimension of each side of a square image
 imageSize = imageHandler.imageSize  
@@ -28,6 +29,9 @@ digitCases = [ [], [], [], [], [], [], [], [], [] ,[] ]
 
 #number of samples to be processed from training data
 numTrainingSamples = 5000
+
+import bayesTesting
+
 
 ##determine if at the end of a file
 #def isEndOfFile(fFile):
@@ -121,6 +125,45 @@ def smoothMap(fMap, k):
         for j in range(imageSize):
             fMap[i][j] = (fMap[i][j] + k)/(1+(k*3))
 #end smooth map
+
+
+#find best k
+#   finds the best k value to pass into smoothMap
+#   iterates through several k values and keeps track of which is the most accurate.
+def findBestK(fOriginalMaps, fTestImages, fTestLabels): 
+
+    kStart = 0.1
+    kEnd = 10.0
+    kStep = 0.1
+    
+    bestMap = copy.deepcopy(fOriginalMaps)
+    bestK = 0.0
+    #bestAccuracy = 0.0
+    bestAccuracy = bayesTesting.reportAccuracy(fTestImages, fTestLabels, fOriginalMaps)
+    print("Original Accuracy before smoothing: " + str(bestAccuracy)) 
+
+    #for k in toolkit.frange(.1, 10, .1):
+    k = kStart
+    while k <= kEnd:
+        thisMap = copy.deepcopy(fOriginalMaps)
+
+        print("Testing k = " + str(round(k, 1))) 
+        for m in thisMap:
+            smoothMap(m, k)
+
+        thisAccuracy = bayesTesting.reportAccuracy(fTestImages, fTestLabels, thisMap)
+        print("Accuracy of k = " + str(round(k, 1)) + " is " + str(thisAccuracy))
+        
+        if  thisAccuracy > bestAccuracy: 
+            print("Better k value found: " + str(round(k, 1))) 
+            bestK = k
+            bestMap = copy.deepcopy(thisMap)
+            bestAccuracy = thisAccuracy
+        k += kStep
+    #end k loop
+
+    return bestK
+#end find best k
 
 
 #print a ASCII character heatmap of a map
