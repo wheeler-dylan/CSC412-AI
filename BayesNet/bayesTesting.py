@@ -71,15 +71,15 @@ def compareImageToMaps(fImage, fMapSet):
 #   takes in the test image file and test label file
 #   takes in the list of bayes maps
 #   returns a float value of teh percantage of accuracy
-def reportAccuracy(fTestImagesFile, fTestLabels, fMaps):
+def reportAccuracy(fTestImages, fTestLabels, fMaps):
     global numTests
-    fTestImagesFile.seek(0)
+    fTestImages.seek(0)
     fTestLabels.seek(0)
 
     accuracy = 0
     
     for i in range(numTests):
-        thisImage = imageHandler.readImageFromFile(fTestImagesFile)
+        thisImage = imageHandler.readImageFromFile(fTestImages)
         labelText = fTestLabels.readline()
         labelText.rstrip('\n')
         labelInt = int(labelText)
@@ -92,3 +92,43 @@ def reportAccuracy(fTestImagesFile, fTestLabels, fMaps):
 
     return accuracy 
 #end report accuracy 
+
+
+#build confusion matrix
+def buildConfusionMatrix(fTestImages, fTestLabels, fMaps):
+    global numTests
+    fTestImages.seek(0)
+    fTestLabels.seek(0)
+
+    #initialize matrix
+    matrix = []
+    for i in range(len(fMaps)):
+        matrix.append([])
+        for j in range(len(fMaps)):
+            matrix[i].append(0) 
+    #end for i j
+
+    for i in range(numTests):
+        thisImage = imageHandler.readImageFromFile(fTestImages)
+        labelText = fTestLabels.readline()
+        labelText.rstrip('\n')
+        labelInt = int(labelText)
+        #print(labelInt)
+        guess = compareImageToMaps(thisImage, fMaps)
+        matrix[labelInt][guess] += 1
+    #end for i
+
+    return matrix
+#end build matrix
+
+
+#print confusion matrix
+def printConfusionMatrix(fMatrix, fMaps):
+    print("\t0\t1\t2\t3\t4\t5\t6\t7\t8\t9")
+    for i in range(len(fMaps)):
+        print(str(i)+'\t', end='')
+        for j in range(len(fMaps)):
+            print(str(fMatrix[i][j]) + '\t', end='')
+        print() 
+    #end for
+#end print matrix

@@ -19,14 +19,15 @@ testLabels = open("files/digitdata/testlabels", 'r')
 for i in range(bayesTraining.numTrainingSamples):
     bayesTraining.mapImageToDigitCase(trainingImages, trainingLabels) 
 #
-
 maps = bayesTraining.caseToMaps(bayesTraining.digitCases)
 
 
-k = bayesTraining.findBestK(maps, testImages, testLabels)
-print("Allison says: best k value found: " + str(k)) 
-if k > 0:
-    bayesTraining.smoothMap(i, k)
+"""k smoothing had only negative affect on accuracy when using single pixel units""" 
+#k = bayesTraining.findBestK(maps, testImages, testLabels)
+#print("Allison says: best k value found: " + str(k)) 
+#if k > 0:
+#    bayesTraining.smoothMap(i, k)
+
 
 
 
