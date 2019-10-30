@@ -23,6 +23,9 @@ imageHandler.printImage(img)
 #test pixel grouping
 pixler = pixelGrouper.pixelGrouper(2, 2)
 
+pixler.buildPixelSet(img)
+
+pixler.printPixelGroups()
+
 #start at 8, 10 to get something in the middle
-pixler.addPixelGroup(img, 8, 8)
-print(pixler.pixelSet)
+#pixler.addPixelGroup(img, 8, 8)
