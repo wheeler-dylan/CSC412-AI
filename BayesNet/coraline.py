@@ -5,7 +5,7 @@
 import imageHandler
 import bayesTraining
 import bayesTesting
-import pixelGrouper
+import pixelGrouping
 
 
 print("########## Starting coraline.py ##########") 
@@ -18,10 +18,11 @@ testLabels = open("files/digitdata/testlabels", 'r')
 
 #read in one image
 img = imageHandler.readImageFromFile(trainingImages)    #returns a 5 image
+imageHandler.convertAsciiImageToFloatArray(img)
 imageHandler.printImage(img)
 
 #test pixel grouping
-pixler = pixelGrouper.pixelGrouper(2, 2)
+pixler = pixelGrouping.pixelGrouper(2, 2)
 
 pixler.buildPixelSet(img)
 
@@ -29,3 +30,22 @@ pixler.printPixelGroups()
 
 #start at 8, 10 to get something in the middle
 #pixler.addPixelGroup(img, 8, 8)
+
+"""
+
+#generate digit cases
+for i in range(bayesTraining.numTrainingSamples):
+    bayesTraining.mapImageToDigitCase(trainingImages, trainingLabels) 
+#
+
+#build maps from the cases
+maps = bayesTraining.caseToMaps(bayesTraining.digitCases)
+
+for i in maps:
+    bayesTraining.printMapAsHeatmap(i)
+    pixler = pixelGrouping.pixelGrouper(2, 2)
+    pixler.buildPixelSet(i)
+    pixler.printPixelGroups()
+    print()
+#
+"""
