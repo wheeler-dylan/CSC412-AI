@@ -48,17 +48,12 @@ import bayesTesting
 
 
 #map one image to one case
-def mapImageToDigitCase(fTrainingImageFile, fTrainingLabelFile):
-    global digitCases
-
+def mapImageToDigitCase(fCases, fTrainingImageFile, fTrainingLabelFile):
     thisImage = imageHandler.readImageFromFile(fTrainingImageFile)
     thisCase = int(fTrainingLabelFile.readline()) 
 
-    #debugging
-    #imageHandler.printImage(thisImage)
-    #print(thisCase) 
+    fCases[thisCase].append(thisImage) 
 
-    digitCases[thisCase].append(thisImage) 
 #end map image to case
 
 

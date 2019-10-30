@@ -18,7 +18,7 @@ testLabels = open("files/digitdata/testlabels", 'r')
 
 #read in one image
 img = imageHandler.readImageFromFile(trainingImages)    #returns a 5 image
-imageHandler.convertAsciiImageToFloatArray(img)
+#imageHandler.convertAsciiImageToFloatArray(img)
 imageHandler.printImage(img)
 
 #test pixel grouping

@@ -48,23 +48,16 @@ def printImage(fImage):
 #end print an image
 
 
-#DOES NOT WORK YET
 #convert an image of ASCII pixels to a 2D array of floats
 #   white pixels are 0.0, grey pixels are 0.5, black pixels are 1.0
 def convertAsciiImageToFloatArray(fImage):
     global imageSize
 
+    array = []
     for i in range(imageSize):
+        array.append([])
         for j in range(imageSize):
-            if fImage[i][j] == ' ':
-                fImage[i][j] = 0.0
-            elif fImage[i][j] == '+':
-                fImage[i][j] = 0.5
-            elif fImage[i][j] == '#':
-                fImage[i][j] = 1.0
-            else:
-                fImage[i][j] = -1.0
-
+            array[i].append(0)
     #end for i j
 
     #print(array)        #debugging

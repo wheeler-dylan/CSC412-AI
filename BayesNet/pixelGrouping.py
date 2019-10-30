@@ -33,7 +33,7 @@ class pixelGrouper:
         thisGroup = []
         for i in range(this.height):
             for j in range(this.width):
-                thisGroup += (fImage[fRowStart+i][fColStart+j],)
+                thisGroup += fImage[fRowStart+i][fColStart+j]
         this.pixelGroups.append(thisGroup)
         thisGroup = []
     #end add pixel group
@@ -55,3 +55,13 @@ class pixelGrouper:
             if (i+1) % (imageSize-(this.width)) == 0:
                 print("\n")
     #end printPixelGroups 
+#end pixelGrouper class
+
+
+
+
+#functions to train maps based off pixel groups instead of individual pixels
+
+#groupMapBuilder
+#   parameters: case list, map list
+def
