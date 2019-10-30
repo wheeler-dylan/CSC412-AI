@@ -205,3 +205,15 @@ def printTrueMap(fMap, fOmitLow):
         print()
     print()
 #end print truemap
+
+
+
+
+#print a map as a integer value of each pixel
+def printIntMap(fMap):
+    for j in range(imageHandler.imageSize):
+        for k in range(imageHandler.imageSize):
+            print(str(math.floor(fMap[j][k]*10)) + ' ', end='')
+        print()
+    print()
+#end print truemap

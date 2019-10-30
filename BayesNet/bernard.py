@@ -35,3 +35,8 @@ for i in maps:
 
 confusionMatrix = bayesTesting.buildConfusionMatrix(testImages, testLabels, maps)
 bayesTesting.printConfusionMatrix(confusionMatrix, maps)
+
+
+
+#exit
+input("Press [ENTER] to exit program...")
