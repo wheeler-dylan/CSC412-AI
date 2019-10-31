@@ -50,6 +50,7 @@ def printImage(fImage):
 
 #convert an image of ASCII pixels to a 2D array of floats
 #   white pixels are 0.0, grey pixels are 0.5, black pixels are 1.0
+#   DO NOT TOUCH, it looks wrong but it is being used as is elsewhere. 
 def convertAsciiImageToFloatArray(fImage):
     global imageSize
 

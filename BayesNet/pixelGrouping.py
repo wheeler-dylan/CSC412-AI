@@ -12,7 +12,9 @@ This file defines the functions to train and build a
 
 
 import imageHandler
+import bayesTraining
 imageSize = imageHandler.imageSize 
+numTrainingSamples = bayesTraining.numTrainingSamples
 
 #define pixel grouper class
 #   this object will have a set height and width in 
@@ -63,5 +65,39 @@ class pixelGrouper:
 #functions to train maps based off pixel groups instead of individual pixels
 
 #groupMapBuilder
-#   parameters: case list, map list
-def
+#   parameters: case list
+#   returns: map list
+def groupCaseToMaps(fCaselist, fGroupHeight, fGroupWidth):
+    global imageSize
+    global numTrainingSamples
+
+    #store one map for each case
+    maps = []
+    #count number of images used to produce each map for averaging
+    mapImageCount = []
+
+    for i in fCaseList:                  #for each case
+        maps.append([])                #produce one map for each case
+        counter = 0
+        for j in i:                             #itereate through images in that case
+            counter += 1
+            tempPixelGrouper = pixelGrouper(fGroupHeight, fGroupWidth)
+            tempPixelGrouper.buildPixelSet(j) 
+            maps[i].append(tempPixelGrouper)
+
+        mapImageCount.append(counter)
+    #end for each case
+
+    #average out the pixels in each case map
+    indexCounter = 0
+    for m in maps:                              #for each case
+        for n in range(int(imageSize)):         #loop through 2D array of pixels
+            for o in range(int(imageSize)):
+                m[n][o] /= (mapImageCount[indexCounter])
+        indexCounter += 1
+    #end for each map
+
+    #print(mapImageCount)           #debugging
+
+    return maps
+#end groupCaseToMaps

@@ -22,20 +22,22 @@ for i in range(bayesTraining.numTrainingSamples):
     bayesTraining.mapImageToDigitCase(digitCases, trainingImages, trainingLabels) 
 #
 
+
 #build maps from the cases
 maps = bayesTraining.caseToMaps(digitCases)
-
-
-#test the maps accuracy
-#print(bayesTesting.reportAccuracy(testImages, testLabels, maps))
 
 for i in maps:
     bayesTraining.printMapAsHeatmap(i)
     print()
 #
 
+
 confusionMatrix = bayesTesting.buildConfusionMatrix(testImages, testLabels, maps)
 bayesTesting.printConfusionMatrix(confusionMatrix, maps)
+
+
+#test the maps accuracy
+print(bayesTesting.reportAccuracy(testImages, testLabels, maps))
 
 
 

@@ -122,6 +122,7 @@ def buildConfusionMatrix(fTestImages, fTestLabels, fMaps):
 #end build matrix
 
 
+#TODO: convert from counters to percentages
 #print confusion matrix
 def printConfusionMatrix(fMatrix, fMaps):
     print("\t0\t1\t2\t3\t4\t5\t6\t7\t8\t9")
