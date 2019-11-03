@@ -32,12 +32,13 @@ testLabels = open("files/digitdata/testlabels", 'r')
 
 
 #generate digit cases
+digitCases = [ [], [], [], [], [], [], [], [], [] ,[] ]
 for i in range(bayesTraining.numTrainingSamples):
-    bayesTraining.mapImageToDigitCase(trainingImages, trainingLabels) 
+    bayesTraining.mapImageToDigitCase(digitCases, trainingImages, trainingLabels) 
 #
 
 #build maps from the cases
-maps = bayesTraining.caseToMaps(bayesTraining.digitCases)
+maps = bayesTraining.caseToMaps(bayesTraining.digitCases, 0.1)
 
 
 #test the maps accuracy

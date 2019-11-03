@@ -24,7 +24,7 @@ for i in range(bayesTraining.numTrainingSamples):
 
 
 #build maps from the cases
-maps = bayesTraining.caseToMaps(digitCases)
+maps = bayesTraining.caseToMaps(digitCases, 0.1)
 
 for i in maps:
     bayesTraining.printMapAsHeatmap(i)

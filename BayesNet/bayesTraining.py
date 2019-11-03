@@ -71,7 +71,7 @@ def buildTempMap():
 
 
 #transform each case to Bayes Map
-def caseToMaps(fCaseList):
+def caseToMaps(fCaseList, fK):
     global imageSize
     global numTrainingSamples
 
@@ -102,7 +102,11 @@ def caseToMaps(fCaseList):
     for m in maps:                              #for each case
         for n in range(int(imageSize)):         #loop through 2D array of pixels
             for o in range(int(imageSize)):
-                m[n][o] /= (mapImageCount[indexCounter])
+                if (fK > 0.0):
+                    m[n][o] += fK
+                    m[n][o] /= ((mapImageCount[indexCounter])+(3*fK))
+                else:
+                    m[n][o] /= (mapImageCount[indexCounter])
         indexCounter += 1
     #end for each map
 
@@ -110,7 +114,7 @@ def caseToMaps(fCaseList):
 
     return maps
 #end caseToMaps
-
+ 
 
 #apply smoothing to a map, the k value is passed as a parameter 
 #   as is the map to be smoothed.

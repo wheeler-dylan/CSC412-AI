@@ -22,7 +22,10 @@ for i in range(bayesTraining.numTrainingSamples):
 maps = bayesTraining.caseToMaps(bayesTraining.digitCases)
 
 
-"""k smoothing had only negative affect on accuracy when using single pixel units""" 
+"""k smoothing had only negative affect on accuracy when using single pixel units
+    Update: no longer true, k smoothing was broken, fixed now, see findBestK.py
+    best k value is 0.1
+""" 
 #k = bayesTraining.findBestK(maps, testImages, testLabels)
 #print("Allison says: best k value found: " + str(k)) 
 #if k > 0:

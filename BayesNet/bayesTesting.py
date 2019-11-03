@@ -76,7 +76,7 @@ def reportAccuracy(fTestImages, fTestLabels, fMaps):
     fTestImages.seek(0)
     fTestLabels.seek(0)
 
-    accuracy = 0
+    accuracy = 0.0
     
     for i in range(numTests):
         thisImage = imageHandler.readImageFromFile(fTestImages)
