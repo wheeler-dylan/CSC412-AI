@@ -209,12 +209,12 @@ def groupAccuracyRating(fTestImages, fTestLabels, fMaps):
         bestGuess = 0
         for m in fMaps:
             imgAlliance = pixelGroupAlliance(thisImageGroup, m) 
-            print(imgAlliance)
+            #print(imgAlliance)
             if imgAlliance > bestAlliance:
                 bestAlliance = imgAlliance
                 bestGuess = index
             index += 1
-        print("\n\n")
+        #print("\n\n")
 
         if bestGuess == labelInt:
             accuracy += 1
@@ -224,3 +224,9 @@ def groupAccuracyRating(fTestImages, fTestLabels, fMaps):
     accuracy /= numTests
 
     return accuracy 
+#end group accuracy rating
+
+
+#build confusion matrix using groups
+def groupConfusionMatrix(fTestImages, fTestLabels, fMaps):
+    None

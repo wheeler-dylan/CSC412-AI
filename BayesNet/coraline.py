@@ -38,7 +38,7 @@ for i in range(bayesTraining.numTrainingSamples):
 #
 
 
-gMap = pixelGrouping.groupCaseToMaps(digitCases, 2, 2, 0.5)
+gMap = pixelGrouping.groupCaseToMaps(digitCases, 2, 2, 0.6)
 
 
 print(pixelGrouping.groupAccuracyRating(testImages, testLabels, gMap))

@@ -133,3 +133,6 @@ def printConfusionMatrix(fMatrix, fMaps):
         print() 
     #end for
 #end print matrix
+
+
+#TODO: report accuracy rating from confusion matrix
