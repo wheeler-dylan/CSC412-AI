@@ -67,37 +67,92 @@ class pixelGrouper:
 #groupMapBuilder
 #   parameters: case list
 #   returns: map list
-def groupCaseToMaps(fCaselist, fGroupHeight, fGroupWidth):
+def groupCaseToMaps(fCaseList, fGroupHeight, fGroupWidth, fK):
     global imageSize
     global numTrainingSamples
 
-    #store one map for each case
-    maps = []
+    numGroups = (imageSize - fGroupHeight)*(imageSize - fGroupWidth) 
+
+
+    """
+    #create list of maps to return
+    caseGroups = []
     #count number of images used to produce each map for averaging
     mapImageCount = []
 
-    for i in fCaseList:                  #for each case
-        maps.append([])                #produce one map for each case
+
+    for i in range(len(fCaseList)):                 #for each case
+        caseGroups.append([])                 #produce one map for each case
         counter = 0
-        for j in i:                             #itereate through images in that case
+        for j in fCaseList[i]:                     #itereate through images in that case
             counter += 1
             tempPixelGrouper = pixelGrouper(fGroupHeight, fGroupWidth)
             tempPixelGrouper.buildPixelSet(j) 
-            maps[i].append(tempPixelGrouper)
+            caseGroups[i].append(tempPixelGrouper)
 
         mapImageCount.append(counter)
     #end for each case
 
     #average out the pixels in each case map
-    indexCounter = 0
-    for m in maps:                              #for each case
-        for n in range(int(imageSize)):         #loop through 2D array of pixels
-            for o in range(int(imageSize)):
-                m[n][o] /= (mapImageCount[indexCounter])
-        indexCounter += 1
+    groupsOfMaps = []
+    #indexCounter = 0
+    for eachCase in caseGroups:  #for each case
+        thisMapGrouper = pixelGrouper(fGroupHeight, fGroupWidth)
+        for eachGroup in range(numGroups):
+            thisMapGrouper.pixelGroups.append([])
+            for p in range(fGroupHeight * fGroupWidth):
+                thisMapGrouper.pixelGroups[eachGroup].append(0)
+            for eachList in eachCase[eachGroup]:
+                for eachPixel in range(fGroupHeight * fGroupWidth):
+                    if eachCase[eachGroup].pixelGroups[numGroups][eachPixel] == ' ':
+                        None
+                    elif eachCase[eachGroup].pixelGroups[numGroups][eachPixel] == '+':
+                        thisMapGrouper.pixelGroups[numGroups][eachPixel] += 0.5
+                    elif eachCase[eachGroup].pixelGroups[numGroups][eachPixel] == '#':
+                        thisMapGrouper.pixelGroups[numGroups][eachPixel] += 1.0
+    #    indexCounter += 1
     #end for each map
 
     #print(mapImageCount)           #debugging
+    """
+
+    maps = []
+
+    mapsIndex = 0
+    for eachCase in fCaseList:
+
+        #build map structure
+        maps.append(pixelGrouper(fGroupHeight, fGroupWidth))
+        for g in range(numGroups):
+            maps[mapsIndex].pixelGroups.append([])
+            for p in range(fGroupHeight * fGroupWidth):
+                maps[mapsIndex].pixelGroups[g].append(0.0)
+
+        
+        #sum the total of pixels from every image and add to map
+        imageIndex = 0
+        for eachImage in eachCase:
+            #imageHandler.printImage(eachImage)
+            #print("Image Index: " + str(imageIndex)) 
+            thisGroup = pixelGrouper(fGroupHeight, fGroupWidth) 
+            thisGroup.buildPixelSet(eachImage)
+            for eachGroup in range(numGroups):
+                for eachPixel in range(fGroupHeight * fGroupWidth):
+                    if thisGroup.pixelGroups[eachGroup][eachPixel] == ' ':
+                        None
+                    elif thisGroup.pixelGroups[eachGroup][eachPixel] == '+':
+                        maps[mapsIndex].pixelGroups[eachGroup][eachPixel] += 0.5
+                    elif thisGroup.pixelGroups[eachGroup][eachPixel] == '#':
+                        maps[mapsIndex].pixelGroups[eachGroup][eachPixel] += 1.0
+                    else:
+                        print("ERROR")
+                #print(maps[mapsIndex].pixelGroups[eachGroup][eachPixel])
+            imageIndex += 1
+        
+        
+        mapsIndex += 1
+
 
     return maps
 #end groupCaseToMaps
+

@@ -16,6 +16,8 @@ trainingLabels = open("files/digitdata/traininglabels", 'r')
 testImages = open("files/digitdata/testimages", 'r')
 testLabels = open("files/digitdata/testlabels", 'r')
 
+
+"""
 #read in one image
 img = imageHandler.readImageFromFile(trainingImages)    #returns a 5 image
 #imageHandler.convertAsciiImageToFloatArray(img)
@@ -27,18 +29,29 @@ pixler = pixelGrouping.pixelGrouper(2, 2)
 pixler.buildPixelSet(img)
 
 pixler.printPixelGroups()
-
-#start at 8, 10 to get something in the middle
-#pixler.addPixelGroup(img, 8, 8)
-
 """
 
 #generate digit cases
+digitCases = [ [], [], [], [], [], [], [], [], [] ,[] ]
 for i in range(bayesTraining.numTrainingSamples):
-    bayesTraining.mapImageToDigitCase(trainingImages, trainingLabels) 
+    bayesTraining.mapImageToDigitCase(digitCases, trainingImages, trainingLabels) 
 #
 
-#build maps from the cases
+
+gMap = pixelGrouping.groupCaseToMaps(digitCases, 2, 2, 0.0)
+
+#print(gMap[0].pixelGroups[0][0])
+
+
+print(len(gMap))
+print(len(gMap[0].pixelGroups))
+print(gMap[0].pixelGroups[0][0])
+
+for map in gMap:
+    map.printPixelGroups()
+
+"""
+#build maps from the cases 
 maps = bayesTraining.caseToMaps(bayesTraining.digitCases)
 
 for i in maps:
@@ -49,3 +62,10 @@ for i in maps:
     print()
 #
 """
+
+
+
+
+
+#exit
+input("Press [ENTER] to exit program...")
