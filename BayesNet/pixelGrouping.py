@@ -13,8 +13,11 @@ This file defines the functions to train and build a
 
 import imageHandler
 import bayesTraining
+import bayesTesting
+import math
 imageSize = imageHandler.imageSize 
 numTrainingSamples = bayesTraining.numTrainingSamples
+numTests = bayesTesting.numTests
 
 #define pixel grouper class
 #   this object will have a set height and width in 
@@ -161,3 +164,63 @@ def groupCaseToMaps(fCaseList, fGroupHeight, fGroupWidth, fK):
     return maps
 #end groupCaseToMaps
 
+
+#report simularity between two pixel groups lists
+def pixelGroupAlliance(fTestGroup, fCaseGroup):
+    gx = 0.0
+    for g in range(len(fTestGroup.pixelGroups)):
+        qx = 0
+        for p in range(len(fTestGroup.pixelGroups[g])):
+            qx += bayesTesting.pixelAlliance(fTestGroup.pixelGroups[g][p], fCaseGroup.pixelGroups[g][p])
+        if qx > 0:
+            gx += math.log(qx)
+    
+    gx /= len(fTestGroup.pixelGroups)
+
+    return gx
+
+
+
+#find the accuracy rating of group based maps
+def groupAccuracyRating(fTestImages, fTestLabels, fMaps):
+    global numTests
+    fTestImages.seek(0)
+    fTestLabels.seek(0)
+
+    groupHeight = fMaps[0].height
+    groupWidth = fMaps[0].width
+
+    accuracy = 0.0
+    
+    for i in range(numTests):
+        #grab image and label
+        thisImage = imageHandler.readImageFromFile(fTestImages)
+        labelText = fTestLabels.readline()
+        labelText.rstrip('\n')
+        labelInt = int(labelText)
+
+        #build pixel group for image
+        thisImageGroup = pixelGrouper(groupHeight, groupWidth)
+        thisImageGroup.buildPixelSet(thisImage) 
+
+        #compare image to each case and find best match
+        bestAlliance = 0.0
+        index = 0
+        bestGuess = 0
+        for m in fMaps:
+            imgAlliance = pixelGroupAlliance(thisImageGroup, m) 
+            print(imgAlliance)
+            if imgAlliance > bestAlliance:
+                bestAlliance = imgAlliance
+                bestGuess = index
+            index += 1
+        print("\n\n")
+
+        if bestGuess == labelInt:
+            accuracy += 1
+        
+    #end for i 
+
+    accuracy /= numTests
+
+    return accuracy 

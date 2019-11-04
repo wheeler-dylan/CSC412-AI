@@ -38,11 +38,43 @@ for i in range(bayesTraining.numTrainingSamples):
 #
 
 
-gMap = pixelGrouping.groupCaseToMaps(digitCases, 2, 2, 0.1)
-
-#print(gMap[0].pixelGroups[0][0])
+gMap = pixelGrouping.groupCaseToMaps(digitCases, 2, 2, 0.5)
 
 
+print(pixelGrouping.groupAccuracyRating(testImages, testLabels, gMap))
+
+
+
+
+"""
+print(gMap[0].pixelGroups[0][0])
+
+#read in one image
+#imageHandler.readImageFromFile(testImages)
+imageHandler.readImageFromFile(testImages)
+img = imageHandler.readImageFromFile(testImages)    #returns a 2 image
+imageHandler.printImage(img)
+imgGroup = pixelGrouping.pixelGrouper(2, 2)
+imgGroup.buildPixelSet(img)
+
+bestGX = 0.0
+c = 0
+bestC = 0
+for m in gMap:
+    imgGX = pixelGrouping.pixelGroupAlliance(imgGroup, m) 
+    print(imgGX)
+    if imgGX > bestGX:
+        bestGX = imgGX
+        bestC = c
+    c += 1
+
+print("\n\n")
+print(bestC)
+print(bestGX) 
+"""
+
+
+"""
 print(len(gMap))
 print(len(gMap[0].pixelGroups))
 print(gMap[0].pixelGroups[0][0])
@@ -50,6 +82,8 @@ print(gMap[0].pixelGroups[0][0])
 for map in gMap:
     map.printPixelGroups()
     print("\n\n\n\n\n\n\n\n\n")
+"""
+
 
 """
 #build maps from the cases 
