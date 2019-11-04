@@ -229,4 +229,47 @@ def groupAccuracyRating(fTestImages, fTestLabels, fMaps):
 
 #build confusion matrix using groups
 def groupConfusionMatrix(fTestImages, fTestLabels, fMaps):
-    None
+    global numTests
+    fTestImages.seek(0)
+    fTestLabels.seek(0)
+
+    groupHeight = fMaps[0].height
+    groupWidth = fMaps[0].width
+
+    #initialize matrix
+    matrix = []
+    for i in range(len(fMaps)):
+        matrix.append([])
+        for j in range(len(fMaps)):
+            matrix[i].append(0) 
+    #end for i j
+
+    for i in range(numTests):
+        #grab image and label
+        thisImage = imageHandler.readImageFromFile(fTestImages)
+        labelText = fTestLabels.readline()
+        labelText.rstrip('\n')
+        labelInt = int(labelText)
+
+        #build pixel group for image
+        thisImageGroup = pixelGrouper(groupHeight, groupWidth)
+        thisImageGroup.buildPixelSet(thisImage)
+
+        #compare image to each case and find best match
+        bestAlliance = 0.0
+        index = 0
+        bestGuess = 0
+        for m in fMaps:
+            imgAlliance = pixelGroupAlliance(thisImageGroup, m) 
+            #print(imgAlliance)
+            if imgAlliance > bestAlliance:
+                bestAlliance = imgAlliance
+                bestGuess = index
+            index += 1
+        #print("\n\n")
+
+        matrix[labelInt][bestGuess] += 1
+    #end for i
+
+    return matrix
+#end build matrix

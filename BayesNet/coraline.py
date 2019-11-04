@@ -41,7 +41,13 @@ for i in range(bayesTraining.numTrainingSamples):
 gMap = pixelGrouping.groupCaseToMaps(digitCases, 2, 2, 0.6)
 
 
-print(pixelGrouping.groupAccuracyRating(testImages, testLabels, gMap))
+#print(pixelGrouping.groupAccuracyRating(testImages, testLabels, gMap))
+
+confusionMatrix = pixelGrouping.groupConfusionMatrix(testImages, testLabels, gMap)
+bayesTesting.printConfusionMatrix(confusionMatrix, gMap)
+print(bayesTesting.matrixAccuracy(confusionMatrix))
+
+
 
 
 

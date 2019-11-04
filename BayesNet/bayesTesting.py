@@ -135,4 +135,12 @@ def printConfusionMatrix(fMatrix, fMaps):
 #end print matrix
 
 
-#TODO: report accuracy rating from confusion matrix
+#report accuracy rating from confusion matrix
+def matrixAccuracy(fMatrix):
+    global numTests
+    accuracy = 0.0
+    for i in range(len(fMatrix)):
+        accuracy += fMatrix[i][i]
+    accuracy /= numTests
+    return accuracy
+#end accuracy of matrix
