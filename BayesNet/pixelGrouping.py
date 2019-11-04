@@ -149,7 +149,12 @@ def groupCaseToMaps(fCaseList, fGroupHeight, fGroupWidth, fK):
                 #print(maps[mapsIndex].pixelGroups[eachGroup][eachPixel])
             imageIndex += 1
         
-        
+        #averaging and smoothing
+        for g in range(numGroups):
+            for p in range(fGroupHeight * fGroupWidth):
+                maps[mapsIndex].pixelGroups[g][p] += fK
+                maps[mapsIndex].pixelGroups[g][p] /= (imageIndex + (fK * (3**(fGroupWidth * fGroupHeight))))
+
         mapsIndex += 1
 
 

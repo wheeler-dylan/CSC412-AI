@@ -38,7 +38,7 @@ for i in range(bayesTraining.numTrainingSamples):
 #
 
 
-gMap = pixelGrouping.groupCaseToMaps(digitCases, 2, 2, 0.0)
+gMap = pixelGrouping.groupCaseToMaps(digitCases, 2, 2, 0.1)
 
 #print(gMap[0].pixelGroups[0][0])
 
@@ -49,6 +49,7 @@ print(gMap[0].pixelGroups[0][0])
 
 for map in gMap:
     map.printPixelGroups()
+    print("\n\n\n\n\n\n\n\n\n")
 
 """
 #build maps from the cases 
