@@ -15,6 +15,9 @@ After running this code, the best k value found was
     0.6 when using 2x2 pixel groups for mapping
         accuracy 71.2%
 
+    0.2 when using 2x3 pixel groups for mapping
+        accuracy 69.5%
+
 """
 
 import imageHandler
@@ -55,8 +58,6 @@ bestGroupHeight = 0
 bestGroupWidth = 0
 for groupHeight in range(2, 5):
     for groupWidth in range(2, 5):
-        if(groupHeight == 2 and groupWidth == 2):
-            continue
         while groupK < kEnd:
             print("Testing k = " + str(round(groupK, 1))) 
             print("Group Height = " + str(groupHeight)) 
@@ -91,6 +92,9 @@ for groupHeight in range(2, 5):
             #kIndex += 1
             print("\n\n")
             kSearchResults.write("\n\n")
+        # end while
+    #end for width
+#end for height
 
 print("Best k value found: " + str(bestK)) 
 print('%.9f'%bestAccuracy)
