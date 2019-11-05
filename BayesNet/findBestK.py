@@ -32,6 +32,14 @@ trainingLabels = open("files/digitdata/traininglabels", 'r')
 testImages = open("files/digitdata/testimages", 'r')
 testLabels = open("files/digitdata/testlabels", 'r')
 
+#open file to output results of k seraching
+kSearchResults = open("kSearchResults.txt", "a")
+
+digitCases = [ [], [], [], [], [], [], [], [], [] ,[] ]
+for i in range(bayesTraining.numTrainingSamples):
+    bayesTraining.mapImageToDigitCase(digitCases, trainingImages, trainingLabels) 
+#
+
 
 #list of cases to find most accurate k
 mapsWithDifferentK = []
@@ -40,43 +48,58 @@ kEnd = 10.0
 kStep = 0.1
 bestK = 0.0
 bestAccuracy = 0.0
-#kIndex = 0
 
-digitCases = [ [], [], [], [], [], [], [], [], [] ,[] ]
-for i in range(bayesTraining.numTrainingSamples):
-    bayesTraining.mapImageToDigitCase(digitCases, trainingImages, trainingLabels) 
-#
-
-#find best k for multiple pixel groups:
+#find best k for 2x2 pixel groups:
 groupK = kStart
-while groupK < kEnd:
-    print("Testing k = " + str(round(groupK, 1))) 
-    
-    theseMaps = pixelGrouping.groupCaseToMaps(digitCases, 2, 2, groupK)
+bestGroupHeight = 0
+bestGroupWidth = 0
+for groupHeight in range(2, 5):
+    for groupWidth in range(2, 5):
+        if(groupHeight == 2 and groupWidth == 2):
+            continue
+        while groupK < kEnd:
+            print("Testing k = " + str(round(groupK, 1))) 
+            print("Group Height = " + str(groupHeight)) 
+            print("Group Width = " + str(groupWidth)) 
+            kSearchResults.write("Testing k = " + str(round(groupK, 1)) + "\n") 
+            kSearchResults.write("Group Height = " + str(groupHeight) + "\n") 
+            kSearchResults.write("Group Width = " + str(groupWidth) + "\n") 
+            
+            theseMaps = pixelGrouping.groupCaseToMaps(digitCases, groupHeight, groupWidth, groupK)
 
-    if groupK == kStart:
-        bestMaps = copy.deepcopy(theseMaps) 
+            if groupK == kStart:
+                bestMaps = copy.deepcopy(theseMaps) 
 
-    thisAccuracy = pixelGrouping.groupAccuracyRating(testImages, testLabels, theseMaps)
+            thisAccuracy = pixelGrouping.groupAccuracyRating(testImages, testLabels, theseMaps)
 
-    print("Accuracy of k = " + str(round(groupK, 1)) + " is:")
-    print('%.9f'%thisAccuracy)
+            print("Accuracy of k = " + str(round(groupK, 1)) + " is:")
+            print('%.9f'%thisAccuracy)
+            kSearchResults.write("Accuracy of k = " + str(round(groupK, 1)) + " is:" + "\n")
+            kSearchResults.write(str(round(thisAccuracy,9)) + "\n")
+            
+            if  thisAccuracy > bestAccuracy: 
+                print("Better k value found: " + str(round(groupK, 1))) 
+                kSearchResults.write("Better k value found: " + str(round(groupK, 1)) + "\n") 
+                bestK = groupK
+                bestMaps = copy.deepcopy(theseMaps)
+                bestAccuracy = thisAccuracy
+                bestGroupHeight = groupHeight
+                bestGroupWidth = groupWidth
     
-    if  thisAccuracy > bestAccuracy: 
-        print("Better k value found: " + str(round(groupK, 1))) 
-        bestK = groupK
-        bestMaps = copy.deepcopy(theseMaps)
-        bestAccuracy = thisAccuracy
-    
-    groupK += kStep
-    theseMaps = None
-    #kIndex += 1
-    print("\n\n")
+            groupK += kStep
+            theseMaps = None
+            #kIndex += 1
+            print("\n\n")
+            kSearchResults.write("\n\n")
 
 print("Best k value found: " + str(bestK)) 
 print('%.9f'%bestAccuracy)
-
-
+print("Best group height found: " + str(bestGroupHeight)) 
+print("Best group width found: " + str(bestGroupWidth)) 
+kSearchResults.write("Best k value found: " + str(bestK) + "\n") 
+kSearchResults.write(str(round(thisAccuracy,9)) + "\n")
+kSearchResults.write("Best group height found: " + str(bestGroupHeight) + "\n") 
+kSearchResults.write("Best group width found: " + str(bestGroupWidth) + "\n") 
 
 
 
