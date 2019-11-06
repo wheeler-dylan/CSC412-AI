@@ -50,11 +50,12 @@ bestK = 0.0
 bestAccuracy = 0.0
 
 #find best k for pixel groups 2x2 through 4x4:
-groupHeight = 2
-groupWidth = 2
 bestGroupHeight = 2
 bestGroupWidth = 2
+
+groupHeight = 2
 while groupHeight <= 4:
+    groupWidth = 2
     while groupWidth <= 4:
 
         kStart = 0.0
