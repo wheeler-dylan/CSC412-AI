@@ -45,19 +45,21 @@ for i in range(bayesTraining.numTrainingSamples):
 
 
 #list of cases to find most accurate k
-mapsWithDifferentK = []
-kStart = 0.0
-kEnd = 10.0
-kStep = 0.1
+#mapsWithDifferentK = []
 bestK = 0.0
 bestAccuracy = 0.0
 
-#find best k for 2x2 pixel groups:
-groupK = kStart
-bestGroupHeight = 0
-bestGroupWidth = 0
-for groupHeight in range(2, 5):
-    for groupWidth in range(2, 5):
+#find best k for pixel groups 2x2 through 4x4:
+bestGroupHeight = 2
+bestGroupWidth = 2
+while groupHeight <= 4:
+    while groupWidth <= 4:
+
+        kStart = 0.0
+        kEnd = 10.0
+        kStep = 0.1
+        groupK = kStart
+
         while groupK < kEnd:
             print("Testing k = " + str(round(groupK, 1))) 
             print("Group Height = " + str(groupHeight)) 
@@ -92,8 +94,11 @@ for groupHeight in range(2, 5):
             #kIndex += 1
             print("\n\n")
             kSearchResults.write("\n\n")
-        # end while
-    #end for width
+        # end while k < kEnd
+
+        groupWidth += 1
+    #end while width < 4
+    groupHeight += 1
 #end for height
 
 print("Best k value found: " + str(bestK)) 
