@@ -37,7 +37,7 @@ bayesTesting.printConfusionMatrix(confusionMatrix, maps)
 
 
 #test the maps accuracy
-print(bayesTesting.reportAccuracy(testImages, testLabels, maps))
+print("Accuracy: "+str(bayesTesting.matrixAccuracy(confusionMatrix)*100)+"%")
 
 
 
