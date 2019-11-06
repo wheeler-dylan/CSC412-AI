@@ -50,6 +50,8 @@ bestK = 0.0
 bestAccuracy = 0.0
 
 #find best k for pixel groups 2x2 through 4x4:
+groupHeight = 2
+groupWidth = 2
 bestGroupHeight = 2
 bestGroupWidth = 2
 while groupHeight <= 4:
@@ -88,6 +90,10 @@ while groupHeight <= 4:
                 bestAccuracy = thisAccuracy
                 bestGroupHeight = groupHeight
                 bestGroupWidth = groupWidth
+                print("Group Height = " + str(bestGroupHeight)) 
+                print("Group Width = " + str(bestGroupWidth)) 
+                kSearchResults.write("Group Height = " + str(bestGroupHeight) + "\n") 
+                kSearchResults.write("Group Width = " + str(bestGroupWidth) + "\n") 
     
             groupK += kStep
             theseMaps = None
