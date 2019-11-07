@@ -30,6 +30,11 @@ digitCases = [ [], [], [], [], [], [], [], [], [] ,[] ]
 #number of samples to be processed from training data
 numTrainingSamples = 5000
 
+#corelate image ASCII pixel values to float values
+whitePixel = 0.0
+greyPixel = 0.5
+blackPixel = 1.0
+
 import bayesTesting
 
 
@@ -90,9 +95,9 @@ def caseToMaps(fCaseList, fK):
                     if j[k][l] == ' ':          #white pixel
                         None    #do nothing
                     elif j[k][l] == '+':        #grey pixel
-                        tempMap[k][l] += 0.5
+                        tempMap[k][l] += greyPixel
                     elif j[k][l] == '#':        #black pixel
-                        tempMap[k][l] += 1.0
+                        tempMap[k][l] += blackPixel
         maps.append(tempMap)
         mapImageCount.append(counter)
     #end for each case

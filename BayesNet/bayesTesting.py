@@ -25,6 +25,9 @@ digitCases = bayesTraining.digitCases
 imageSize = imageHandler.imageSize
 numPixels = (imageSize * imageSize)
 numTests = 1000
+whitePixel = bayesTraining.whitePixel
+greyPixel = bayesTraining.greyPixel
+blackPixel = bayesTraining.blackPixel
 
 
 #pixel alliance compares a pixel from a test image to a
@@ -34,9 +37,9 @@ numTests = 1000
 def pixelAlliance(fTestPixel, fCasePixel):
     px = 0
     if fTestPixel == '+':
-        px = 0.5
+        px = greyPixel
     if fTestPixel == '#':
-        px = 1.0
+        px = blackPixel
     return 1-abs(fCasePixel-px) 
 #end pixel alliance
 
