@@ -174,23 +174,23 @@ def findBestK(fOriginalMaps, fTestImages, fTestLabels):
 def printMapAsHeatmap(fMap):
     for j in range(imageHandler.imageSize):
         for k in range(imageHandler.imageSize):
-            if fMap[j][k] < .1:
+            if abs(fMap[j][k]) < .1:
                 print('  ',end='')
-            elif fMap[j][k] < .2:
+            elif abs(fMap[j][k]) < .2:
                 print('_ ',end='')
-            elif fMap[j][k] < .3:
+            elif abs(fMap[j][k]) < .3:
                 print('. ',end='')
-            elif fMap[j][k] < .4:
+            elif abs(fMap[j][k]) < .4:
                 print('- ',end='')
-            elif fMap[j][k] < .5:
+            elif abs(fMap[j][k]) < .5:
                 print('~ ',end='')
-            elif fMap[j][k] < .6:
+            elif abs(fMap[j][k]) < .6:
                 print('= ',end='')
-            elif fMap[j][k] < .7:
+            elif abs(fMap[j][k]) < .7:
                 print('+ ',end='')
-            elif fMap[j][k] < .8:
+            elif abs(fMap[j][k]) < .8:
                 print('% ',end='')
-            elif fMap[j][k] < .9:
+            elif abs(fMap[j][k]) < .9:
                 print('@ ',end='')
             else:
                 print('# ',end='')
@@ -205,6 +205,8 @@ def printTrueMap(fMap, fOmitLow):
             if fOmitLow and fMap[j][k] < 0.05:
                 print('     ',end='')
             else:
+                if fMap[j][k] >= 0:
+                    print(' ', end='')
                 print(str("%.2f" % fMap[j][k]) + ' ', end='')
         print()
     print()

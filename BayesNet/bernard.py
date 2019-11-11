@@ -5,6 +5,7 @@
 import imageHandler
 import bayesTraining
 import bayesTesting
+import oddsRatio
 
 
 print("########## Starting bernard.py ##########") 
@@ -31,14 +32,47 @@ for i in maps:
     print()
 #
 
-
+"""
 confusionMatrix = bayesTesting.buildConfusionMatrix(testImages, testLabels, maps)
 bayesTesting.printConfusionMatrix(confusionMatrix, maps)
 
 
 #test the maps accuracy
 print("Accuracy: "+str(bayesTesting.matrixAccuracy(confusionMatrix)*100)+"%")
+"""
 
+bayesTraining.printMapAsHeatmap(maps[4])
+print("\n\n")
+bayesTraining.printMapAsHeatmap(maps[9])
+print("\n\n")
+odds = oddsRatio.buildOddsRatio(maps[4], maps[9])
+#bayesTraining.printTrueMap(odds, False)
+#print("\n\n")
+oddsRatio.printOddsAsHeatmap(odds)
+print("\n\n")
+print("\n\n")
+
+bayesTraining.printMapAsHeatmap(maps[7])
+print("\n\n")
+bayesTraining.printMapAsHeatmap(maps[9])
+print("\n\n")
+odds = oddsRatio.buildOddsRatio(maps[7], maps[9])
+#bayesTraining.printTrueMap(odds, False)
+#print("\n\n")
+oddsRatio.printOddsAsHeatmap(odds)
+print("\n\n")
+print("\n\n")
+
+bayesTraining.printMapAsHeatmap(maps[8])
+print("\n\n")
+bayesTraining.printMapAsHeatmap(maps[9])
+print("\n\n")
+odds = oddsRatio.buildOddsRatio(maps[8], maps[9])
+#bayesTraining.printTrueMap(odds, False)
+#print("\n\n")
+oddsRatio.printOddsAsHeatmap(odds)
+print("\n\n")
+print("\n\n")
 
 
 #exit
