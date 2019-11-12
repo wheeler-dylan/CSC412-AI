@@ -194,6 +194,13 @@ def printMapAsHeatmap(fMap):
             else:
                 print('# ',end='')
         print()
+
+def printHeatmapKey():
+    print("Key/Legend for probability model heatmap, where probability x is...\n"+
+          "0.0 <= x < 0.1: ' ' \n0.1 <= x < 0.2: '_' \n0.2 <= x < 0.3: '.' \n"+
+          "0.3 <= x < 0.4: '-' \n0.4 <= x < 0.5: '~' \n0.5 <= x < 0.6: '=' \n"+
+          "0.6 <= x < 0.7: '+' \n0.7 <= x < 0.8: '%' \n0.8 <= x < 0.9: '@' \n"+
+          "0.9 <= x < 1.0: '#' \n")
 #end print heatmap
 
 
@@ -201,7 +208,7 @@ def printMapAsHeatmap(fMap):
 def printTrueMap(fMap, fOmitLow):
     for j in range(imageHandler.imageSize):
         for k in range(imageHandler.imageSize):
-            if fOmitLow and fMap[j][k] < 0.05:
+            if fOmitLow and fMap[j][k] < 0.1:
                 print('      ',end='')
             else:
                 if fMap[j][k] >= 0:

@@ -76,49 +76,6 @@ def groupCaseToMaps(fCaseList, fGroupHeight, fGroupWidth, fK):
 
     numGroups = (imageSize - fGroupHeight)*(imageSize - fGroupWidth) 
 
-
-    """
-    #create list of maps to return
-    caseGroups = []
-    #count number of images used to produce each map for averaging
-    mapImageCount = []
-
-
-    for i in range(len(fCaseList)):                 #for each case
-        caseGroups.append([])                 #produce one map for each case
-        counter = 0
-        for j in fCaseList[i]:                     #itereate through images in that case
-            counter += 1
-            tempPixelGrouper = pixelGrouper(fGroupHeight, fGroupWidth)
-            tempPixelGrouper.buildPixelSet(j) 
-            caseGroups[i].append(tempPixelGrouper)
-
-        mapImageCount.append(counter)
-    #end for each case
-
-    #average out the pixels in each case map
-    groupsOfMaps = []
-    #indexCounter = 0
-    for eachCase in caseGroups:  #for each case
-        thisMapGrouper = pixelGrouper(fGroupHeight, fGroupWidth)
-        for eachGroup in range(numGroups):
-            thisMapGrouper.pixelGroups.append([])
-            for p in range(fGroupHeight * fGroupWidth):
-                thisMapGrouper.pixelGroups[eachGroup].append(0)
-            for eachList in eachCase[eachGroup]:
-                for eachPixel in range(fGroupHeight * fGroupWidth):
-                    if eachCase[eachGroup].pixelGroups[numGroups][eachPixel] == ' ':
-                        None
-                    elif eachCase[eachGroup].pixelGroups[numGroups][eachPixel] == '+':
-                        thisMapGrouper.pixelGroups[numGroups][eachPixel] += 0.5
-                    elif eachCase[eachGroup].pixelGroups[numGroups][eachPixel] == '#':
-                        thisMapGrouper.pixelGroups[numGroups][eachPixel] += 1.0
-    #    indexCounter += 1
-    #end for each map
-
-    #print(mapImageCount)           #debugging
-    """
-
     maps = []
 
     mapsIndex = 0
@@ -273,3 +230,18 @@ def groupConfusionMatrix(fTestImages, fTestLabels, fMaps):
 
     return matrix
 #end build matrix
+
+
+#output pixel grouping results for reporting
+#   these numbers are derived from findBestK
+def reportPixelGroupAccuracies():
+    print("Below are the results of accuracies for various tested pixel groups:")
+    print("Height:\tWidth:\tk-value:\tAccuracy:")
+    print("2  \t2  \t0.6 \t\t71.2%")
+    print("2  \t4  \t0.1 \t\t67.4%")
+    print("4  \t2  \t0.0 \t\t66.9%")
+    print("4  \t4  \t0.0 \t\t63.5%")
+    print("2  \t3  \t0.2 \t\t69.5%")
+    print("3  \t2  \t0.2 \t\t69.5%")
+    print("3  \t3  \t0.0 \t\t66.7%")
+#end 

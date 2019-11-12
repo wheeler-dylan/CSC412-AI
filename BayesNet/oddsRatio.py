@@ -100,8 +100,16 @@ def printOddsAsHeatmap(fMap):
             else:
                 print('© ',end='')  #
         print()
-#end print heatmap
 
+def printOddsHeatmapKey():
+    print("Key/Legend for odds ratio heatmap, where log odds x is...\n"+
+          "-inf <  x < -5.0: '#' \n-5.0 <= x < -4.0: '@' \n-4.0 <= x < -2.0: '%' \n"+
+          "-2.0 <= x < -0.9: '=' \n-0.9 <= x < -0.7: '~' \n-0.7 <= x < -0.5: '-' \n"+
+          "-0.5 <= x < -0.3: '.' \n-0.3 <= x < -0.1: '_' \n-0.1 <= x <  0.1: ' ' \n"+
+          " 0.1 <= x <  0.3: '+' \n 0.3 <= x <  0.5: '^' \n 0.5 <= x <  0.7: '°' \n"+
+          " 0.7 <= x <  0.9: '¥' \n 0.9 <= x <  2.0: '¶' \n 2.0 <= x <  4.0: '¤' \n"+
+          " 4.0 <= x <  5.0: 'ø' \n 5.0 <= x <  inf: '©' \n")
+#end print heatmap
 
 
 

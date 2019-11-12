@@ -21,6 +21,7 @@ import imageHandler
 import bayesTraining
 import bayesTesting
 import pixelGrouping
+import oddsRatio
 
 
 print("########## Starting main.py ##########") 
@@ -70,8 +71,9 @@ print("Outputing maps/digit probability models...\n")
 thisDigit = 0
 for i in maps:
     print("Case/Digit: "+str(thisDigit))
+    bayesTraining.printHeatmapKey()
     bayesTraining.printMapAsHeatmap(i)
-    print("\nPixel probabilities:")
+    print("\nPixel probabilities: (probabilities less than 10% ommitted)")
     bayesTraining.printTrueMap(i, True)
     print()
     thisDigit+=1
@@ -86,6 +88,36 @@ bayesTesting.printConfusionMatrix(confusionMatrix, maps)
 #test the maps accuracy
 print("Calculating accuracy rating using single pixel features and k value 0.1...")
 print("Accuracy: "+str(bayesTesting.matrixAccuracy(confusionMatrix)*100)+"%\n\n")
+
+
+
+
+
+
+"""
+#####################################################
+            ODDS RATIOS
+#####################################################
+"""
+print("This part of the program will use the most accurate features, "+
+      "single pixel features smoothed with k = 0.1, "+
+      "and build a set of log odds ratios for the top 4 most "+
+      "commonly confused digit pairs.\n\n")
+
+print("Finding most confused number pairs...\n")
+mostConfused = oddsRatio.findMostConfusedNumbers(confusionMatrix, 4)
+for eachPair in mostConfused:
+    print(str(eachPair[0])+" was confused as "+str(eachPair[1])+" "+str(eachPair[2])+" times...")
+    bayesTraining.printHeatmapKey()
+    bayesTraining.printMapAsHeatmap(maps[eachPair[0]])
+    bayesTraining.printHeatmapKey()
+    bayesTraining.printMapAsHeatmap(maps[eachPair[1]])
+    odds = oddsRatio.buildOddsRatio(maps[eachPair[0]], maps[eachPair[1]])
+    oddsRatio.printOddsHeatmapKey()
+    oddsRatio.printOddsAsHeatmap(odds)
+    print("\n\n")
+
+
 
 
 
@@ -113,15 +145,8 @@ print("Calculating accuracy rating using 2 by 2 pixel group features "+
       "and k value 0.6...")
 print("Accuracy: "+str(bayesTesting.matrixAccuracy(gConfusionMatrix)*100)+"%\n\n")
 
+pixelGrouping.reportPixelGroupAccuracies()
 
-
-
-
-
-"""
-#####################################################
-            ODDS RATIOS
-#####################################################
-"""
 #exit
 input("Press [ENTER] to exit program...")
+
