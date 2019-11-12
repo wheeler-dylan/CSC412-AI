@@ -19,7 +19,6 @@ This map is then used to predict the case of new images where
 
 import imageHandler
 import copy 
-import toolkit
 
 #dimension of each side of a square image
 imageSize = imageHandler.imageSize  
@@ -203,7 +202,7 @@ def printTrueMap(fMap, fOmitLow):
     for j in range(imageHandler.imageSize):
         for k in range(imageHandler.imageSize):
             if fOmitLow and fMap[j][k] < 0.05:
-                print('     ',end='')
+                print('      ',end='')
             else:
                 if fMap[j][k] >= 0:
                     print(' ', end='')

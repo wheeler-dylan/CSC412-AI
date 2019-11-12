@@ -18,6 +18,9 @@ After running this code, the best k value found was
     0.2 when using 2x3 pixel groups for mapping
         accuracy 69.5%
 
+    Other pixel group sizes were also found to be 
+        less accurate than a 2 by 2 group.
+
 """
 
 import imageHandler
@@ -44,14 +47,77 @@ for i in range(bayesTraining.numTrainingSamples):
 #
 
 
-#list of cases to find most accurate k
-#mapsWithDifferentK = []
+
+
+
+
+
+#find best k for singe pixel groups:
 bestK = 0.0
 bestAccuracy = 0.0
+kStart = 0.0
+kEnd = 10.0
+kStep = 0.1
+monoK = kStart
+while monoK <= kEnd:
+    print("Testing k = " + str(round(monoK, 1))) 
+    
+    theseMaps = bayesTraining.caseToMaps(digitCases, monoK)
+
+    if monoK == kStart:
+        bestMaps = copy.deepcopy(theseMaps) 
+
+    #for i in theseMaps:
+    #    bayesTraining.printMapAsHeatmap(i)
+    #    print()
+    #
+    #bayesTraining.printTrueMap(theseMaps[8], True)
+
+    #mapsWithDifferentK.append(theseMaps)
+
+    #confusionMatrix = bayesTesting.buildConfusionMatrix(testImages, testLabels, theseMaps)
+    #bayesTesting.printConfusionMatrix(confusionMatrix, theseMaps)
+
+    thisAccuracy = bayesTesting.reportAccuracy(testImages, testLabels, theseMaps)
+    print("Accuracy of k = " + str(round(monoK, 1)) + " is:")
+    print('%.9f'%thisAccuracy)
+    
+    if  thisAccuracy > bestAccuracy: 
+        print("Better k value found: " + str(round(monoK, 1))) 
+        bestK = monoK
+        bestMaps = copy.deepcopy(theseMaps)
+        bestAccuracy = thisAccuracy
+    
+    monoK += kStep
+    theseMaps = None
+    #kIndex += 1
+    print("\n\n")
+
+print("Best k value found: " + str(bestK)) 
+for i in bestMaps:
+    bayesTraining.printMapAsHeatmap(i)
+    print()
+#
+
+confusionMatrix = bayesTesting.buildConfusionMatrix(testImages, testLabels, bestMaps)
+bayesTesting.printConfusionMatrix(confusionMatrix, bestMaps)
+
+
+#test the maps accuracy
+print(bayesTesting.reportAccuracy(testImages, testLabels, bestMaps))
+
+
+
+
+
+
 
 #find best k for pixel groups 2x2 through 4x4:
 bestGroupHeight = 2
 bestGroupWidth = 2
+
+bestK = 0.0
+bestAccuracy = 0.0
 
 groupHeight = 2
 while groupHeight <= 4:
@@ -117,61 +183,6 @@ kSearchResults.write(str(round(thisAccuracy,9)) + "\n")
 kSearchResults.write("Best group height found: " + str(bestGroupHeight) + "\n") 
 kSearchResults.write("Best group width found: " + str(bestGroupWidth) + "\n") 
 
-
-
-
-
-#find best k for singe pixel groups:
-"""
-monoK = kStart
-while monoK <= kEnd:
-    print("Testing k = " + str(round(monoK, 1))) 
-    
-    theseMaps = bayesTraining.caseToMaps(digitCases, monoK)
-
-    if monoK == kStart:
-        bestMaps = copy.deepcopy(theseMaps) 
-
-    #for i in theseMaps:
-    #    bayesTraining.printMapAsHeatmap(i)
-    #    print()
-    #
-    #bayesTraining.printTrueMap(theseMaps[8], True)
-
-    #mapsWithDifferentK.append(theseMaps)
-
-    #confusionMatrix = bayesTesting.buildConfusionMatrix(testImages, testLabels, theseMaps)
-    #bayesTesting.printConfusionMatrix(confusionMatrix, theseMaps)
-
-    thisAccuracy = bayesTesting.reportAccuracy(testImages, testLabels, theseMaps)
-    print("Accuracy of k = " + str(round(monoK, 1)) + " is:")
-    print('%.9f'%thisAccuracy)
-    
-    if  thisAccuracy > bestAccuracy: 
-        print("Better k value found: " + str(round(monoK, 1))) 
-        bestK = monoK
-        bestMaps = copy.deepcopy(theseMaps)
-        bestAccuracy = thisAccuracy
-    
-    monoK += kStep
-    theseMaps = None
-    #kIndex += 1
-    print("\n\n")
-
-print("Best k value found: " + str(bestK)) 
-for i in bestMaps:
-    bayesTraining.printMapAsHeatmap(i)
-    print()
-#
-
-
-confusionMatrix = bayesTesting.buildConfusionMatrix(testImages, testLabels, bestMaps)
-bayesTesting.printConfusionMatrix(confusionMatrix, bestMaps)
-
-
-#test the maps accuracy
-print(bayesTesting.reportAccuracy(testImages, testLabels, bestMaps))
-"""
 
 
 

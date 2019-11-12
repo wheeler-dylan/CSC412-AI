@@ -30,7 +30,34 @@ def buildOddsRatio(fMap1, fMap2):
 
 
 #find most confused numbers in matrix
-None    #TODO
+#   will compile a list of number pairs fPairs long
+def findMostConfusedNumbers(fMatrix, fPairs):
+    #find highest misclasified pairs
+    wrongNumbers = []
+    w = 0
+    for i in range(len(fMatrix)):
+        for j in range(len(fMatrix[i])): 
+            if (i != j):
+                if (fMatrix[i][j] != 0):
+                    wrongNumbers.append([])
+                    wrongNumbers[w].append(fMatrix[i][j]) 
+                    wrongNumbers[w].append(i) 
+                    wrongNumbers[w].append(j)
+                    w+=1
+
+    wrongNumbers.sort(reverse=True)
+
+    #store top 'fPairs' mislasified coordinates
+    pairs = []
+    w = 0
+    for p in range(fPairs):
+        pairs.append([])
+        pairs[p].append(wrongNumbers[w][1])
+        pairs[p].append(wrongNumbers[w][2])
+        pairs[p].append(wrongNumbers[w][0])
+        w+=1
+
+    return pairs
 #end
 
 

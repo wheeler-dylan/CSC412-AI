@@ -32,15 +32,29 @@ for i in maps:
     print()
 #
 
-"""
+
 confusionMatrix = bayesTesting.buildConfusionMatrix(testImages, testLabels, maps)
 bayesTesting.printConfusionMatrix(confusionMatrix, maps)
 
 
 #test the maps accuracy
 print("Accuracy: "+str(bayesTesting.matrixAccuracy(confusionMatrix)*100)+"%")
-"""
 
+
+mostConfused = oddsRatio.findMostConfusedNumbers(confusionMatrix, 4)
+for eachPair in mostConfused:
+    print(str(eachPair[0])+" was confused as "+str(eachPair[1])+" "+str(eachPair[2])+" times...")
+    bayesTraining.printMapAsHeatmap(maps[eachPair[0]])
+    print("\n")
+    bayesTraining.printMapAsHeatmap(maps[eachPair[1]])
+    print("\n")
+    odds = oddsRatio.buildOddsRatio(maps[eachPair[0]], maps[eachPair[1]])
+    oddsRatio.printOddsAsHeatmap(odds)
+    print("\n")
+    print("\n\n")
+
+
+"""
 bayesTraining.printMapAsHeatmap(maps[4])
 print("\n\n")
 bayesTraining.printMapAsHeatmap(maps[9])
@@ -73,6 +87,7 @@ odds = oddsRatio.buildOddsRatio(maps[8], maps[9])
 oddsRatio.printOddsAsHeatmap(odds)
 print("\n\n")
 print("\n\n")
+"""
 
 
 #exit
