@@ -138,6 +138,7 @@ print("Building digit models based off groups...\n\n")
 gMaps = pixelGrouping.groupCaseToMaps(digitCases, 2, 2, 0.6)
 
 
+#build pixel group based confusion matrix
 print("Building confusion matrix for pixel group based maps...\n")
 gConfusionMatrix = pixelGrouping.groupConfusionMatrix(testImages, testLabels, gMaps)
 bayesTesting.printConfusionMatrix(gConfusionMatrix, gMaps)
@@ -147,6 +148,10 @@ print("Accuracy: "+str(bayesTesting.matrixAccuracy(gConfusionMatrix)*100)+"%\n\n
 
 pixelGrouping.reportPixelGroupAccuracies()
 
+
+
+
+
+
 #exit
 input("Press [ENTER] to exit program...")
-

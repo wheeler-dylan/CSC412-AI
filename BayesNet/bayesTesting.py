@@ -52,7 +52,7 @@ def compareImageToMaps(fImage, fMapSet):
     global numPixels
 
     #convert the image to an array of float values
-    img = imageHandler.convertAsciiImageToFloatArray(fImage)
+    #img = imageHandler.convertAsciiImageToFloatArray(fImage)
     
     #simularity score for each map
     candidacyScores = []
