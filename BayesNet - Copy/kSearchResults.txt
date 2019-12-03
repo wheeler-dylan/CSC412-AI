@@ -1,0 +1,5866 @@
+Testing k = 0.0
+Group Height = 2
+Group Width = 2
+Accuracy of k = 0.0 is:
+0.703
+Better k value found: 0.0
+Group Height = 2
+Group Width = 2
+
+
+Testing k = 0.1
+Group Height = 2
+Group Width = 2
+Accuracy of k = 0.1 is:
+0.707
+Better k value found: 0.1
+Group Height = 2
+Group Width = 2
+
+
+Testing k = 0.2
+Group Height = 2
+Group Width = 2
+Accuracy of k = 0.2 is:
+0.705
+
+
+Testing k = 0.3
+Group Height = 2
+Group Width = 2
+Accuracy of k = 0.3 is:
+0.707
+
+
+Testing k = 0.4
+Group Height = 2
+Group Width = 2
+Accuracy of k = 0.4 is:
+0.709
+Better k value found: 0.4
+Group Height = 2
+Group Width = 2
+
+
+Testing k = 0.5
+Group Height = 2
+Group Width = 2
+Accuracy of k = 0.5 is:
+0.709
+
+
+Testing k = 0.6
+Group Height = 2
+Group Width = 2
+Accuracy of k = 0.6 is:
+0.712
+Better k value found: 0.6
+Group Height = 2
+Group Width = 2
+
+
+Testing k = 0.7
+Group Height = 2
+Group Width = 2
+Accuracy of k = 0.7 is:
+0.707
+
+
+Testing k = 0.8
+Group Height = 2
+Group Width = 2
+Accuracy of k = 0.8 is:
+0.708
+
+
+Testing k = 0.9
+Group Height = 2
+Group Width = 2
+Accuracy of k = 0.9 is:
+0.71
+
+
+Testing k = 1.0
+Group Height = 2
+Group Width = 2
+Accuracy of k = 1.0 is:
+0.71
+
+
+Testing k = 1.1
+Group Height = 2
+Group Width = 2
+Accuracy of k = 1.1 is:
+0.709
+
+
+Testing k = 1.2
+Group Height = 2
+Group Width = 2
+Accuracy of k = 1.2 is:
+0.708
+
+
+Testing k = 1.3
+Group Height = 2
+Group Width = 2
+Accuracy of k = 1.3 is:
+0.707
+
+
+Testing k = 1.4
+Group Height = 2
+Group Width = 2
+Accuracy of k = 1.4 is:
+0.706
+
+
+Testing k = 1.5
+Group Height = 2
+Group Width = 2
+Accuracy of k = 1.5 is:
+0.708
+
+
+Testing k = 1.6
+Group Height = 2
+Group Width = 2
+Accuracy of k = 1.6 is:
+0.71
+
+
+Testing k = 1.7
+Group Height = 2
+Group Width = 2
+Accuracy of k = 1.7 is:
+0.712
+
+
+Testing k = 1.8
+Group Height = 2
+Group Width = 2
+Accuracy of k = 1.8 is:
+0.709
+
+
+Testing k = 1.9
+Group Height = 2
+Group Width = 2
+Accuracy of k = 1.9 is:
+0.708
+
+
+Testing k = 2.0
+Group Height = 2
+Group Width = 2
+Accuracy of k = 2.0 is:
+0.71
+
+
+Testing k = 2.1
+Group Height = 2
+Group Width = 2
+Accuracy of k = 2.1 is:
+0.709
+
+
+Testing k = 2.2
+Group Height = 2
+Group Width = 2
+Accuracy of k = 2.2 is:
+0.709
+
+
+Testing k = 2.3
+Group Height = 2
+Group Width = 2
+Accuracy of k = 2.3 is:
+0.709
+
+
+Testing k = 2.4
+Group Height = 2
+Group Width = 2
+Accuracy of k = 2.4 is:
+0.705
+
+
+Testing k = 2.5
+Group Height = 2
+Group Width = 2
+Accuracy of k = 2.5 is:
+0.705
+
+
+Testing k = 2.6
+Group Height = 2
+Group Width = 2
+Accuracy of k = 2.6 is:
+0.702
+
+
+Testing k = 2.7
+Group Height = 2
+Group Width = 2
+Accuracy of k = 2.7 is:
+0.703
+
+
+Testing k = 2.8
+Group Height = 2
+Group Width = 2
+Accuracy of k = 2.8 is:
+0.704
+
+
+Testing k = 2.9
+Group Height = 2
+Group Width = 2
+Accuracy of k = 2.9 is:
+0.705
+
+
+Testing k = 3.0
+Group Height = 2
+Group Width = 2
+Accuracy of k = 3.0 is:
+0.704
+
+
+Testing k = 3.1
+Group Height = 2
+Group Width = 2
+Accuracy of k = 3.1 is:
+0.704
+
+
+Testing k = 3.2
+Group Height = 2
+Group Width = 2
+Accuracy of k = 3.2 is:
+0.705
+
+
+Testing k = 3.3
+Group Height = 2
+Group Width = 2
+Accuracy of k = 3.3 is:
+0.705
+
+
+Testing k = 3.4
+Group Height = 2
+Group Width = 2
+Accuracy of k = 3.4 is:
+0.706
+
+
+Testing k = 3.5
+Group Height = 2
+Group Width = 2
+Accuracy of k = 3.5 is:
+0.706
+
+
+Testing k = 3.6
+Group Height = 2
+Group Width = 2
+Accuracy of k = 3.6 is:
+0.704
+
+
+Testing k = 3.7
+Group Height = 2
+Group Width = 2
+Accuracy of k = 3.7 is:
+0.706
+
+
+Testing k = 3.8
+Group Height = 2
+Group Width = 2
+Accuracy of k = 3.8 is:
+0.704
+
+
+Testing k = 3.9
+Group Height = 2
+Group Width = 2
+Accuracy of k = 3.9 is:
+0.704
+
+
+Testing k = 4.0
+Group Height = 2
+Group Width = 2
+Accuracy of k = 4.0 is:
+0.703
+
+
+Testing k = 4.1
+Group Height = 2
+Group Width = 2
+Accuracy of k = 4.1 is:
+0.703
+
+
+Testing k = 4.2
+Group Height = 2
+Group Width = 2
+Accuracy of k = 4.2 is:
+0.702
+
+
+Testing k = 4.3
+Group Height = 2
+Group Width = 2
+Accuracy of k = 4.3 is:
+0.702
+
+
+Testing k = 4.4
+Group Height = 2
+Group Width = 2
+Accuracy of k = 4.4 is:
+0.703
+
+
+Testing k = 4.5
+Group Height = 2
+Group Width = 2
+Accuracy of k = 4.5 is:
+0.702
+
+
+Testing k = 4.6
+Group Height = 2
+Group Width = 2
+Accuracy of k = 4.6 is:
+0.704
+
+
+Testing k = 4.7
+Group Height = 2
+Group Width = 2
+Accuracy of k = 4.7 is:
+0.704
+
+
+Testing k = 4.8
+Group Height = 2
+Group Width = 2
+Accuracy of k = 4.8 is:
+0.704
+
+
+Testing k = 4.9
+Group Height = 2
+Group Width = 2
+Accuracy of k = 4.9 is:
+0.704
+
+
+Testing k = 5.0
+Group Height = 2
+Group Width = 2
+Accuracy of k = 5.0 is:
+0.704
+
+
+Testing k = 5.1
+Group Height = 2
+Group Width = 2
+Accuracy of k = 5.1 is:
+0.703
+
+
+Testing k = 5.2
+Group Height = 2
+Group Width = 2
+Accuracy of k = 5.2 is:
+0.703
+
+
+Testing k = 5.3
+Group Height = 2
+Group Width = 2
+Accuracy of k = 5.3 is:
+0.703
+
+
+Testing k = 5.4
+Group Height = 2
+Group Width = 2
+Accuracy of k = 5.4 is:
+0.703
+
+
+Testing k = 5.5
+Group Height = 2
+Group Width = 2
+Accuracy of k = 5.5 is:
+0.703
+
+
+Testing k = 5.6
+Group Height = 2
+Group Width = 2
+Accuracy of k = 5.6 is:
+0.703
+
+
+Testing k = 5.7
+Group Height = 2
+Group Width = 2
+Accuracy of k = 5.7 is:
+0.703
+
+
+Testing k = 5.8
+Group Height = 2
+Group Width = 2
+Accuracy of k = 5.8 is:
+0.702
+
+
+Testing k = 5.9
+Group Height = 2
+Group Width = 2
+Accuracy of k = 5.9 is:
+0.701
+
+
+Testing k = 6.0
+Group Height = 2
+Group Width = 2
+Accuracy of k = 6.0 is:
+0.702
+
+
+Testing k = 6.1
+Group Height = 2
+Group Width = 2
+Accuracy of k = 6.1 is:
+0.701
+
+
+Testing k = 6.2
+Group Height = 2
+Group Width = 2
+Accuracy of k = 6.2 is:
+0.702
+
+
+Testing k = 6.3
+Group Height = 2
+Group Width = 2
+Accuracy of k = 6.3 is:
+0.702
+
+
+Testing k = 6.4
+Group Height = 2
+Group Width = 2
+Accuracy of k = 6.4 is:
+0.702
+
+
+Testing k = 6.5
+Group Height = 2
+Group Width = 2
+Accuracy of k = 6.5 is:
+0.701
+
+
+Testing k = 6.6
+Group Height = 2
+Group Width = 2
+Accuracy of k = 6.6 is:
+0.7
+
+
+Testing k = 6.7
+Group Height = 2
+Group Width = 2
+Accuracy of k = 6.7 is:
+0.699
+
+
+Testing k = 6.8
+Group Height = 2
+Group Width = 2
+Accuracy of k = 6.8 is:
+0.699
+
+
+Testing k = 6.9
+Group Height = 2
+Group Width = 2
+Accuracy of k = 6.9 is:
+0.699
+
+
+Testing k = 7.0
+Group Height = 2
+Group Width = 2
+Accuracy of k = 7.0 is:
+0.699
+
+
+Testing k = 7.1
+Group Height = 2
+Group Width = 2
+Accuracy of k = 7.1 is:
+0.698
+
+
+Testing k = 7.2
+Group Height = 2
+Group Width = 2
+Accuracy of k = 7.2 is:
+0.698
+
+
+Testing k = 7.3
+Group Height = 2
+Group Width = 2
+Accuracy of k = 7.3 is:
+0.698
+
+
+Testing k = 7.4
+Group Height = 2
+Group Width = 2
+Accuracy of k = 7.4 is:
+0.698
+
+
+Testing k = 7.5
+Group Height = 2
+Group Width = 2
+Accuracy of k = 7.5 is:
+0.698
+
+
+Testing k = 7.6
+Group Height = 2
+Group Width = 2
+Accuracy of k = 7.6 is:
+0.697
+
+
+Testing k = 7.7
+Group Height = 2
+Group Width = 2
+Accuracy of k = 7.7 is:
+0.697
+
+
+Testing k = 7.8
+Group Height = 2
+Group Width = 2
+Accuracy of k = 7.8 is:
+0.697
+
+
+Testing k = 7.9
+Group Height = 2
+Group Width = 2
+Accuracy of k = 7.9 is:
+0.696
+
+
+Testing k = 8.0
+Group Height = 2
+Group Width = 2
+Accuracy of k = 8.0 is:
+0.696
+
+
+Testing k = 8.1
+Group Height = 2
+Group Width = 2
+Accuracy of k = 8.1 is:
+0.696
+
+
+Testing k = 8.2
+Group Height = 2
+Group Width = 2
+Accuracy of k = 8.2 is:
+0.696
+
+
+Testing k = 8.3
+Group Height = 2
+Group Width = 2
+Accuracy of k = 8.3 is:
+0.696
+
+
+Testing k = 8.4
+Group Height = 2
+Group Width = 2
+Accuracy of k = 8.4 is:
+0.696
+
+
+Testing k = 8.5
+Group Height = 2
+Group Width = 2
+Accuracy of k = 8.5 is:
+0.695
+
+
+Testing k = 8.6
+Group Height = 2
+Group Width = 2
+Accuracy of k = 8.6 is:
+0.696
+
+
+Testing k = 8.7
+Group Height = 2
+Group Width = 2
+Accuracy of k = 8.7 is:
+0.697
+
+
+Testing k = 8.8
+Group Height = 2
+Group Width = 2
+Accuracy of k = 8.8 is:
+0.697
+
+
+Testing k = 8.9
+Group Height = 2
+Group Width = 2
+Accuracy of k = 8.9 is:
+0.698
+
+
+Testing k = 9.0
+Group Height = 2
+Group Width = 2
+Accuracy of k = 9.0 is:
+0.697
+
+
+Testing k = 9.1
+Group Height = 2
+Group Width = 2
+Accuracy of k = 9.1 is:
+0.698
+
+
+Testing k = 9.2
+Group Height = 2
+Group Width = 2
+Accuracy of k = 9.2 is:
+0.698
+
+
+Testing k = 9.3
+Group Height = 2
+Group Width = 2
+Accuracy of k = 9.3 is:
+0.698
+
+
+Testing k = 9.4
+Group Height = 2
+Group Width = 2
+Accuracy of k = 9.4 is:
+0.698
+
+
+Testing k = 9.5
+Group Height = 2
+Group Width = 2
+Accuracy of k = 9.5 is:
+0.698
+
+
+Testing k = 9.6
+Group Height = 2
+Group Width = 2
+Accuracy of k = 9.6 is:
+0.698
+
+
+Testing k = 9.7
+Group Height = 2
+Group Width = 2
+Accuracy of k = 9.7 is:
+0.698
+
+
+Testing k = 9.8
+Group Height = 2
+Group Width = 2
+Accuracy of k = 9.8 is:
+0.699
+
+
+Testing k = 9.9
+Group Height = 2
+Group Width = 2
+Accuracy of k = 9.9 is:
+0.7
+
+
+Testing k = 10.0
+Group Height = 2
+Group Width = 2
+Accuracy of k = 10.0 is:
+0.7
+
+
+Testing k = 0.0
+Group Height = 2
+Group Width = 3
+Accuracy of k = 0.0 is:
+0.683
+
+
+Testing k = 0.1
+Group Height = 2
+Group Width = 3
+Accuracy of k = 0.1 is:
+0.692
+
+
+Testing k = 0.2
+Group Height = 2
+Group Width = 3
+Accuracy of k = 0.2 is:
+0.695
+
+
+Testing k = 0.3
+Group Height = 2
+Group Width = 3
+Accuracy of k = 0.3 is:
+0.693
+
+
+Testing k = 0.4
+Group Height = 2
+Group Width = 3
+Accuracy of k = 0.4 is:
+0.687
+
+
+Testing k = 0.5
+Group Height = 2
+Group Width = 3
+Accuracy of k = 0.5 is:
+0.683
+
+
+Testing k = 0.6
+Group Height = 2
+Group Width = 3
+Accuracy of k = 0.6 is:
+0.682
+
+
+Testing k = 0.7
+Group Height = 2
+Group Width = 3
+Accuracy of k = 0.7 is:
+0.682
+
+
+Testing k = 0.8
+Group Height = 2
+Group Width = 3
+Accuracy of k = 0.8 is:
+0.68
+
+
+Testing k = 0.9
+Group Height = 2
+Group Width = 3
+Accuracy of k = 0.9 is:
+0.679
+
+
+Testing k = 1.0
+Group Height = 2
+Group Width = 3
+Accuracy of k = 1.0 is:
+0.679
+
+
+Testing k = 1.1
+Group Height = 2
+Group Width = 3
+Accuracy of k = 1.1 is:
+0.686
+
+
+Testing k = 1.2
+Group Height = 2
+Group Width = 3
+Accuracy of k = 1.2 is:
+0.689
+
+
+Testing k = 1.3
+Group Height = 2
+Group Width = 3
+Accuracy of k = 1.3 is:
+0.688
+
+
+Testing k = 1.4
+Group Height = 2
+Group Width = 3
+Accuracy of k = 1.4 is:
+0.689
+
+
+Testing k = 1.5
+Group Height = 2
+Group Width = 3
+Accuracy of k = 1.5 is:
+0.687
+
+
+Testing k = 1.6
+Group Height = 2
+Group Width = 3
+Accuracy of k = 1.6 is:
+0.689
+
+
+Testing k = 1.7
+Group Height = 2
+Group Width = 3
+Accuracy of k = 1.7 is:
+0.689
+
+
+Testing k = 1.8
+Group Height = 2
+Group Width = 3
+Accuracy of k = 1.8 is:
+0.687
+
+
+Testing k = 1.9
+Group Height = 2
+Group Width = 3
+Accuracy of k = 1.9 is:
+0.685
+
+
+Testing k = 2.0
+Group Height = 2
+Group Width = 3
+Accuracy of k = 2.0 is:
+0.685
+
+
+Testing k = 2.1
+Group Height = 2
+Group Width = 3
+Accuracy of k = 2.1 is:
+0.686
+
+
+Testing k = 2.2
+Group Height = 2
+Group Width = 3
+Accuracy of k = 2.2 is:
+0.684
+
+
+Testing k = 2.3
+Group Height = 2
+Group Width = 3
+Accuracy of k = 2.3 is:
+0.682
+
+
+Testing k = 2.4
+Group Height = 2
+Group Width = 3
+Accuracy of k = 2.4 is:
+0.683
+
+
+Testing k = 2.5
+Group Height = 2
+Group Width = 3
+Accuracy of k = 2.5 is:
+0.682
+
+
+Testing k = 2.6
+Group Height = 2
+Group Width = 3
+Accuracy of k = 2.6 is:
+0.681
+
+
+Testing k = 2.7
+Group Height = 2
+Group Width = 3
+Accuracy of k = 2.7 is:
+0.683
+
+
+Testing k = 2.8
+Group Height = 2
+Group Width = 3
+Accuracy of k = 2.8 is:
+0.683
+
+
+Testing k = 2.9
+Group Height = 2
+Group Width = 3
+Accuracy of k = 2.9 is:
+0.682
+
+
+Testing k = 3.0
+Group Height = 2
+Group Width = 3
+Accuracy of k = 3.0 is:
+0.681
+
+
+Testing k = 3.1
+Group Height = 2
+Group Width = 3
+Accuracy of k = 3.1 is:
+0.682
+
+
+Testing k = 3.2
+Group Height = 2
+Group Width = 3
+Accuracy of k = 3.2 is:
+0.68
+
+
+Testing k = 3.3
+Group Height = 2
+Group Width = 3
+Accuracy of k = 3.3 is:
+0.682
+
+
+Testing k = 3.4
+Group Height = 2
+Group Width = 3
+Accuracy of k = 3.4 is:
+0.683
+
+
+Testing k = 3.5
+Group Height = 2
+Group Width = 3
+Accuracy of k = 3.5 is:
+0.684
+
+
+Testing k = 3.6
+Group Height = 2
+Group Width = 3
+Accuracy of k = 3.6 is:
+0.683
+
+
+Testing k = 3.7
+Group Height = 2
+Group Width = 3
+Accuracy of k = 3.7 is:
+0.682
+
+
+Testing k = 3.8
+Group Height = 2
+Group Width = 3
+Accuracy of k = 3.8 is:
+0.684
+
+
+Testing k = 3.9
+Group Height = 2
+Group Width = 3
+Accuracy of k = 3.9 is:
+0.686
+
+
+Testing k = 4.0
+Group Height = 2
+Group Width = 3
+Accuracy of k = 4.0 is:
+0.686
+
+
+Testing k = 4.1
+Group Height = 2
+Group Width = 3
+Accuracy of k = 4.1 is:
+0.684
+
+
+Testing k = 4.2
+Group Height = 2
+Group Width = 3
+Accuracy of k = 4.2 is:
+0.683
+
+
+Testing k = 4.3
+Group Height = 2
+Group Width = 3
+Accuracy of k = 4.3 is:
+0.684
+
+
+Testing k = 4.4
+Group Height = 2
+Group Width = 3
+Accuracy of k = 4.4 is:
+0.681
+
+
+Testing k = 4.5
+Group Height = 2
+Group Width = 3
+Accuracy of k = 4.5 is:
+0.681
+
+
+Testing k = 4.6
+Group Height = 2
+Group Width = 3
+Accuracy of k = 4.6 is:
+0.681
+
+
+Testing k = 4.7
+Group Height = 2
+Group Width = 3
+Accuracy of k = 4.7 is:
+0.681
+
+
+Testing k = 4.8
+Group Height = 2
+Group Width = 3
+Accuracy of k = 4.8 is:
+0.683
+
+
+Testing k = 4.9
+Group Height = 2
+Group Width = 3
+Accuracy of k = 4.9 is:
+0.683
+
+
+Testing k = 5.0
+Group Height = 2
+Group Width = 3
+Accuracy of k = 5.0 is:
+0.681
+
+
+Testing k = 5.1
+Group Height = 2
+Group Width = 3
+Accuracy of k = 5.1 is:
+0.679
+
+
+Testing k = 5.2
+Group Height = 2
+Group Width = 3
+Accuracy of k = 5.2 is:
+0.679
+
+
+Testing k = 5.3
+Group Height = 2
+Group Width = 3
+Accuracy of k = 5.3 is:
+0.679
+
+
+Testing k = 5.4
+Group Height = 2
+Group Width = 3
+Accuracy of k = 5.4 is:
+0.679
+
+
+Testing k = 5.5
+Group Height = 2
+Group Width = 3
+Accuracy of k = 5.5 is:
+0.678
+
+
+Testing k = 5.6
+Group Height = 2
+Group Width = 3
+Accuracy of k = 5.6 is:
+0.677
+
+
+Testing k = 5.7
+Group Height = 2
+Group Width = 3
+Accuracy of k = 5.7 is:
+0.676
+
+
+Testing k = 5.8
+Group Height = 2
+Group Width = 3
+Accuracy of k = 5.8 is:
+0.675
+
+
+Testing k = 5.9
+Group Height = 2
+Group Width = 3
+Accuracy of k = 5.9 is:
+0.675
+
+
+Testing k = 6.0
+Group Height = 2
+Group Width = 3
+Accuracy of k = 6.0 is:
+0.675
+
+
+Testing k = 6.1
+Group Height = 2
+Group Width = 3
+Accuracy of k = 6.1 is:
+0.673
+
+
+Testing k = 6.2
+Group Height = 2
+Group Width = 3
+Accuracy of k = 6.2 is:
+0.673
+
+
+Testing k = 6.3
+Group Height = 2
+Group Width = 3
+Accuracy of k = 6.3 is:
+0.672
+
+
+Testing k = 6.4
+Group Height = 2
+Group Width = 3
+Accuracy of k = 6.4 is:
+0.672
+
+
+Testing k = 6.5
+Group Height = 2
+Group Width = 3
+Accuracy of k = 6.5 is:
+0.672
+
+
+Testing k = 6.6
+Group Height = 2
+Group Width = 3
+Accuracy of k = 6.6 is:
+0.67
+
+
+Testing k = 6.7
+Group Height = 2
+Group Width = 3
+Accuracy of k = 6.7 is:
+0.67
+
+
+Testing k = 6.8
+Group Height = 2
+Group Width = 3
+Accuracy of k = 6.8 is:
+0.67
+
+
+Testing k = 6.9
+Group Height = 2
+Group Width = 3
+Accuracy of k = 6.9 is:
+0.669
+
+
+Testing k = 7.0
+Group Height = 2
+Group Width = 3
+Accuracy of k = 7.0 is:
+0.67
+
+
+Testing k = 7.1
+Group Height = 2
+Group Width = 3
+Accuracy of k = 7.1 is:
+0.67
+
+
+Testing k = 7.2
+Group Height = 2
+Group Width = 3
+Accuracy of k = 7.2 is:
+0.67
+
+
+Testing k = 7.3
+Group Height = 2
+Group Width = 3
+Accuracy of k = 7.3 is:
+0.67
+
+
+Testing k = 7.4
+Group Height = 2
+Group Width = 3
+Accuracy of k = 7.4 is:
+0.67
+
+
+Testing k = 7.5
+Group Height = 2
+Group Width = 3
+Accuracy of k = 7.5 is:
+0.668
+
+
+Testing k = 7.6
+Group Height = 2
+Group Width = 3
+Accuracy of k = 7.6 is:
+0.667
+
+
+Testing k = 7.7
+Group Height = 2
+Group Width = 3
+Accuracy of k = 7.7 is:
+0.667
+
+
+Testing k = 7.8
+Group Height = 2
+Group Width = 3
+Accuracy of k = 7.8 is:
+0.667
+
+
+Testing k = 7.9
+Group Height = 2
+Group Width = 3
+Accuracy of k = 7.9 is:
+0.667
+
+
+Testing k = 8.0
+Group Height = 2
+Group Width = 3
+Accuracy of k = 8.0 is:
+0.666
+
+
+Testing k = 8.1
+Group Height = 2
+Group Width = 3
+Accuracy of k = 8.1 is:
+0.666
+
+
+Testing k = 8.2
+Group Height = 2
+Group Width = 3
+Accuracy of k = 8.2 is:
+0.666
+
+
+Testing k = 8.3
+Group Height = 2
+Group Width = 3
+Accuracy of k = 8.3 is:
+0.666
+
+
+Testing k = 8.4
+Group Height = 2
+Group Width = 3
+Accuracy of k = 8.4 is:
+0.665
+
+
+Testing k = 8.5
+Group Height = 2
+Group Width = 3
+Accuracy of k = 8.5 is:
+0.666
+
+
+Testing k = 8.6
+Group Height = 2
+Group Width = 3
+Accuracy of k = 8.6 is:
+0.666
+
+
+Testing k = 8.7
+Group Height = 2
+Group Width = 3
+Accuracy of k = 8.7 is:
+0.665
+
+
+Testing k = 8.8
+Group Height = 2
+Group Width = 3
+Accuracy of k = 8.8 is:
+0.665
+
+
+Testing k = 8.9
+Group Height = 2
+Group Width = 3
+Accuracy of k = 8.9 is:
+0.664
+
+
+Testing k = 9.0
+Group Height = 2
+Group Width = 3
+Accuracy of k = 9.0 is:
+0.664
+
+
+Testing k = 9.1
+Group Height = 2
+Group Width = 3
+Accuracy of k = 9.1 is:
+0.665
+
+
+Testing k = 9.2
+Group Height = 2
+Group Width = 3
+Accuracy of k = 9.2 is:
+0.665
+
+
+Testing k = 9.3
+Group Height = 2
+Group Width = 3
+Accuracy of k = 9.3 is:
+0.665
+
+
+Testing k = 9.4
+Group Height = 2
+Group Width = 3
+Accuracy of k = 9.4 is:
+0.665
+
+
+Testing k = 9.5
+Group Height = 2
+Group Width = 3
+Accuracy of k = 9.5 is:
+0.665
+
+
+Testing k = 9.6
+Group Height = 2
+Group Width = 3
+Accuracy of k = 9.6 is:
+0.665
+
+
+Testing k = 9.7
+Group Height = 2
+Group Width = 3
+Accuracy of k = 9.7 is:
+0.665
+
+
+Testing k = 9.8
+Group Height = 2
+Group Width = 3
+Accuracy of k = 9.8 is:
+0.665
+
+
+Testing k = 9.9
+Group Height = 2
+Group Width = 3
+Accuracy of k = 9.9 is:
+0.665
+
+
+Testing k = 10.0
+Group Height = 2
+Group Width = 3
+Accuracy of k = 10.0 is:
+0.665
+
+
+Testing k = 0.0
+Group Height = 2
+Group Width = 4
+Accuracy of k = 0.0 is:
+0.658
+
+
+Testing k = 0.1
+Group Height = 2
+Group Width = 4
+Accuracy of k = 0.1 is:
+0.674
+
+
+Testing k = 0.2
+Group Height = 2
+Group Width = 4
+Accuracy of k = 0.2 is:
+0.67
+
+
+Testing k = 0.3
+Group Height = 2
+Group Width = 4
+Accuracy of k = 0.3 is:
+0.669
+
+
+Testing k = 0.4
+Group Height = 2
+Group Width = 4
+Accuracy of k = 0.4 is:
+0.664
+
+
+Testing k = 0.5
+Group Height = 2
+Group Width = 4
+Accuracy of k = 0.5 is:
+0.666
+
+
+Testing k = 0.6
+Group Height = 2
+Group Width = 4
+Accuracy of k = 0.6 is:
+0.669
+
+
+Testing k = 0.7
+Group Height = 2
+Group Width = 4
+Accuracy of k = 0.7 is:
+0.667
+
+
+Testing k = 0.8
+Group Height = 2
+Group Width = 4
+Accuracy of k = 0.8 is:
+0.665
+
+
+Testing k = 0.9
+Group Height = 2
+Group Width = 4
+Accuracy of k = 0.9 is:
+0.666
+
+
+Testing k = 1.0
+Group Height = 2
+Group Width = 4
+Accuracy of k = 1.0 is:
+0.662
+
+
+Testing k = 1.1
+Group Height = 2
+Group Width = 4
+Accuracy of k = 1.1 is:
+0.664
+
+
+Testing k = 1.2
+Group Height = 2
+Group Width = 4
+Accuracy of k = 1.2 is:
+0.664
+
+
+Testing k = 1.3
+Group Height = 2
+Group Width = 4
+Accuracy of k = 1.3 is:
+0.664
+
+
+Testing k = 1.4
+Group Height = 2
+Group Width = 4
+Accuracy of k = 1.4 is:
+0.665
+
+
+Testing k = 1.5
+Group Height = 2
+Group Width = 4
+Accuracy of k = 1.5 is:
+0.664
+
+
+Testing k = 1.6
+Group Height = 2
+Group Width = 4
+Accuracy of k = 1.6 is:
+0.657
+
+
+Testing k = 1.7
+Group Height = 2
+Group Width = 4
+Accuracy of k = 1.7 is:
+0.653
+
+
+Testing k = 1.8
+Group Height = 2
+Group Width = 4
+Accuracy of k = 1.8 is:
+0.652
+
+
+Testing k = 1.9
+Group Height = 2
+Group Width = 4
+Accuracy of k = 1.9 is:
+0.651
+
+
+Testing k = 2.0
+Group Height = 2
+Group Width = 4
+Accuracy of k = 2.0 is:
+0.65
+
+
+Testing k = 2.1
+Group Height = 2
+Group Width = 4
+Accuracy of k = 2.1 is:
+0.651
+
+
+Testing k = 2.2
+Group Height = 2
+Group Width = 4
+Accuracy of k = 2.2 is:
+0.65
+
+
+Testing k = 2.3
+Group Height = 2
+Group Width = 4
+Accuracy of k = 2.3 is:
+0.65
+
+
+Testing k = 2.4
+Group Height = 2
+Group Width = 4
+Accuracy of k = 2.4 is:
+0.649
+
+
+Testing k = 2.5
+Group Height = 2
+Group Width = 4
+Accuracy of k = 2.5 is:
+0.647
+
+
+Testing k = 2.6
+Group Height = 2
+Group Width = 4
+Accuracy of k = 2.6 is:
+0.647
+
+
+Testing k = 2.7
+Group Height = 2
+Group Width = 4
+Accuracy of k = 2.7 is:
+0.646
+
+
+Testing k = 2.8
+Group Height = 2
+Group Width = 4
+Accuracy of k = 2.8 is:
+0.645
+
+
+Testing k = 2.9
+Group Height = 2
+Group Width = 4
+Accuracy of k = 2.9 is:
+0.645
+
+
+Testing k = 3.0
+Group Height = 2
+Group Width = 4
+Accuracy of k = 3.0 is:
+0.644
+
+
+Testing k = 3.1
+Group Height = 2
+Group Width = 4
+Accuracy of k = 3.1 is:
+0.644
+
+
+Testing k = 3.2
+Group Height = 2
+Group Width = 4
+Accuracy of k = 3.2 is:
+0.643
+
+
+Testing k = 3.3
+Group Height = 2
+Group Width = 4
+Accuracy of k = 3.3 is:
+0.643
+
+
+Testing k = 3.4
+Group Height = 2
+Group Width = 4
+Accuracy of k = 3.4 is:
+0.643
+
+
+Testing k = 3.5
+Group Height = 2
+Group Width = 4
+Accuracy of k = 3.5 is:
+0.643
+
+
+Testing k = 3.6
+Group Height = 2
+Group Width = 4
+Accuracy of k = 3.6 is:
+0.642
+
+
+Testing k = 3.7
+Group Height = 2
+Group Width = 4
+Accuracy of k = 3.7 is:
+0.641
+
+
+Testing k = 3.8
+Group Height = 2
+Group Width = 4
+Accuracy of k = 3.8 is:
+0.64
+
+
+Testing k = 3.9
+Group Height = 2
+Group Width = 4
+Accuracy of k = 3.9 is:
+0.64
+
+
+Testing k = 4.0
+Group Height = 2
+Group Width = 4
+Accuracy of k = 4.0 is:
+0.639
+
+
+Testing k = 4.1
+Group Height = 2
+Group Width = 4
+Accuracy of k = 4.1 is:
+0.639
+
+
+Testing k = 4.2
+Group Height = 2
+Group Width = 4
+Accuracy of k = 4.2 is:
+0.637
+
+
+Testing k = 4.3
+Group Height = 2
+Group Width = 4
+Accuracy of k = 4.3 is:
+0.638
+
+
+Testing k = 4.4
+Group Height = 2
+Group Width = 4
+Accuracy of k = 4.4 is:
+0.638
+
+
+Testing k = 4.5
+Group Height = 2
+Group Width = 4
+Accuracy of k = 4.5 is:
+0.637
+
+
+Testing k = 4.6
+Group Height = 2
+Group Width = 4
+Accuracy of k = 4.6 is:
+0.636
+
+
+Testing k = 4.7
+Group Height = 2
+Group Width = 4
+Accuracy of k = 4.7 is:
+0.636
+
+
+Testing k = 4.8
+Group Height = 2
+Group Width = 4
+Accuracy of k = 4.8 is:
+0.635
+
+
+Testing k = 4.9
+Group Height = 2
+Group Width = 4
+Accuracy of k = 4.9 is:
+0.634
+
+
+Testing k = 5.0
+Group Height = 2
+Group Width = 4
+Accuracy of k = 5.0 is:
+0.633
+
+
+Testing k = 5.1
+Group Height = 2
+Group Width = 4
+Accuracy of k = 5.1 is:
+0.633
+
+
+Testing k = 5.2
+Group Height = 2
+Group Width = 4
+Accuracy of k = 5.2 is:
+0.632
+
+
+Testing k = 5.3
+Group Height = 2
+Group Width = 4
+Accuracy of k = 5.3 is:
+0.63
+
+
+Testing k = 5.4
+Group Height = 2
+Group Width = 4
+Accuracy of k = 5.4 is:
+0.628
+
+
+Testing k = 5.5
+Group Height = 2
+Group Width = 4
+Accuracy of k = 5.5 is:
+0.627
+
+
+Testing k = 5.6
+Group Height = 2
+Group Width = 4
+Accuracy of k = 5.6 is:
+0.626
+
+
+Testing k = 5.7
+Group Height = 2
+Group Width = 4
+Accuracy of k = 5.7 is:
+0.623
+
+
+Testing k = 5.8
+Group Height = 2
+Group Width = 4
+Accuracy of k = 5.8 is:
+0.621
+
+
+Testing k = 5.9
+Group Height = 2
+Group Width = 4
+Accuracy of k = 5.9 is:
+0.62
+
+
+Testing k = 6.0
+Group Height = 2
+Group Width = 4
+Accuracy of k = 6.0 is:
+0.619
+
+
+Testing k = 6.1
+Group Height = 2
+Group Width = 4
+Accuracy of k = 6.1 is:
+0.618
+
+
+Testing k = 6.2
+Group Height = 2
+Group Width = 4
+Accuracy of k = 6.2 is:
+0.618
+
+
+Testing k = 6.3
+Group Height = 2
+Group Width = 4
+Accuracy of k = 6.3 is:
+0.617
+
+
+Testing k = 6.4
+Group Height = 2
+Group Width = 4
+Accuracy of k = 6.4 is:
+0.616
+
+
+Testing k = 6.5
+Group Height = 2
+Group Width = 4
+Accuracy of k = 6.5 is:
+0.615
+
+
+Testing k = 6.6
+Group Height = 2
+Group Width = 4
+Accuracy of k = 6.6 is:
+0.614
+
+
+Testing k = 6.7
+Group Height = 2
+Group Width = 4
+Accuracy of k = 6.7 is:
+0.614
+
+
+Testing k = 6.8
+Group Height = 2
+Group Width = 4
+Accuracy of k = 6.8 is:
+0.614
+
+
+Testing k = 6.9
+Group Height = 2
+Group Width = 4
+Accuracy of k = 6.9 is:
+0.614
+
+
+Testing k = 7.0
+Group Height = 2
+Group Width = 4
+Accuracy of k = 7.0 is:
+0.613
+
+
+Testing k = 7.1
+Group Height = 2
+Group Width = 4
+Accuracy of k = 7.1 is:
+0.613
+
+
+Testing k = 7.2
+Group Height = 2
+Group Width = 4
+Accuracy of k = 7.2 is:
+0.613
+
+
+Testing k = 7.3
+Group Height = 2
+Group Width = 4
+Accuracy of k = 7.3 is:
+0.613
+
+
+Testing k = 7.4
+Group Height = 2
+Group Width = 4
+Accuracy of k = 7.4 is:
+0.612
+
+
+Testing k = 7.5
+Group Height = 2
+Group Width = 4
+Accuracy of k = 7.5 is:
+0.612
+
+
+Testing k = 7.6
+Group Height = 2
+Group Width = 4
+Accuracy of k = 7.6 is:
+0.611
+
+
+Testing k = 7.7
+Group Height = 2
+Group Width = 4
+Accuracy of k = 7.7 is:
+0.611
+
+
+Testing k = 7.8
+Group Height = 2
+Group Width = 4
+Accuracy of k = 7.8 is:
+0.61
+
+
+Testing k = 7.9
+Group Height = 2
+Group Width = 4
+Accuracy of k = 7.9 is:
+0.609
+
+
+Testing k = 8.0
+Group Height = 2
+Group Width = 4
+Accuracy of k = 8.0 is:
+0.609
+
+
+Testing k = 8.1
+Group Height = 2
+Group Width = 4
+Accuracy of k = 8.1 is:
+0.609
+
+
+Testing k = 8.2
+Group Height = 2
+Group Width = 4
+Accuracy of k = 8.2 is:
+0.609
+
+
+Testing k = 8.3
+Group Height = 2
+Group Width = 4
+Accuracy of k = 8.3 is:
+0.608
+
+
+Testing k = 8.4
+Group Height = 2
+Group Width = 4
+Accuracy of k = 8.4 is:
+0.608
+
+
+Testing k = 8.5
+Group Height = 2
+Group Width = 4
+Accuracy of k = 8.5 is:
+0.607
+
+
+Testing k = 8.6
+Group Height = 2
+Group Width = 4
+Accuracy of k = 8.6 is:
+0.607
+
+
+Testing k = 8.7
+Group Height = 2
+Group Width = 4
+Accuracy of k = 8.7 is:
+0.607
+
+
+Testing k = 8.8
+Group Height = 2
+Group Width = 4
+Accuracy of k = 8.8 is:
+0.606
+
+
+Testing k = 8.9
+Group Height = 2
+Group Width = 4
+Accuracy of k = 8.9 is:
+0.605
+
+
+Testing k = 9.0
+Group Height = 2
+Group Width = 4
+Accuracy of k = 9.0 is:
+0.604
+
+
+Testing k = 9.1
+Group Height = 2
+Group Width = 4
+Accuracy of k = 9.1 is:
+0.604
+
+
+Testing k = 9.2
+Group Height = 2
+Group Width = 4
+Accuracy of k = 9.2 is:
+0.603
+
+
+Testing k = 9.3
+Group Height = 2
+Group Width = 4
+Accuracy of k = 9.3 is:
+0.603
+
+
+Testing k = 9.4
+Group Height = 2
+Group Width = 4
+Accuracy of k = 9.4 is:
+0.603
+
+
+Testing k = 9.5
+Group Height = 2
+Group Width = 4
+Accuracy of k = 9.5 is:
+0.602
+
+
+Testing k = 9.6
+Group Height = 2
+Group Width = 4
+Accuracy of k = 9.6 is:
+0.602
+
+
+Testing k = 9.7
+Group Height = 2
+Group Width = 4
+Accuracy of k = 9.7 is:
+0.602
+
+
+Testing k = 9.8
+Group Height = 2
+Group Width = 4
+Accuracy of k = 9.8 is:
+0.602
+
+
+Testing k = 9.9
+Group Height = 2
+Group Width = 4
+Accuracy of k = 9.9 is:
+0.602
+
+
+Testing k = 10.0
+Group Height = 2
+Group Width = 4
+Accuracy of k = 10.0 is:
+0.6
+
+
+Testing k = 0.0
+Group Height = 3
+Group Width = 2
+Accuracy of k = 0.0 is:
+0.685
+
+
+Testing k = 0.1
+Group Height = 3
+Group Width = 2
+Accuracy of k = 0.1 is:
+0.692
+
+
+Testing k = 0.2
+Group Height = 3
+Group Width = 2
+Accuracy of k = 0.2 is:
+0.695
+
+
+Testing k = 0.3
+Group Height = 3
+Group Width = 2
+Accuracy of k = 0.3 is:
+0.69
+
+
+Testing k = 0.4
+Group Height = 3
+Group Width = 2
+Accuracy of k = 0.4 is:
+0.687
+
+
+Testing k = 0.5
+Group Height = 3
+Group Width = 2
+Accuracy of k = 0.5 is:
+0.685
+
+
+Testing k = 0.6
+Group Height = 3
+Group Width = 2
+Accuracy of k = 0.6 is:
+0.683
+
+
+Testing k = 0.7
+Group Height = 3
+Group Width = 2
+Accuracy of k = 0.7 is:
+0.684
+
+
+Testing k = 0.8
+Group Height = 3
+Group Width = 2
+Accuracy of k = 0.8 is:
+0.684
+
+
+Testing k = 0.9
+Group Height = 3
+Group Width = 2
+Accuracy of k = 0.9 is:
+0.683
+
+
+Testing k = 1.0
+Group Height = 3
+Group Width = 2
+Accuracy of k = 1.0 is:
+0.686
+
+
+Testing k = 1.1
+Group Height = 3
+Group Width = 2
+Accuracy of k = 1.1 is:
+0.687
+
+
+Testing k = 1.2
+Group Height = 3
+Group Width = 2
+Accuracy of k = 1.2 is:
+0.688
+
+
+Testing k = 1.3
+Group Height = 3
+Group Width = 2
+Accuracy of k = 1.3 is:
+0.689
+
+
+Testing k = 1.4
+Group Height = 3
+Group Width = 2
+Accuracy of k = 1.4 is:
+0.685
+
+
+Testing k = 1.5
+Group Height = 3
+Group Width = 2
+Accuracy of k = 1.5 is:
+0.684
+
+
+Testing k = 1.6
+Group Height = 3
+Group Width = 2
+Accuracy of k = 1.6 is:
+0.678
+
+
+Testing k = 1.7
+Group Height = 3
+Group Width = 2
+Accuracy of k = 1.7 is:
+0.677
+
+
+Testing k = 1.8
+Group Height = 3
+Group Width = 2
+Accuracy of k = 1.8 is:
+0.677
+
+
+Testing k = 1.9
+Group Height = 3
+Group Width = 2
+Accuracy of k = 1.9 is:
+0.677
+
+
+Testing k = 2.0
+Group Height = 3
+Group Width = 2
+Accuracy of k = 2.0 is:
+0.677
+
+
+Testing k = 2.1
+Group Height = 3
+Group Width = 2
+Accuracy of k = 2.1 is:
+0.677
+
+
+Testing k = 2.2
+Group Height = 3
+Group Width = 2
+Accuracy of k = 2.2 is:
+0.675
+
+
+Testing k = 2.3
+Group Height = 3
+Group Width = 2
+Accuracy of k = 2.3 is:
+0.676
+
+
+Testing k = 2.4
+Group Height = 3
+Group Width = 2
+Accuracy of k = 2.4 is:
+0.672
+
+
+Testing k = 2.5
+Group Height = 3
+Group Width = 2
+Accuracy of k = 2.5 is:
+0.671
+
+
+Testing k = 2.6
+Group Height = 3
+Group Width = 2
+Accuracy of k = 2.6 is:
+0.67
+
+
+Testing k = 2.7
+Group Height = 3
+Group Width = 2
+Accuracy of k = 2.7 is:
+0.671
+
+
+Testing k = 2.8
+Group Height = 3
+Group Width = 2
+Accuracy of k = 2.8 is:
+0.673
+
+
+Testing k = 2.9
+Group Height = 3
+Group Width = 2
+Accuracy of k = 2.9 is:
+0.674
+
+
+Testing k = 3.0
+Group Height = 3
+Group Width = 2
+Accuracy of k = 3.0 is:
+0.673
+
+
+Testing k = 3.1
+Group Height = 3
+Group Width = 2
+Accuracy of k = 3.1 is:
+0.674
+
+
+Testing k = 3.2
+Group Height = 3
+Group Width = 2
+Accuracy of k = 3.2 is:
+0.673
+
+
+Testing k = 3.3
+Group Height = 3
+Group Width = 2
+Accuracy of k = 3.3 is:
+0.672
+
+
+Testing k = 3.4
+Group Height = 3
+Group Width = 2
+Accuracy of k = 3.4 is:
+0.67
+
+
+Testing k = 3.5
+Group Height = 3
+Group Width = 2
+Accuracy of k = 3.5 is:
+0.667
+
+
+Testing k = 3.6
+Group Height = 3
+Group Width = 2
+Accuracy of k = 3.6 is:
+0.666
+
+
+Testing k = 3.7
+Group Height = 3
+Group Width = 2
+Accuracy of k = 3.7 is:
+0.665
+
+
+Testing k = 3.8
+Group Height = 3
+Group Width = 2
+Accuracy of k = 3.8 is:
+0.667
+
+
+Testing k = 3.9
+Group Height = 3
+Group Width = 2
+Accuracy of k = 3.9 is:
+0.666
+
+
+Testing k = 4.0
+Group Height = 3
+Group Width = 2
+Accuracy of k = 4.0 is:
+0.665
+
+
+Testing k = 4.1
+Group Height = 3
+Group Width = 2
+Accuracy of k = 4.1 is:
+0.664
+
+
+Testing k = 4.2
+Group Height = 3
+Group Width = 2
+Accuracy of k = 4.2 is:
+0.663
+
+
+Testing k = 4.3
+Group Height = 3
+Group Width = 2
+Accuracy of k = 4.3 is:
+0.664
+
+
+Testing k = 4.4
+Group Height = 3
+Group Width = 2
+Accuracy of k = 4.4 is:
+0.664
+
+
+Testing k = 4.5
+Group Height = 3
+Group Width = 2
+Accuracy of k = 4.5 is:
+0.663
+
+
+Testing k = 4.6
+Group Height = 3
+Group Width = 2
+Accuracy of k = 4.6 is:
+0.663
+
+
+Testing k = 4.7
+Group Height = 3
+Group Width = 2
+Accuracy of k = 4.7 is:
+0.663
+
+
+Testing k = 4.8
+Group Height = 3
+Group Width = 2
+Accuracy of k = 4.8 is:
+0.663
+
+
+Testing k = 4.9
+Group Height = 3
+Group Width = 2
+Accuracy of k = 4.9 is:
+0.663
+
+
+Testing k = 5.0
+Group Height = 3
+Group Width = 2
+Accuracy of k = 5.0 is:
+0.663
+
+
+Testing k = 5.1
+Group Height = 3
+Group Width = 2
+Accuracy of k = 5.1 is:
+0.661
+
+
+Testing k = 5.2
+Group Height = 3
+Group Width = 2
+Accuracy of k = 5.2 is:
+0.66
+
+
+Testing k = 5.3
+Group Height = 3
+Group Width = 2
+Accuracy of k = 5.3 is:
+0.66
+
+
+Testing k = 5.4
+Group Height = 3
+Group Width = 2
+Accuracy of k = 5.4 is:
+0.659
+
+
+Testing k = 5.5
+Group Height = 3
+Group Width = 2
+Accuracy of k = 5.5 is:
+0.66
+
+
+Testing k = 5.6
+Group Height = 3
+Group Width = 2
+Accuracy of k = 5.6 is:
+0.659
+
+
+Testing k = 5.7
+Group Height = 3
+Group Width = 2
+Accuracy of k = 5.7 is:
+0.658
+
+
+Testing k = 5.8
+Group Height = 3
+Group Width = 2
+Accuracy of k = 5.8 is:
+0.656
+
+
+Testing k = 5.9
+Group Height = 3
+Group Width = 2
+Accuracy of k = 5.9 is:
+0.655
+
+
+Testing k = 6.0
+Group Height = 3
+Group Width = 2
+Accuracy of k = 6.0 is:
+0.654
+
+
+Testing k = 6.1
+Group Height = 3
+Group Width = 2
+Accuracy of k = 6.1 is:
+0.654
+
+
+Testing k = 6.2
+Group Height = 3
+Group Width = 2
+Accuracy of k = 6.2 is:
+0.655
+
+
+Testing k = 6.3
+Group Height = 3
+Group Width = 2
+Accuracy of k = 6.3 is:
+0.655
+
+
+Testing k = 6.4
+Group Height = 3
+Group Width = 2
+Accuracy of k = 6.4 is:
+0.655
+
+
+Testing k = 6.5
+Group Height = 3
+Group Width = 2
+Accuracy of k = 6.5 is:
+0.653
+
+
+Testing k = 6.6
+Group Height = 3
+Group Width = 2
+Accuracy of k = 6.6 is:
+0.652
+
+
+Testing k = 6.7
+Group Height = 3
+Group Width = 2
+Accuracy of k = 6.7 is:
+0.652
+
+
+Testing k = 6.8
+Group Height = 3
+Group Width = 2
+Accuracy of k = 6.8 is:
+0.651
+
+
+Testing k = 6.9
+Group Height = 3
+Group Width = 2
+Accuracy of k = 6.9 is:
+0.651
+
+
+Testing k = 7.0
+Group Height = 3
+Group Width = 2
+Accuracy of k = 7.0 is:
+0.651
+
+
+Testing k = 7.1
+Group Height = 3
+Group Width = 2
+Accuracy of k = 7.1 is:
+0.651
+
+
+Testing k = 7.2
+Group Height = 3
+Group Width = 2
+Accuracy of k = 7.2 is:
+0.65
+
+
+Testing k = 7.3
+Group Height = 3
+Group Width = 2
+Accuracy of k = 7.3 is:
+0.65
+
+
+Testing k = 7.4
+Group Height = 3
+Group Width = 2
+Accuracy of k = 7.4 is:
+0.649
+
+
+Testing k = 7.5
+Group Height = 3
+Group Width = 2
+Accuracy of k = 7.5 is:
+0.649
+
+
+Testing k = 7.6
+Group Height = 3
+Group Width = 2
+Accuracy of k = 7.6 is:
+0.649
+
+
+Testing k = 7.7
+Group Height = 3
+Group Width = 2
+Accuracy of k = 7.7 is:
+0.649
+
+
+Testing k = 7.8
+Group Height = 3
+Group Width = 2
+Accuracy of k = 7.8 is:
+0.649
+
+
+Testing k = 7.9
+Group Height = 3
+Group Width = 2
+Accuracy of k = 7.9 is:
+0.648
+
+
+Testing k = 8.0
+Group Height = 3
+Group Width = 2
+Accuracy of k = 8.0 is:
+0.648
+
+
+Testing k = 8.1
+Group Height = 3
+Group Width = 2
+Accuracy of k = 8.1 is:
+0.647
+
+
+Testing k = 8.2
+Group Height = 3
+Group Width = 2
+Accuracy of k = 8.2 is:
+0.646
+
+
+Testing k = 8.3
+Group Height = 3
+Group Width = 2
+Accuracy of k = 8.3 is:
+0.645
+
+
+Testing k = 8.4
+Group Height = 3
+Group Width = 2
+Accuracy of k = 8.4 is:
+0.645
+
+
+Testing k = 8.5
+Group Height = 3
+Group Width = 2
+Accuracy of k = 8.5 is:
+0.646
+
+
+Testing k = 8.6
+Group Height = 3
+Group Width = 2
+Accuracy of k = 8.6 is:
+0.645
+
+
+Testing k = 8.7
+Group Height = 3
+Group Width = 2
+Accuracy of k = 8.7 is:
+0.644
+
+
+Testing k = 8.8
+Group Height = 3
+Group Width = 2
+Accuracy of k = 8.8 is:
+0.642
+
+
+Testing k = 8.9
+Group Height = 3
+Group Width = 2
+Accuracy of k = 8.9 is:
+0.642
+
+
+Testing k = 9.0
+Group Height = 3
+Group Width = 2
+Accuracy of k = 9.0 is:
+0.642
+
+
+Testing k = 9.1
+Group Height = 3
+Group Width = 2
+Accuracy of k = 9.1 is:
+0.642
+
+
+Testing k = 9.2
+Group Height = 3
+Group Width = 2
+Accuracy of k = 9.2 is:
+0.641
+
+
+Testing k = 9.3
+Group Height = 3
+Group Width = 2
+Accuracy of k = 9.3 is:
+0.641
+
+
+Testing k = 9.4
+Group Height = 3
+Group Width = 2
+Accuracy of k = 9.4 is:
+0.641
+
+
+Testing k = 9.5
+Group Height = 3
+Group Width = 2
+Accuracy of k = 9.5 is:
+0.642
+
+
+Testing k = 9.6
+Group Height = 3
+Group Width = 2
+Accuracy of k = 9.6 is:
+0.641
+
+
+Testing k = 9.7
+Group Height = 3
+Group Width = 2
+Accuracy of k = 9.7 is:
+0.64
+
+
+Testing k = 9.8
+Group Height = 3
+Group Width = 2
+Accuracy of k = 9.8 is:
+0.639
+
+
+Testing k = 9.9
+Group Height = 3
+Group Width = 2
+Accuracy of k = 9.9 is:
+0.638
+
+
+Testing k = 10.0
+Group Height = 3
+Group Width = 2
+Accuracy of k = 10.0 is:
+0.638
+
+
+Testing k = 0.0
+Group Height = 3
+Group Width = 3
+Accuracy of k = 0.0 is:
+0.667
+
+
+Testing k = 0.1
+Group Height = 3
+Group Width = 3
+Accuracy of k = 0.1 is:
+0.663
+
+
+Testing k = 0.2
+Group Height = 3
+Group Width = 3
+Accuracy of k = 0.2 is:
+0.658
+
+
+Testing k = 0.3
+Group Height = 3
+Group Width = 3
+Accuracy of k = 0.3 is:
+0.653
+
+
+Testing k = 0.4
+Group Height = 3
+Group Width = 3
+Accuracy of k = 0.4 is:
+0.653
+
+
+Testing k = 0.5
+Group Height = 3
+Group Width = 3
+Accuracy of k = 0.5 is:
+0.649
+
+
+Testing k = 0.6
+Group Height = 3
+Group Width = 3
+Accuracy of k = 0.6 is:
+0.649
+
+
+Testing k = 0.7
+Group Height = 3
+Group Width = 3
+Accuracy of k = 0.7 is:
+0.644
+
+
+Testing k = 0.8
+Group Height = 3
+Group Width = 3
+Accuracy of k = 0.8 is:
+0.643
+
+
+Testing k = 0.9
+Group Height = 3
+Group Width = 3
+Accuracy of k = 0.9 is:
+0.638
+
+
+Testing k = 1.0
+Group Height = 3
+Group Width = 3
+Accuracy of k = 1.0 is:
+0.636
+
+
+Testing k = 1.1
+Group Height = 3
+Group Width = 3
+Accuracy of k = 1.1 is:
+0.638
+
+
+Testing k = 1.2
+Group Height = 3
+Group Width = 3
+Accuracy of k = 1.2 is:
+0.633
+
+
+Testing k = 1.3
+Group Height = 3
+Group Width = 3
+Accuracy of k = 1.3 is:
+0.628
+
+
+Testing k = 1.4
+Group Height = 3
+Group Width = 3
+Accuracy of k = 1.4 is:
+0.627
+
+
+Testing k = 1.5
+Group Height = 3
+Group Width = 3
+Accuracy of k = 1.5 is:
+0.626
+
+
+Testing k = 1.6
+Group Height = 3
+Group Width = 3
+Accuracy of k = 1.6 is:
+0.627
+
+
+Testing k = 1.7
+Group Height = 3
+Group Width = 3
+Accuracy of k = 1.7 is:
+0.625
+
+
+Testing k = 1.8
+Group Height = 3
+Group Width = 3
+Accuracy of k = 1.8 is:
+0.625
+
+
+Testing k = 1.9
+Group Height = 3
+Group Width = 3
+Accuracy of k = 1.9 is:
+0.624
+
+
+Testing k = 2.0
+Group Height = 3
+Group Width = 3
+Accuracy of k = 2.0 is:
+0.623
+
+
+Testing k = 2.1
+Group Height = 3
+Group Width = 3
+Accuracy of k = 2.1 is:
+0.622
+
+
+Testing k = 2.2
+Group Height = 3
+Group Width = 3
+Accuracy of k = 2.2 is:
+0.621
+
+
+Testing k = 2.3
+Group Height = 3
+Group Width = 3
+Accuracy of k = 2.3 is:
+0.622
+
+
+Testing k = 2.4
+Group Height = 3
+Group Width = 3
+Accuracy of k = 2.4 is:
+0.619
+
+
+Testing k = 2.5
+Group Height = 3
+Group Width = 3
+Accuracy of k = 2.5 is:
+0.619
+
+
+Testing k = 2.6
+Group Height = 3
+Group Width = 3
+Accuracy of k = 2.6 is:
+0.619
+
+
+Testing k = 2.7
+Group Height = 3
+Group Width = 3
+Accuracy of k = 2.7 is:
+0.618
+
+
+Testing k = 2.8
+Group Height = 3
+Group Width = 3
+Accuracy of k = 2.8 is:
+0.617
+
+
+Testing k = 2.9
+Group Height = 3
+Group Width = 3
+Accuracy of k = 2.9 is:
+0.613
+
+
+Testing k = 3.0
+Group Height = 3
+Group Width = 3
+Accuracy of k = 3.0 is:
+0.611
+
+
+Testing k = 3.1
+Group Height = 3
+Group Width = 3
+Accuracy of k = 3.1 is:
+0.611
+
+
+Testing k = 3.2
+Group Height = 3
+Group Width = 3
+Accuracy of k = 3.2 is:
+0.612
+
+
+Testing k = 3.3
+Group Height = 3
+Group Width = 3
+Accuracy of k = 3.3 is:
+0.61
+
+
+Testing k = 3.4
+Group Height = 3
+Group Width = 3
+Accuracy of k = 3.4 is:
+0.608
+
+
+Testing k = 3.5
+Group Height = 3
+Group Width = 3
+Accuracy of k = 3.5 is:
+0.606
+
+
+Testing k = 3.6
+Group Height = 3
+Group Width = 3
+Accuracy of k = 3.6 is:
+0.603
+
+
+Testing k = 3.7
+Group Height = 3
+Group Width = 3
+Accuracy of k = 3.7 is:
+0.602
+
+
+Testing k = 3.8
+Group Height = 3
+Group Width = 3
+Accuracy of k = 3.8 is:
+0.602
+
+
+Testing k = 3.9
+Group Height = 3
+Group Width = 3
+Accuracy of k = 3.9 is:
+0.601
+
+
+Testing k = 4.0
+Group Height = 3
+Group Width = 3
+Accuracy of k = 4.0 is:
+0.601
+
+
+Testing k = 4.1
+Group Height = 3
+Group Width = 3
+Accuracy of k = 4.1 is:
+0.6
+
+
+Testing k = 4.2
+Group Height = 3
+Group Width = 3
+Accuracy of k = 4.2 is:
+0.598
+
+
+Testing k = 4.3
+Group Height = 3
+Group Width = 3
+Accuracy of k = 4.3 is:
+0.598
+
+
+Testing k = 4.4
+Group Height = 3
+Group Width = 3
+Accuracy of k = 4.4 is:
+0.598
+
+
+Testing k = 4.5
+Group Height = 3
+Group Width = 3
+Accuracy of k = 4.5 is:
+0.597
+
+
+Testing k = 4.6
+Group Height = 3
+Group Width = 3
+Accuracy of k = 4.6 is:
+0.597
+
+
+Testing k = 4.7
+Group Height = 3
+Group Width = 3
+Accuracy of k = 4.7 is:
+0.598
+
+
+Testing k = 4.8
+Group Height = 3
+Group Width = 3
+Accuracy of k = 4.8 is:
+0.598
+
+
+Testing k = 4.9
+Group Height = 3
+Group Width = 3
+Accuracy of k = 4.9 is:
+0.597
+
+
+Testing k = 5.0
+Group Height = 3
+Group Width = 3
+Accuracy of k = 5.0 is:
+0.596
+
+
+Testing k = 5.1
+Group Height = 3
+Group Width = 3
+Accuracy of k = 5.1 is:
+0.596
+
+
+Testing k = 5.2
+Group Height = 3
+Group Width = 3
+Accuracy of k = 5.2 is:
+0.595
+
+
+Testing k = 5.3
+Group Height = 3
+Group Width = 3
+Accuracy of k = 5.3 is:
+0.595
+
+
+Testing k = 5.4
+Group Height = 3
+Group Width = 3
+Accuracy of k = 5.4 is:
+0.595
+
+
+Testing k = 5.5
+Group Height = 3
+Group Width = 3
+Accuracy of k = 5.5 is:
+0.594
+
+
+Testing k = 5.6
+Group Height = 3
+Group Width = 3
+Accuracy of k = 5.6 is:
+0.593
+
+
+Testing k = 5.7
+Group Height = 3
+Group Width = 3
+Accuracy of k = 5.7 is:
+0.592
+
+
+Testing k = 5.8
+Group Height = 3
+Group Width = 3
+Accuracy of k = 5.8 is:
+0.59
+
+
+Testing k = 5.9
+Group Height = 3
+Group Width = 3
+Accuracy of k = 5.9 is:
+0.59
+
+
+Testing k = 6.0
+Group Height = 3
+Group Width = 3
+Accuracy of k = 6.0 is:
+0.59
+
+
+Testing k = 6.1
+Group Height = 3
+Group Width = 3
+Accuracy of k = 6.1 is:
+0.59
+
+
+Testing k = 6.2
+Group Height = 3
+Group Width = 3
+Accuracy of k = 6.2 is:
+0.589
+
+
+Testing k = 6.3
+Group Height = 3
+Group Width = 3
+Accuracy of k = 6.3 is:
+0.588
+
+
+Testing k = 6.4
+Group Height = 3
+Group Width = 3
+Accuracy of k = 6.4 is:
+0.588
+
+
+Testing k = 6.5
+Group Height = 3
+Group Width = 3
+Accuracy of k = 6.5 is:
+0.587
+
+
+Testing k = 6.6
+Group Height = 3
+Group Width = 3
+Accuracy of k = 6.6 is:
+0.586
+
+
+Testing k = 6.7
+Group Height = 3
+Group Width = 3
+Accuracy of k = 6.7 is:
+0.586
+
+
+Testing k = 6.8
+Group Height = 3
+Group Width = 3
+Accuracy of k = 6.8 is:
+0.585
+
+
+Testing k = 6.9
+Group Height = 3
+Group Width = 3
+Accuracy of k = 6.9 is:
+0.585
+
+
+Testing k = 7.0
+Group Height = 3
+Group Width = 3
+Accuracy of k = 7.0 is:
+0.585
+
+
+Testing k = 7.1
+Group Height = 3
+Group Width = 3
+Accuracy of k = 7.1 is:
+0.584
+
+
+Testing k = 7.2
+Group Height = 3
+Group Width = 3
+Accuracy of k = 7.2 is:
+0.584
+
+
+Testing k = 7.3
+Group Height = 3
+Group Width = 3
+Accuracy of k = 7.3 is:
+0.584
+
+
+Testing k = 7.4
+Group Height = 3
+Group Width = 3
+Accuracy of k = 7.4 is:
+0.583
+
+
+Testing k = 7.5
+Group Height = 3
+Group Width = 3
+Accuracy of k = 7.5 is:
+0.582
+
+
+Testing k = 7.6
+Group Height = 3
+Group Width = 3
+Accuracy of k = 7.6 is:
+0.582
+
+
+Testing k = 7.7
+Group Height = 3
+Group Width = 3
+Accuracy of k = 7.7 is:
+0.581
+
+
+Testing k = 7.8
+Group Height = 3
+Group Width = 3
+Accuracy of k = 7.8 is:
+0.581
+
+
+Testing k = 7.9
+Group Height = 3
+Group Width = 3
+Accuracy of k = 7.9 is:
+0.581
+
+
+Testing k = 8.0
+Group Height = 3
+Group Width = 3
+Accuracy of k = 8.0 is:
+0.58
+
+
+Testing k = 8.1
+Group Height = 3
+Group Width = 3
+Accuracy of k = 8.1 is:
+0.58
+
+
+Testing k = 8.2
+Group Height = 3
+Group Width = 3
+Accuracy of k = 8.2 is:
+0.579
+
+
+Testing k = 8.3
+Group Height = 3
+Group Width = 3
+Accuracy of k = 8.3 is:
+0.579
+
+
+Testing k = 8.4
+Group Height = 3
+Group Width = 3
+Accuracy of k = 8.4 is:
+0.579
+
+
+Testing k = 8.5
+Group Height = 3
+Group Width = 3
+Accuracy of k = 8.5 is:
+0.579
+
+
+Testing k = 8.6
+Group Height = 3
+Group Width = 3
+Accuracy of k = 8.6 is:
+0.579
+
+
+Testing k = 8.7
+Group Height = 3
+Group Width = 3
+Accuracy of k = 8.7 is:
+0.576
+
+
+Testing k = 8.8
+Group Height = 3
+Group Width = 3
+Accuracy of k = 8.8 is:
+0.576
+
+
+Testing k = 8.9
+Group Height = 3
+Group Width = 3
+Accuracy of k = 8.9 is:
+0.576
+
+
+Testing k = 9.0
+Group Height = 3
+Group Width = 3
+Accuracy of k = 9.0 is:
+0.575
+
+
+Testing k = 9.1
+Group Height = 3
+Group Width = 3
+Accuracy of k = 9.1 is:
+0.574
+
+
+Testing k = 9.2
+Group Height = 3
+Group Width = 3
+Accuracy of k = 9.2 is:
+0.574
+
+
+Testing k = 9.3
+Group Height = 3
+Group Width = 3
+Accuracy of k = 9.3 is:
+0.573
+
+
+Testing k = 9.4
+Group Height = 3
+Group Width = 3
+Accuracy of k = 9.4 is:
+0.574
+
+
+Testing k = 9.5
+Group Height = 3
+Group Width = 3
+Accuracy of k = 9.5 is:
+0.574
+
+
+Testing k = 9.6
+Group Height = 3
+Group Width = 3
+Accuracy of k = 9.6 is:
+0.574
+
+
+Testing k = 9.7
+Group Height = 3
+Group Width = 3
+Accuracy of k = 9.7 is:
+0.574
+
+
+Testing k = 9.8
+Group Height = 3
+Group Width = 3
+Accuracy of k = 9.8 is:
+0.574
+
+
+Testing k = 9.9
+Group Height = 3
+Group Width = 3
+Accuracy of k = 9.9 is:
+0.574
+
+
+Testing k = 10.0
+Group Height = 3
+Group Width = 3
+Accuracy of k = 10.0 is:
+0.574
+
+
+Testing k = 0.0
+Group Height = 3
+Group Width = 4
+Accuracy of k = 0.0 is:
+0.644
+
+
+Testing k = 0.1
+Group Height = 3
+Group Width = 4
+Accuracy of k = 0.1 is:
+0.624
+
+
+Testing k = 0.2
+Group Height = 3
+Group Width = 4
+Accuracy of k = 0.2 is:
+0.602
+
+
+Testing k = 0.3
+Group Height = 3
+Group Width = 4
+Accuracy of k = 0.3 is:
+0.591
+
+
+Testing k = 0.4
+Group Height = 3
+Group Width = 4
+Accuracy of k = 0.4 is:
+0.583
+
+
+Testing k = 0.5
+Group Height = 3
+Group Width = 4
+Accuracy of k = 0.5 is:
+0.58
+
+
+Testing k = 0.6
+Group Height = 3
+Group Width = 4
+Accuracy of k = 0.6 is:
+0.577
+
+
+Testing k = 0.7
+Group Height = 3
+Group Width = 4
+Accuracy of k = 0.7 is:
+0.573
+
+
+Testing k = 0.8
+Group Height = 3
+Group Width = 4
+Accuracy of k = 0.8 is:
+0.572
+
+
+Testing k = 0.9
+Group Height = 3
+Group Width = 4
+Accuracy of k = 0.9 is:
+0.571
+
+
+Testing k = 1.0
+Group Height = 3
+Group Width = 4
+Accuracy of k = 1.0 is:
+0.57
+
+
+Testing k = 1.1
+Group Height = 3
+Group Width = 4
+Accuracy of k = 1.1 is:
+0.569
+
+
+Testing k = 1.2
+Group Height = 3
+Group Width = 4
+Accuracy of k = 1.2 is:
+0.568
+
+
+Testing k = 1.3
+Group Height = 3
+Group Width = 4
+Accuracy of k = 1.3 is:
+0.568
+
+
+Testing k = 1.4
+Group Height = 3
+Group Width = 4
+Accuracy of k = 1.4 is:
+0.567
+
+
+Testing k = 1.5
+Group Height = 3
+Group Width = 4
+Accuracy of k = 1.5 is:
+0.565
+
+
+Testing k = 1.6
+Group Height = 3
+Group Width = 4
+Accuracy of k = 1.6 is:
+0.563
+
+
+Testing k = 1.7
+Group Height = 3
+Group Width = 4
+Accuracy of k = 1.7 is:
+0.563
+
+
+Testing k = 1.8
+Group Height = 3
+Group Width = 4
+Accuracy of k = 1.8 is:
+0.563
+
+
+Testing k = 1.9
+Group Height = 3
+Group Width = 4
+Accuracy of k = 1.9 is:
+0.563
+
+
+Testing k = 2.0
+Group Height = 3
+Group Width = 4
+Accuracy of k = 2.0 is:
+0.563
+
+
+Testing k = 2.1
+Group Height = 3
+Group Width = 4
+Accuracy of k = 2.1 is:
+0.563
+
+
+Testing k = 2.2
+Group Height = 3
+Group Width = 4
+Accuracy of k = 2.2 is:
+0.563
+
+
+Testing k = 2.3
+Group Height = 3
+Group Width = 4
+Accuracy of k = 2.3 is:
+0.563
+
+
+Testing k = 2.4
+Group Height = 3
+Group Width = 4
+Accuracy of k = 2.4 is:
+0.563
+
+
+Testing k = 2.5
+Group Height = 3
+Group Width = 4
+Accuracy of k = 2.5 is:
+0.563
+
+
+Testing k = 2.6
+Group Height = 3
+Group Width = 4
+Accuracy of k = 2.6 is:
+0.563
+
+
+Testing k = 2.7
+Group Height = 3
+Group Width = 4
+Accuracy of k = 2.7 is:
+0.561
+
+
+Testing k = 2.8
+Group Height = 3
+Group Width = 4
+Accuracy of k = 2.8 is:
+0.561
+
+
+Testing k = 2.9
+Group Height = 3
+Group Width = 4
+Accuracy of k = 2.9 is:
+0.561
+
+
+Testing k = 3.0
+Group Height = 3
+Group Width = 4
+Accuracy of k = 3.0 is:
+0.561
+
+
+Testing k = 3.1
+Group Height = 3
+Group Width = 4
+Accuracy of k = 3.1 is:
+0.561
+
+
+Testing k = 3.2
+Group Height = 3
+Group Width = 4
+Accuracy of k = 3.2 is:
+0.561
+
+
+Testing k = 3.3
+Group Height = 3
+Group Width = 4
+Accuracy of k = 3.3 is:
+0.561
+
+
+Testing k = 3.4
+Group Height = 3
+Group Width = 4
+Accuracy of k = 3.4 is:
+0.561
+
+
+Testing k = 3.5
+Group Height = 3
+Group Width = 4
+Accuracy of k = 3.5 is:
+0.561
+
+
+Testing k = 3.6
+Group Height = 3
+Group Width = 4
+Accuracy of k = 3.6 is:
+0.559
+
+
+Testing k = 3.7
+Group Height = 3
+Group Width = 4
+Accuracy of k = 3.7 is:
+0.559
+
+
+Testing k = 3.8
+Group Height = 3
+Group Width = 4
+Accuracy of k = 3.8 is:
+0.559
+
+
+Testing k = 3.9
+Group Height = 3
+Group Width = 4
+Accuracy of k = 3.9 is:
+0.559
+
+
+Testing k = 4.0
+Group Height = 3
+Group Width = 4
+Accuracy of k = 4.0 is:
+0.559
+
+
+Testing k = 4.1
+Group Height = 3
+Group Width = 4
+Accuracy of k = 4.1 is:
+0.559
+
+
+Testing k = 4.2
+Group Height = 3
+Group Width = 4
+Accuracy of k = 4.2 is:
+0.559
+
+
+Testing k = 4.3
+Group Height = 3
+Group Width = 4
+Accuracy of k = 4.3 is:
+0.559
+
+
+Testing k = 4.4
+Group Height = 3
+Group Width = 4
+Accuracy of k = 4.4 is:
+0.559
+
+
+Testing k = 4.5
+Group Height = 3
+Group Width = 4
+Accuracy of k = 4.5 is:
+0.559
+
+
+Testing k = 4.6
+Group Height = 3
+Group Width = 4
+Accuracy of k = 4.6 is:
+0.559
+
+
+Testing k = 4.7
+Group Height = 3
+Group Width = 4
+Accuracy of k = 4.7 is:
+0.559
+
+
+Testing k = 4.8
+Group Height = 3
+Group Width = 4
+Accuracy of k = 4.8 is:
+0.559
+
+
+Testing k = 4.9
+Group Height = 3
+Group Width = 4
+Accuracy of k = 4.9 is:
+0.559
+
+
+Testing k = 5.0
+Group Height = 3
+Group Width = 4
+Accuracy of k = 5.0 is:
+0.559
+
+
+Testing k = 5.1
+Group Height = 3
+Group Width = 4
+Accuracy of k = 5.1 is:
+0.559
+
+
+Testing k = 5.2
+Group Height = 3
+Group Width = 4
+Accuracy of k = 5.2 is:
+0.559
+
+
+Testing k = 5.3
+Group Height = 3
+Group Width = 4
+Accuracy of k = 5.3 is:
+0.559
+
+
+Testing k = 5.4
+Group Height = 3
+Group Width = 4
+Accuracy of k = 5.4 is:
+0.559
+
+
+Testing k = 5.5
+Group Height = 3
+Group Width = 4
+Accuracy of k = 5.5 is:
+0.559
+
+
+Testing k = 5.6
+Group Height = 3
+Group Width = 4
+Accuracy of k = 5.6 is:
+0.559
+
+
+Testing k = 5.7
+Group Height = 3
+Group Width = 4
+Accuracy of k = 5.7 is:
+0.559
+
+
+Testing k = 5.8
+Group Height = 3
+Group Width = 4
+Accuracy of k = 5.8 is:
+0.559
+
+
+Testing k = 5.9
+Group Height = 3
+Group Width = 4
+Accuracy of k = 5.9 is:
+0.559
+
+
+Testing k = 6.0
+Group Height = 3
+Group Width = 4
+Accuracy of k = 6.0 is:
+0.559
+
+
+Testing k = 6.1
+Group Height = 3
+Group Width = 4
+Accuracy of k = 6.1 is:
+0.559
+
+
+Testing k = 6.2
+Group Height = 3
+Group Width = 4
+Accuracy of k = 6.2 is:
+0.559
+
+
+Testing k = 6.3
+Group Height = 3
+Group Width = 4
+Accuracy of k = 6.3 is:
+0.559
+
+
+Testing k = 6.4
+Group Height = 3
+Group Width = 4
+Accuracy of k = 6.4 is:
+0.559
+
+
+Testing k = 6.5
+Group Height = 3
+Group Width = 4
+Accuracy of k = 6.5 is:
+0.559
+
+
+Testing k = 6.6
+Group Height = 3
+Group Width = 4
+Accuracy of k = 6.6 is:
+0.559
+
+
+Testing k = 6.7
+Group Height = 3
+Group Width = 4
+Accuracy of k = 6.7 is:
+0.559
+
+
+Testing k = 6.8
+Group Height = 3
+Group Width = 4
+Accuracy of k = 6.8 is:
+0.559
+
+
+Testing k = 6.9
+Group Height = 3
+Group Width = 4
+Accuracy of k = 6.9 is:
+0.559
+
+
+Testing k = 7.0
+Group Height = 3
+Group Width = 4
+Accuracy of k = 7.0 is:
+0.559
+
+
+Testing k = 7.1
+Group Height = 3
+Group Width = 4
+Accuracy of k = 7.1 is:
+0.559
+
+
+Testing k = 7.2
+Group Height = 3
+Group Width = 4
+Accuracy of k = 7.2 is:
+0.559
+
+
+Testing k = 7.3
+Group Height = 3
+Group Width = 4
+Accuracy of k = 7.3 is:
+0.559
+
+
+Testing k = 7.4
+Group Height = 3
+Group Width = 4
+Accuracy of k = 7.4 is:
+0.559
+
+
+Testing k = 7.5
+Group Height = 3
+Group Width = 4
+Accuracy of k = 7.5 is:
+0.559
+
+
+Testing k = 7.6
+Group Height = 3
+Group Width = 4
+Accuracy of k = 7.6 is:
+0.559
+
+
+Testing k = 7.7
+Group Height = 3
+Group Width = 4
+Accuracy of k = 7.7 is:
+0.559
+
+
+Testing k = 7.8
+Group Height = 3
+Group Width = 4
+Accuracy of k = 7.8 is:
+0.559
+
+
+Testing k = 7.9
+Group Height = 3
+Group Width = 4
+Accuracy of k = 7.9 is:
+0.559
+
+
+Testing k = 8.0
+Group Height = 3
+Group Width = 4
+Accuracy of k = 8.0 is:
+0.559
+
+
+Testing k = 8.1
+Group Height = 3
+Group Width = 4
+Accuracy of k = 8.1 is:
+0.559
+
+
+Testing k = 8.2
+Group Height = 3
+Group Width = 4
+Accuracy of k = 8.2 is:
+0.559
+
+
+Testing k = 8.3
+Group Height = 3
+Group Width = 4
+Accuracy of k = 8.3 is:
+0.559
+
+
+Testing k = 8.4
+Group Height = 3
+Group Width = 4
+Accuracy of k = 8.4 is:
+0.559
+
+
+Testing k = 8.5
+Group Height = 3
+Group Width = 4
+Accuracy of k = 8.5 is:
+0.559
+
+
+Testing k = 8.6
+Group Height = 3
+Group Width = 4
+Accuracy of k = 8.6 is:
+0.559
+
+
+Testing k = 8.7
+Group Height = 3
+Group Width = 4
+Accuracy of k = 8.7 is:
+0.559
+
+
+Testing k = 8.8
+Group Height = 3
+Group Width = 4
+Accuracy of k = 8.8 is:
+0.559
+
+
+Testing k = 8.9
+Group Height = 3
+Group Width = 4
+Accuracy of k = 8.9 is:
+0.559
+
+
+Testing k = 9.0
+Group Height = 3
+Group Width = 4
+Accuracy of k = 9.0 is:
+0.559
+
+
+Testing k = 9.1
+Group Height = 3
+Group Width = 4
+Accuracy of k = 9.1 is:
+0.559
+
+
+Testing k = 9.2
+Group Height = 3
+Group Width = 4
+Accuracy of k = 9.2 is:
+0.559
+
+
+Testing k = 9.3
+Group Height = 3
+Group Width = 4
+Accuracy of k = 9.3 is:
+0.559
+
+
+Testing k = 9.4
+Group Height = 3
+Group Width = 4
+Accuracy of k = 9.4 is:
+0.559
+
+
+Testing k = 9.5
+Group Height = 3
+Group Width = 4
+Accuracy of k = 9.5 is:
+0.559
+
+
+Testing k = 9.6
+Group Height = 3
+Group Width = 4
+Accuracy of k = 9.6 is:
+0.559
+
+
+Testing k = 9.7
+Group Height = 3
+Group Width = 4
+Accuracy of k = 9.7 is:
+0.559
+
+
+Testing k = 9.8
+Group Height = 3
+Group Width = 4
+Accuracy of k = 9.8 is:
+0.559
+
+
+Testing k = 9.9
+Group Height = 3
+Group Width = 4
+Accuracy of k = 9.9 is:
+0.559
+
+
+Testing k = 10.0
+Group Height = 3
+Group Width = 4
+Accuracy of k = 10.0 is:
+0.559
+
+
+Testing k = 0.0
+Group Height = 4
+Group Width = 2
+Accuracy of k = 0.0 is:
+0.669
+
+
+Testing k = 0.1
+Group Height = 4
+Group Width = 2
+Accuracy of k = 0.1 is:
+0.668
+
+
+Testing k = 0.2
+Group Height = 4
+Group Width = 2
+Accuracy of k = 0.2 is:
+0.667
+
+
+Testing k = 0.3
+Group Height = 4
+Group Width = 2
+Accuracy of k = 0.3 is:
+0.658
+
+
+Testing k = 0.4
+Group Height = 4
+Group Width = 2
+Accuracy of k = 0.4 is:
+0.652
+
+
+Testing k = 0.5
+Group Height = 4
+Group Width = 2
+Accuracy of k = 0.5 is:
+0.645
+
+
+Testing k = 0.6
+Group Height = 4
+Group Width = 2
+Accuracy of k = 0.6 is:
+0.642
+
+
+Testing k = 0.7
+Group Height = 4
+Group Width = 2
+Accuracy of k = 0.7 is:
+0.637
+
+
+Testing k = 0.8
+Group Height = 4
+Group Width = 2
+Accuracy of k = 0.8 is:
+0.63
+
+
+Testing k = 0.9
+Group Height = 4
+Group Width = 2
+Accuracy of k = 0.9 is:
+0.629
+
+
+Testing k = 1.0
+Group Height = 4
+Group Width = 2
+Accuracy of k = 1.0 is:
+0.625
+
+
+Testing k = 1.1
+Group Height = 4
+Group Width = 2
+Accuracy of k = 1.1 is:
+0.622
+
+
+Testing k = 1.2
+Group Height = 4
+Group Width = 2
+Accuracy of k = 1.2 is:
+0.616
+
+
+Testing k = 1.3
+Group Height = 4
+Group Width = 2
+Accuracy of k = 1.3 is:
+0.614
+
+
+Testing k = 1.4
+Group Height = 4
+Group Width = 2
+Accuracy of k = 1.4 is:
+0.614
+
+
+Testing k = 1.5
+Group Height = 4
+Group Width = 2
+Accuracy of k = 1.5 is:
+0.614
+
+
+Testing k = 1.6
+Group Height = 4
+Group Width = 2
+Accuracy of k = 1.6 is:
+0.611
+
+
+Testing k = 1.7
+Group Height = 4
+Group Width = 2
+Accuracy of k = 1.7 is:
+0.606
+
+
+Testing k = 1.8
+Group Height = 4
+Group Width = 2
+Accuracy of k = 1.8 is:
+0.602
+
+
+Testing k = 1.9
+Group Height = 4
+Group Width = 2
+Accuracy of k = 1.9 is:
+0.602
+
+
+Testing k = 2.0
+Group Height = 4
+Group Width = 2
+Accuracy of k = 2.0 is:
+0.599
+
+
+Testing k = 2.1
+Group Height = 4
+Group Width = 2
+Accuracy of k = 2.1 is:
+0.596
+
+
+Testing k = 2.2
+Group Height = 4
+Group Width = 2
+Accuracy of k = 2.2 is:
+0.594
+
+
+Testing k = 2.3
+Group Height = 4
+Group Width = 2
+Accuracy of k = 2.3 is:
+0.593
+
+
+Testing k = 2.4
+Group Height = 4
+Group Width = 2
+Accuracy of k = 2.4 is:
+0.591
+
+
+Testing k = 2.5
+Group Height = 4
+Group Width = 2
+Accuracy of k = 2.5 is:
+0.591
+
+
+Testing k = 2.6
+Group Height = 4
+Group Width = 2
+Accuracy of k = 2.6 is:
+0.589
+
+
+Testing k = 2.7
+Group Height = 4
+Group Width = 2
+Accuracy of k = 2.7 is:
+0.586
+
+
+Testing k = 2.8
+Group Height = 4
+Group Width = 2
+Accuracy of k = 2.8 is:
+0.586
+
+
+Testing k = 2.9
+Group Height = 4
+Group Width = 2
+Accuracy of k = 2.9 is:
+0.587
+
+
+Testing k = 3.0
+Group Height = 4
+Group Width = 2
+Accuracy of k = 3.0 is:
+0.585
+
+
+Testing k = 3.1
+Group Height = 4
+Group Width = 2
+Accuracy of k = 3.1 is:
+0.585
+
+
+Testing k = 3.2
+Group Height = 4
+Group Width = 2
+Accuracy of k = 3.2 is:
+0.586
+
+
+Testing k = 3.3
+Group Height = 4
+Group Width = 2
+Accuracy of k = 3.3 is:
+0.583
+
+
+Testing k = 3.4
+Group Height = 4
+Group Width = 2
+Accuracy of k = 3.4 is:
+0.582
+
+
+Testing k = 3.5
+Group Height = 4
+Group Width = 2
+Accuracy of k = 3.5 is:
+0.58
+
+
+Testing k = 3.6
+Group Height = 4
+Group Width = 2
+Accuracy of k = 3.6 is:
+0.576
+
+
+Testing k = 3.7
+Group Height = 4
+Group Width = 2
+Accuracy of k = 3.7 is:
+0.576
+
+
+Testing k = 3.8
+Group Height = 4
+Group Width = 2
+Accuracy of k = 3.8 is:
+0.576
+
+
+Testing k = 3.9
+Group Height = 4
+Group Width = 2
+Accuracy of k = 3.9 is:
+0.574
+
+
+Testing k = 4.0
+Group Height = 4
+Group Width = 2
+Accuracy of k = 4.0 is:
+0.573
+
+
+Testing k = 4.1
+Group Height = 4
+Group Width = 2
+Accuracy of k = 4.1 is:
+0.571
+
+
+Testing k = 4.2
+Group Height = 4
+Group Width = 2
+Accuracy of k = 4.2 is:
+0.57
+
+
+Testing k = 4.3
+Group Height = 4
+Group Width = 2
+Accuracy of k = 4.3 is:
+0.569
+
+
+Testing k = 4.4
+Group Height = 4
+Group Width = 2
+Accuracy of k = 4.4 is:
+0.569
+
+
+Testing k = 4.5
+Group Height = 4
+Group Width = 2
+Accuracy of k = 4.5 is:
+0.565
+
+
+Testing k = 4.6
+Group Height = 4
+Group Width = 2
+Accuracy of k = 4.6 is:
+0.564
+
+
+Testing k = 4.7
+Group Height = 4
+Group Width = 2
+Accuracy of k = 4.7 is:
+0.562
+
+
+Testing k = 4.8
+Group Height = 4
+Group Width = 2
+Accuracy of k = 4.8 is:
+0.562
+
+
+Testing k = 4.9
+Group Height = 4
+Group Width = 2
+Accuracy of k = 4.9 is:
+0.562
+
+
+Testing k = 5.0
+Group Height = 4
+Group Width = 2
+Accuracy of k = 5.0 is:
+0.562
+
+
+Testing k = 5.1
+Group Height = 4
+Group Width = 2
+Accuracy of k = 5.1 is:
+0.56
+
+
+Testing k = 5.2
+Group Height = 4
+Group Width = 2
+Accuracy of k = 5.2 is:
+0.559
+
+
+Testing k = 5.3
+Group Height = 4
+Group Width = 2
+Accuracy of k = 5.3 is:
+0.559
+
+
+Testing k = 5.4
+Group Height = 4
+Group Width = 2
+Accuracy of k = 5.4 is:
+0.559
+
+
+Testing k = 5.5
+Group Height = 4
+Group Width = 2
+Accuracy of k = 5.5 is:
+0.558
+
+
+Testing k = 5.6
+Group Height = 4
+Group Width = 2
+Accuracy of k = 5.6 is:
+0.558
+
+
+Testing k = 5.7
+Group Height = 4
+Group Width = 2
+Accuracy of k = 5.7 is:
+0.558
+
+
+Testing k = 5.8
+Group Height = 4
+Group Width = 2
+Accuracy of k = 5.8 is:
+0.558
+
+
+Testing k = 5.9
+Group Height = 4
+Group Width = 2
+Accuracy of k = 5.9 is:
+0.558
+
+
+Testing k = 6.0
+Group Height = 4
+Group Width = 2
+Accuracy of k = 6.0 is:
+0.555
+
+
+Testing k = 6.1
+Group Height = 4
+Group Width = 2
+Accuracy of k = 6.1 is:
+0.555
+
+
+Testing k = 6.2
+Group Height = 4
+Group Width = 2
+Accuracy of k = 6.2 is:
+0.555
+
+
+Testing k = 6.3
+Group Height = 4
+Group Width = 2
+Accuracy of k = 6.3 is:
+0.553
+
+
+Testing k = 6.4
+Group Height = 4
+Group Width = 2
+Accuracy of k = 6.4 is:
+0.551
+
+
+Testing k = 6.5
+Group Height = 4
+Group Width = 2
+Accuracy of k = 6.5 is:
+0.551
+
+
+Testing k = 6.6
+Group Height = 4
+Group Width = 2
+Accuracy of k = 6.6 is:
+0.55
+
+
+Testing k = 6.7
+Group Height = 4
+Group Width = 2
+Accuracy of k = 6.7 is:
+0.55
+
+
+Testing k = 6.8
+Group Height = 4
+Group Width = 2
+Accuracy of k = 6.8 is:
+0.55
+
+
+Testing k = 6.9
+Group Height = 4
+Group Width = 2
+Accuracy of k = 6.9 is:
+0.551
+
+
+Testing k = 7.0
+Group Height = 4
+Group Width = 2
+Accuracy of k = 7.0 is:
+0.55
+
+
+Testing k = 7.1
+Group Height = 4
+Group Width = 2
+Accuracy of k = 7.1 is:
+0.548
+
+
+Testing k = 7.2
+Group Height = 4
+Group Width = 2
+Accuracy of k = 7.2 is:
+0.548
+
+
+Testing k = 7.3
+Group Height = 4
+Group Width = 2
+Accuracy of k = 7.3 is:
+0.548
+
+
+Testing k = 7.4
+Group Height = 4
+Group Width = 2
+Accuracy of k = 7.4 is:
+0.546
+
+
+Testing k = 7.5
+Group Height = 4
+Group Width = 2
+Accuracy of k = 7.5 is:
+0.545
+
+
+Testing k = 7.6
+Group Height = 4
+Group Width = 2
+Accuracy of k = 7.6 is:
+0.543
+
+
+Testing k = 7.7
+Group Height = 4
+Group Width = 2
+Accuracy of k = 7.7 is:
+0.543
+
+
+Testing k = 7.8
+Group Height = 4
+Group Width = 2
+Accuracy of k = 7.8 is:
+0.543
+
+
+Testing k = 7.9
+Group Height = 4
+Group Width = 2
+Accuracy of k = 7.9 is:
+0.543
+
+
+Testing k = 8.0
+Group Height = 4
+Group Width = 2
+Accuracy of k = 8.0 is:
+0.542
+
+
+Testing k = 8.1
+Group Height = 4
+Group Width = 2
+Accuracy of k = 8.1 is:
+0.542
+
+
+Testing k = 8.2
+Group Height = 4
+Group Width = 2
+Accuracy of k = 8.2 is:
+0.541
+
+
+Testing k = 8.3
+Group Height = 4
+Group Width = 2
+Accuracy of k = 8.3 is:
+0.542
+
+
+Testing k = 8.4
+Group Height = 4
+Group Width = 2
+Accuracy of k = 8.4 is:
+0.542
+
+
+Testing k = 8.5
+Group Height = 4
+Group Width = 2
+Accuracy of k = 8.5 is:
+0.542
+
+
+Testing k = 8.6
+Group Height = 4
+Group Width = 2
+Accuracy of k = 8.6 is:
+0.542
+
+
+Testing k = 8.7
+Group Height = 4
+Group Width = 2
+Accuracy of k = 8.7 is:
+0.542
+
+
+Testing k = 8.8
+Group Height = 4
+Group Width = 2
+Accuracy of k = 8.8 is:
+0.54
+
+
+Testing k = 8.9
+Group Height = 4
+Group Width = 2
+Accuracy of k = 8.9 is:
+0.54
+
+
+Testing k = 9.0
+Group Height = 4
+Group Width = 2
+Accuracy of k = 9.0 is:
+0.54
+
+
+Testing k = 9.1
+Group Height = 4
+Group Width = 2
+Accuracy of k = 9.1 is:
+0.539
+
+
+Testing k = 9.2
+Group Height = 4
+Group Width = 2
+Accuracy of k = 9.2 is:
+0.539
+
+
+Testing k = 9.3
+Group Height = 4
+Group Width = 2
+Accuracy of k = 9.3 is:
+0.539
+
+
+Testing k = 9.4
+Group Height = 4
+Group Width = 2
+Accuracy of k = 9.4 is:
+0.539
+
+
+Testing k = 9.5
+Group Height = 4
+Group Width = 2
+Accuracy of k = 9.5 is:
+0.538
+
+
+Testing k = 9.6
+Group Height = 4
+Group Width = 2
+Accuracy of k = 9.6 is:
+0.535
+
+
+Testing k = 9.7
+Group Height = 4
+Group Width = 2
+Accuracy of k = 9.7 is:
+0.534
+
+
+Testing k = 9.8
+Group Height = 4
+Group Width = 2
+Accuracy of k = 9.8 is:
+0.534
+
+
+Testing k = 9.9
+Group Height = 4
+Group Width = 2
+Accuracy of k = 9.9 is:
+0.533
+
+
+Testing k = 10.0
+Group Height = 4
+Group Width = 2
+Accuracy of k = 10.0 is:
+0.533
+
+
+Testing k = 0.0
+Group Height = 4
+Group Width = 3
+Accuracy of k = 0.0 is:
+0.651
+
+
+Testing k = 0.1
+Group Height = 4
+Group Width = 3
+Accuracy of k = 0.1 is:
+0.61
+
+
+Testing k = 0.2
+Group Height = 4
+Group Width = 3
+Accuracy of k = 0.2 is:
+0.595
+
+
+Testing k = 0.3
+Group Height = 4
+Group Width = 3
+Accuracy of k = 0.3 is:
+0.588
+
+
+Testing k = 0.4
+Group Height = 4
+Group Width = 3
+Accuracy of k = 0.4 is:
+0.583
+
+
+Testing k = 0.5
+Group Height = 4
+Group Width = 3
+Accuracy of k = 0.5 is:
+0.577
+
+
+Testing k = 0.6
+Group Height = 4
+Group Width = 3
+Accuracy of k = 0.6 is:
+0.575
+
+
+Testing k = 0.7
+Group Height = 4
+Group Width = 3
+Accuracy of k = 0.7 is:
+0.571
+
+
+Testing k = 0.8
+Group Height = 4
+Group Width = 3
+Accuracy of k = 0.8 is:
+0.567
+
+
+Testing k = 0.9
+Group Height = 4
+Group Width = 3
+Accuracy of k = 0.9 is:
+0.566
+
+
+Testing k = 1.0
+Group Height = 4
+Group Width = 3
+Accuracy of k = 1.0 is:
+0.564
+
+
+Testing k = 1.1
+Group Height = 4
+Group Width = 3
+Accuracy of k = 1.1 is:
+0.562
+
+
+Testing k = 1.2
+Group Height = 4
+Group Width = 3
+Accuracy of k = 1.2 is:
+0.561
+
+
+Testing k = 1.3
+Group Height = 4
+Group Width = 3
+Accuracy of k = 1.3 is:
+0.561
+
+
+Testing k = 1.4
+Group Height = 4
+Group Width = 3
+Accuracy of k = 1.4 is:
+0.56
+
+
+Testing k = 1.5
+Group Height = 4
+Group Width = 3
+Accuracy of k = 1.5 is:
+0.559
+
+
+Testing k = 1.6
+Group Height = 4
+Group Width = 3
+Accuracy of k = 1.6 is:
+0.559
+
+
+Testing k = 1.7
+Group Height = 4
+Group Width = 3
+Accuracy of k = 1.7 is:
+0.559
+
+
+Testing k = 1.8
+Group Height = 4
+Group Width = 3
+Accuracy of k = 1.8 is:
+0.556
+
+
+Testing k = 1.9
+Group Height = 4
+Group Width = 3
+Accuracy of k = 1.9 is:
+0.556
+
+
+Testing k = 2.0
+Group Height = 4
+Group Width = 3
+Accuracy of k = 2.0 is:
+0.555
+
+
+Testing k = 2.1
+Group Height = 4
+Group Width = 3
+Accuracy of k = 2.1 is:
+0.554
+
+
+Testing k = 2.2
+Group Height = 4
+Group Width = 3
+Accuracy of k = 2.2 is:
+0.554
+
+
+Testing k = 2.3
+Group Height = 4
+Group Width = 3
+Accuracy of k = 2.3 is:
+0.554
+
+
+Testing k = 2.4
+Group Height = 4
+Group Width = 3
+Accuracy of k = 2.4 is:
+0.554
+
+
+Testing k = 2.5
+Group Height = 4
+Group Width = 3
+Accuracy of k = 2.5 is:
+0.554
+
+
+Testing k = 2.6
+Group Height = 4
+Group Width = 3
+Accuracy of k = 2.6 is:
+0.553
+
+
+Testing k = 2.7
+Group Height = 4
+Group Width = 3
+Accuracy of k = 2.7 is:
+0.553
+
+
+Testing k = 2.8
+Group Height = 4
+Group Width = 3
+Accuracy of k = 2.8 is:
+0.553
+
+
+Testing k = 2.9
+Group Height = 4
+Group Width = 3
+Accuracy of k = 2.9 is:
+0.553
+
+
+Testing k = 3.0
+Group Height = 4
+Group Width = 3
+Accuracy of k = 3.0 is:
+0.553
+
+
+Testing k = 3.1
+Group Height = 4
+Group Width = 3
+Accuracy of k = 3.1 is:
+0.553
+
+
+Testing k = 3.2
+Group Height = 4
+Group Width = 3
+Accuracy of k = 3.2 is:
+0.552
+
+
+Testing k = 3.3
+Group Height = 4
+Group Width = 3
+Accuracy of k = 3.3 is:
+0.552
+
+
+Testing k = 3.4
+Group Height = 4
+Group Width = 3
+Accuracy of k = 3.4 is:
+0.552
+
+
+Testing k = 3.5
+Group Height = 4
+Group Width = 3
+Accuracy of k = 3.5 is:
+0.552
+
+
+Testing k = 3.6
+Group Height = 4
+Group Width = 3
+Accuracy of k = 3.6 is:
+0.551
+
+
+Testing k = 3.7
+Group Height = 4
+Group Width = 3
+Accuracy of k = 3.7 is:
+0.551
+
+
+Testing k = 3.8
+Group Height = 4
+Group Width = 3
+Accuracy of k = 3.8 is:
+0.551
+
+
+Testing k = 3.9
+Group Height = 4
+Group Width = 3
+Accuracy of k = 3.9 is:
+0.551
+
+
+Testing k = 4.0
+Group Height = 4
+Group Width = 3
+Accuracy of k = 4.0 is:
+0.551
+
+
+Testing k = 4.1
+Group Height = 4
+Group Width = 3
+Accuracy of k = 4.1 is:
+0.551
+
+
+Testing k = 4.2
+Group Height = 4
+Group Width = 3
+Accuracy of k = 4.2 is:
+0.551
+
+
+Testing k = 4.3
+Group Height = 4
+Group Width = 3
+Accuracy of k = 4.3 is:
+0.551
+
+
+Testing k = 4.4
+Group Height = 4
+Group Width = 3
+Accuracy of k = 4.4 is:
+0.551
+
+
+Testing k = 4.5
+Group Height = 4
+Group Width = 3
+Accuracy of k = 4.5 is:
+0.551
+
+
+Testing k = 4.6
+Group Height = 4
+Group Width = 3
+Accuracy of k = 4.6 is:
+0.551
+
+
+Testing k = 4.7
+Group Height = 4
+Group Width = 3
+Accuracy of k = 4.7 is:
+0.551
+
+
+Testing k = 4.8
+Group Height = 4
+Group Width = 3
+Accuracy of k = 4.8 is:
+0.551
+
+
+Testing k = 4.9
+Group Height = 4
+Group Width = 3
+Accuracy of k = 4.9 is:
+0.551
+
+
+Testing k = 5.0
+Group Height = 4
+Group Width = 3
+Accuracy of k = 5.0 is:
+0.551
+
+
+Testing k = 5.1
+Group Height = 4
+Group Width = 3
+Accuracy of k = 5.1 is:
+0.551
+
+
+Testing k = 5.2
+Group Height = 4
+Group Width = 3
+Accuracy of k = 5.2 is:
+0.551
+
+
+Testing k = 5.3
+Group Height = 4
+Group Width = 3
+Accuracy of k = 5.3 is:
+0.551
+
+
+Testing k = 5.4
+Group Height = 4
+Group Width = 3
+Accuracy of k = 5.4 is:
+0.55
+
+
+Testing k = 5.5
+Group Height = 4
+Group Width = 3
+Accuracy of k = 5.5 is:
+0.55
+
+
+Testing k = 5.6
+Group Height = 4
+Group Width = 3
+Accuracy of k = 5.6 is:
+0.55
+
+
+Testing k = 5.7
+Group Height = 4
+Group Width = 3
+Accuracy of k = 5.7 is:
+0.55
+
+
+Testing k = 5.8
+Group Height = 4
+Group Width = 3
+Accuracy of k = 5.8 is:
+0.55
+
+
+Testing k = 5.9
+Group Height = 4
+Group Width = 3
+Accuracy of k = 5.9 is:
+0.549
+
+
+Testing k = 6.0
+Group Height = 4
+Group Width = 3
+Accuracy of k = 6.0 is:
+0.549
+
+
+Testing k = 6.1
+Group Height = 4
+Group Width = 3
+Accuracy of k = 6.1 is:
+0.548
+
+
+Testing k = 6.2
+Group Height = 4
+Group Width = 3
+Accuracy of k = 6.2 is:
+0.548
+
+
+Testing k = 6.3
+Group Height = 4
+Group Width = 3
+Accuracy of k = 6.3 is:
+0.548
+
+
+Testing k = 6.4
+Group Height = 4
+Group Width = 3
+Accuracy of k = 6.4 is:
+0.548
+
+
+Testing k = 6.5
+Group Height = 4
+Group Width = 3
+Accuracy of k = 6.5 is:
+0.548
+
+
+Testing k = 6.6
+Group Height = 4
+Group Width = 3
+Accuracy of k = 6.6 is:
+0.548
+
+
+Testing k = 6.7
+Group Height = 4
+Group Width = 3
+Accuracy of k = 6.7 is:
+0.548
+
+
+Testing k = 6.8
+Group Height = 4
+Group Width = 3
+Accuracy of k = 6.8 is:
+0.548
+
+
+Testing k = 6.9
+Group Height = 4
+Group Width = 3
+Accuracy of k = 6.9 is:
+0.548
+
+
+Testing k = 7.0
+Group Height = 4
+Group Width = 3
+Accuracy of k = 7.0 is:
+0.548
+
+
+Testing k = 7.1
+Group Height = 4
+Group Width = 3
+Accuracy of k = 7.1 is:
+0.548
+
+
+Testing k = 7.2
+Group Height = 4
+Group Width = 3
+Accuracy of k = 7.2 is:
+0.547
+
+
+Testing k = 7.3
+Group Height = 4
+Group Width = 3
+Accuracy of k = 7.3 is:
+0.547
+
+
+Testing k = 7.4
+Group Height = 4
+Group Width = 3
+Accuracy of k = 7.4 is:
+0.547
+
+
+Testing k = 7.5
+Group Height = 4
+Group Width = 3
+Accuracy of k = 7.5 is:
+0.547
+
+
+Testing k = 7.6
+Group Height = 4
+Group Width = 3
+Accuracy of k = 7.6 is:
+0.547
+
+
+Testing k = 7.7
+Group Height = 4
+Group Width = 3
+Accuracy of k = 7.7 is:
+0.547
+
+
+Testing k = 7.8
+Group Height = 4
+Group Width = 3
+Accuracy of k = 7.8 is:
+0.547
+
+
+Testing k = 7.9
+Group Height = 4
+Group Width = 3
+Accuracy of k = 7.9 is:
+0.547
+
+
+Testing k = 8.0
+Group Height = 4
+Group Width = 3
+Accuracy of k = 8.0 is:
+0.547
+
+
+Testing k = 8.1
+Group Height = 4
+Group Width = 3
+Accuracy of k = 8.1 is:
+0.547
+
+
+Testing k = 8.2
+Group Height = 4
+Group Width = 3
+Accuracy of k = 8.2 is:
+0.547
+
+
+Testing k = 8.3
+Group Height = 4
+Group Width = 3
+Accuracy of k = 8.3 is:
+0.547
+
+
+Testing k = 8.4
+Group Height = 4
+Group Width = 3
+Accuracy of k = 8.4 is:
+0.547
+
+
+Testing k = 8.5
+Group Height = 4
+Group Width = 3
+Accuracy of k = 8.5 is:
+0.547
+
+
+Testing k = 8.6
+Group Height = 4
+Group Width = 3
+Accuracy of k = 8.6 is:
+0.547
+
+
+Testing k = 8.7
+Group Height = 4
+Group Width = 3
+Accuracy of k = 8.7 is:
+0.547
+
+
+Testing k = 8.8
+Group Height = 4
+Group Width = 3
+Accuracy of k = 8.8 is:
+0.547
+
+
+Testing k = 8.9
+Group Height = 4
+Group Width = 3
+Accuracy of k = 8.9 is:
+0.547
+
+
+Testing k = 9.0
+Group Height = 4
+Group Width = 3
+Accuracy of k = 9.0 is:
+0.547
+
+
+Testing k = 9.1
+Group Height = 4
+Group Width = 3
+Accuracy of k = 9.1 is:
+0.547
+
+
+Testing k = 9.2
+Group Height = 4
+Group Width = 3
+Accuracy of k = 9.2 is:
+0.547
+
+
+Testing k = 9.3
+Group Height = 4
+Group Width = 3
+Accuracy of k = 9.3 is:
+0.547
+
+
+Testing k = 9.4
+Group Height = 4
+Group Width = 3
+Accuracy of k = 9.4 is:
+0.547
+
+
+Testing k = 9.5
+Group Height = 4
+Group Width = 3
+Accuracy of k = 9.5 is:
+0.547
+
+
+Testing k = 9.6
+Group Height = 4
+Group Width = 3
+Accuracy of k = 9.6 is:
+0.547
+
+
+Testing k = 9.7
+Group Height = 4
+Group Width = 3
+Accuracy of k = 9.7 is:
+0.547
+
+
+Testing k = 9.8
+Group Height = 4
+Group Width = 3
+Accuracy of k = 9.8 is:
+0.547
+
+
+Testing k = 9.9
+Group Height = 4
+Group Width = 3
+Accuracy of k = 9.9 is:
+0.547
+
+
+Testing k = 10.0
+Group Height = 4
+Group Width = 3
+Accuracy of k = 10.0 is:
+0.547
+
+
+Testing k = 0.0
+Group Height = 4
+Group Width = 4
+Accuracy of k = 0.0 is:
+0.635
+
+
+Testing k = 0.1
+Group Height = 4
+Group Width = 4
+Accuracy of k = 0.1 is:
+0.586
+
+
+Testing k = 0.2
+Group Height = 4
+Group Width = 4
+Accuracy of k = 0.2 is:
+0.585
+
+
+Testing k = 0.3
+Group Height = 4
+Group Width = 4
+Accuracy of k = 0.3 is:
+0.585
+
+
+Testing k = 0.4
+Group Height = 4
+Group Width = 4
+Accuracy of k = 0.4 is:
+0.585
+
+
+Testing k = 0.5
+Group Height = 4
+Group Width = 4
+Accuracy of k = 0.5 is:
+0.585
+
+
+Testing k = 0.6
+Group Height = 4
+Group Width = 4
+Accuracy of k = 0.6 is:
+0.585
+
+
+Testing k = 0.7
+Group Height = 4
+Group Width = 4
+Accuracy of k = 0.7 is:
+0.585
+
+
+Testing k = 0.8
+Group Height = 4
+Group Width = 4
+Accuracy of k = 0.8 is:
+0.585
+
+
+Testing k = 0.9
+Group Height = 4
+Group Width = 4
+Accuracy of k = 0.9 is:
+0.585
+
+
+Testing k = 1.0
+Group Height = 4
+Group Width = 4
+Accuracy of k = 1.0 is:
+0.585
+
+
+Testing k = 1.1
+Group Height = 4
+Group Width = 4
+Accuracy of k = 1.1 is:
+0.585
+
+
+Testing k = 1.2
+Group Height = 4
+Group Width = 4
+Accuracy of k = 1.2 is:
+0.585
+
+
+Testing k = 1.3
+Group Height = 4
+Group Width = 4
+Accuracy of k = 1.3 is:
+0.585
+
+
+Testing k = 1.4
+Group Height = 4
+Group Width = 4
+Accuracy of k = 1.4 is:
+0.585
+
+
+Testing k = 1.5
+Group Height = 4
+Group Width = 4
+Accuracy of k = 1.5 is:
+0.585
+
+
+Testing k = 1.6
+Group Height = 4
+Group Width = 4
+Accuracy of k = 1.6 is:
+0.585
+
+
+Testing k = 1.7
+Group Height = 4
+Group Width = 4
+Accuracy of k = 1.7 is:
+0.585
+
+
+Testing k = 1.8
+Group Height = 4
+Group Width = 4
+Accuracy of k = 1.8 is:
+0.585
+
+
+Testing k = 1.9
+Group Height = 4
+Group Width = 4
+Accuracy of k = 1.9 is:
+0.585
+
+
+Testing k = 2.0
+Group Height = 4
+Group Width = 4
+Accuracy of k = 2.0 is:
+0.585
+
+
+Testing k = 2.1
+Group Height = 4
+Group Width = 4
+Accuracy of k = 2.1 is:
+0.585
+
+
+Testing k = 2.2
+Group Height = 4
+Group Width = 4
+Accuracy of k = 2.2 is:
+0.585
+
+
+Testing k = 2.3
+Group Height = 4
+Group Width = 4
+Accuracy of k = 2.3 is:
+0.585
+
+
+Testing k = 2.4
+Group Height = 4
+Group Width = 4
+Accuracy of k = 2.4 is:
+0.585
+
+
+Testing k = 2.5
+Group Height = 4
+Group Width = 4
+Accuracy of k = 2.5 is:
+0.585
+
+
+Testing k = 2.6
+Group Height = 4
+Group Width = 4
+Accuracy of k = 2.6 is:
+0.585
+
+
+Testing k = 2.7
+Group Height = 4
+Group Width = 4
+Accuracy of k = 2.7 is:
+0.585
+
+
+Testing k = 2.8
+Group Height = 4

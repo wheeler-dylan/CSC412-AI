@@ -1,10 +1,16 @@
 {
   "ExpandedNodes": [
     "",
-    "\\BayesNet",
-    "\\BayesNet\\files",
-    "\\BayesNet\\files\\digitdata"
+    "\\GAN",
+    "\\GAN\\assignment3_materials\\Assignment3",
+    "\\GAN\\assignment3_materials\\Assignment3\\gan",
+    "\\GAN\\assignment3_materials\\Assignment3\\gan\\.ipynb_checkpoints",
+    "\\GAN\\assignment3_materials\\Assignment3\\gan\\__pycache__",
+    "\\GAN\\assignment3_materials\\Assignment3\\gan_samples",
+    "\\GAN\\backup",
+    "\\GAN\\P3Chris\\P3(Chris)",
+    "\\GAN\\tutorial"
   ],
-  "SelectedNode": "\\BayesNet\\main.py",
+  "SelectedNode": "\\GAN\\backup",
   "PreviewInSolutionExplorer": false
 }
