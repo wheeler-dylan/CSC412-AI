@@ -2,7 +2,7 @@ import torch
 import matplotlib.pyplot as plt
 import matplotlib.gridspec as gridspec
 
-from gan.utils import sample_noise, show_images, deprocess_img, preprocess_img
+from utils import sample_noise, show_images, deprocess_img, preprocess_img
 
 def train(D, G, D_solver, G_solver, discriminator_loss, generator_loss, show_every=250, 
               batch_size=128, noise_size=100, num_epochs=10, train_loader=None, device=None, MNIST=False):
