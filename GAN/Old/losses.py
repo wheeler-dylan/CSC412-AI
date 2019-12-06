@@ -1,6 +1,7 @@
 import torch
 from torch.nn.functional import binary_cross_entropy_with_logits as bce_loss
 
+
 def discriminator_loss(logits_real, logits_fake):
     """
     Computes the discriminator loss.
@@ -22,9 +23,19 @@ def discriminator_loss(logits_real, logits_fake):
     ####################################
     #          YOUR CODE HERE          #
     ####################################
-    labels_real = torch.ones_like(logits_real, dtype=torch.float)
-    labels_fake = torch.zeros_like(logits_fake, dtype=torch.float)
-    loss = bce_loss(input=logits_real, target=labels_real) + bce_loss(input=logits_fake, target=labels_fake)
+    # Batch size.
+    N = logits_real.size()
+    
+    # Target label vector, the discriminator should be aiming
+    true_labels = Variable(torch.ones(N)).type(dtype)
+    
+    # Discriminator loss has 2 parts: how well it classifies real images and how well it
+    # classifies fake images.
+    real_image_loss = bce_loss(logits_real, true_labels)
+    fake_image_loss = bce_loss(logits_fake, 1 - true_labels)
+    
+    loss = real_image_loss + fake_image_loss
+    
     ##########       END      ##########
     
     return loss
@@ -49,8 +60,15 @@ def generator_loss(logits_fake):
     ####################################
     #          YOUR CODE HERE          #
     ####################################
-    labels_fake = torch.zeros_like(logits_fake, dtype=torch.float)
-    loss = bce_loss(input=logits_fake, target=labels_fake)
+    # Batch size.
+    N = logits_fake.size()
+    
+    # Generator is trying to make the discriminator output 1 for all its images.
+    # So we create a 'target' label vector of ones for computing generator loss.
+    true_labels = Variable(torch.ones(N)).type(dtype)
+    
+    # Compute the generator loss compraing 
+    loss = bce_loss(logits_fake, true_labels)
     
     ##########       END      ##########
     
@@ -74,10 +92,10 @@ def ls_discriminator_loss(scores_real, scores_fake):
     ####################################
     #          YOUR CODE HERE          #
     ####################################
-    N = scores_real.size()
+    N, _ = scores_real.size()
     loss_real = 0.5*torch.mean(torch.pow(scores_real-Variable(torch.ones(N)).type(dtype), 2))
     loss_fake = 0.5*torch.mean(torch.pow(scores_fake, 2))
-    loss = loss_real + loss_fake  
+    loss = loss_real + loss_fake
     
     ##########       END      ##########
     
@@ -99,9 +117,9 @@ def ls_generator_loss(scores_fake):
     ####################################
     #          YOUR CODE HERE          #
     ####################################
-    N = scores_real.size()
-    loss_fake = 0.5*torch.mean(torch.pow(scores_fake, 2))
-    loss = loss_fake   
+    N, _ = scores_fake.size()
+    loss = 0.5*torch.mean(torch.pow(scores_fake-Variable(torch.ones(N)).type(dtype), 2))
+    
     
     ##########       END      ##########
     

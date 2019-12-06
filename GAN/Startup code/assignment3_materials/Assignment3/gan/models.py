@@ -41,18 +41,24 @@ class Discriminator(torch.nn.Module):
         self.hidden2 = Sequential(
             # state size (256) x 16 x 16 
             #  without padding (256) x 14 x 14 - note that dividing 27 by 2 yields fraction, which gets rounded down
-            //TBA
+            Conv2d(256, 512, kernel_size=4, stride=2, padding=1, bias=False),
+            BatchNorm2d(512),
+            LeakyReLU(0.2, inplace=True)
         )
         self.hidden3 = Sequential(
             # state size (512) x 8 x 8 
             # without padding  (512) x 6 x 6
-			//TBA
+			Conv2d(512, 1024, kernel_size=4, stride=2, padding=1, bias=False),
+            BatchNorm2d(1024),
+            LeakyReLU(0.2, inplace=True)
 
         )        
         self.out = Sequential(
             # state size (1024) x 4 x 4
             # without padding (1024) x 3 x 3
-			//TBA
+			Conv2d(1024, 1, kernel_size=4, stride=1, padding=1, bias=False),
+            #BatchNorm2d(256),
+            LeakyReLU(0.2, inplace=True)
 
         )
         
@@ -111,17 +117,23 @@ class Generator(torch.nn.Module):
             # state size (1024) x 4 x 4      
             # Inverse of Formula (W - K + 2P / S) + 1 for up-sampling
             # W is input size, K is kernel size, P is padding, S is stride
-			//TBA
+			ConvTranspose2d(1024, 512, kernel_size=4, stride=1, padding=0, bias=False),
+            BatchNorm2d(512),
+            ReLU(True)
 
         )
         self.hidden2 = Sequential(
             # state size (512) x 8 x 8 
-			//TBA
+			ConvTranspose2d(512, 256, kernel_size=4, stride=1, padding=0, bias=False),
+            BatchNorm2d(256),
+            ReLU(True)
 
         )
         self.hidden3 = Sequential(
             # state size (256) x 16 x 16 
-			//TBA
+			ConvTranspose2d(256, 128, kernel_size=4, stride=1, padding=0, bias=False),
+            BatchNorm2d(128),
+            ReLU(True)
 
         )
         self.out = Sequential(

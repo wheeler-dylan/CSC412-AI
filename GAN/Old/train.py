@@ -1,11 +1,13 @@
-import torch
 import matplotlib.pyplot as plt
 import matplotlib.gridspec as gridspec
+#import numpy as np
+#import keras
 
-from gan.utils import sample_noise, show_images, deprocess_img, preprocess_img
+
+from utils import sample_noise, show_images, deprocess_img, preprocess_img
 
 def train(D, G, D_solver, G_solver, discriminator_loss, generator_loss, show_every=250, 
-              batch_size=128, noise_size=100, num_epochs=10, train_loader=None, device=None, MNIST=False):
+              batch_size=128, noise_size=100, num_epochs=10, train_loader=None, device=None):
     """
     Train loop for GAN.
     
@@ -43,10 +45,6 @@ def train(D, G, D_solver, G_solver, discriminator_loss, generator_loss, show_eve
     - device: PyTorch device
     """
     iter_count = 0
-	
-    # For running on GPU
-    dtype = torch.cuda.FloatTensor
-	
     for epoch in range(num_epochs):
         print('EPOCH: ', (epoch+1))
         for x, _ in train_loader:
@@ -63,49 +61,46 @@ def train(D, G, D_solver, G_solver, discriminator_loss, generator_loss, show_eve
             ####################################
             #          YOUR CODE HERE          #
             ####################################
-            ######## Discriminator Step ########
-            # maximize log(D(x)) + log(1 - D(G(z))) 
-            ####### Train with real batch ######
-            ####################################
-            # Zero out optimizer gradients
-            #	Discussion: https://stackoverflow.com/questions/48001598/why-do-we-need-to-call-zero-grad-in-pytorch
+
+            # reset the gradients
             D_solver.zero_grad()
-            real_data = torch.tensor(x).type(dtype)
-            logits_real = D(2* (real_data - 0.5)).type(dtype)
-            #print("\n\nlogits_real: " + str(logits_real))
-
-            ####################################
-            ####### Train with fake batch ######
-            ####################################
-            g_fake_seed = torch.tensor(sample_noise(batch_size, noise_size, MNIST=MNIST)).type(dtype)
-            #print("\n\ng_fake_seed shape: " + str(g_fake_seed.shape))
+            
+            
+            
+            
+            # get real images
+            real_images = x.type(device)
+            logits_real = D(real_images).type(device)
+            
+            # 1. GENERATOR NETWORK FORWARD
+            # generate new fake images
+            g_fake_seed = sample_noise(batch_size, noise_size).type(device)
             fake_images = G(g_fake_seed).detach()
-            logits_fake = D(fake_images.view(batch_size, input_channels, img_size, img_size))
-            #print("logits_fake: " + str(logits_fake))
+            logits_fake = D(fake_images.view(batch_size, 1, 28, 28))
 
-            d_error = discriminator_loss(logits_real, logits_fake)
-            #print("\n\nd_error: " + str(d_error))
-            # 
-            # Call backward() on the loss output and take an optimizer step for the discriminator.
-            # 
-            d_error.backward()        
+            # 2. DISCRIMINATOR NETWORK FORWARD
+            # forward fake and real logits to discriminator
+            d_total_error = discriminator_loss(logits_real, logits_fake)
+            
+            # 3. DISCRIMINATOR NETWORK BACKWARD
+            # backward the error
+            d_total_error.backward()            
+            # update discriminator weights
             D_solver.step()
 
-            ####################################
-            ########## Generator Step ##########
-            ####### maximize log(D(G(z))) ######
-            ####################################
+            # 4. GENERATOR NETWORK BACKWARD            
+            # reset the gradients
             G_solver.zero_grad()
-            g_fake_seed = torch.tensor(sample_noise(batch_size, noise_size, MNIST=MNIST)).type(dtype)
+            # generate new fake images
+            g_fake_seed = sample_noise(batch_size, noise_size).type(device)
             fake_images = G(g_fake_seed)
-
-            gen_logits_fake = D(fake_images.view(batch_size, input_channels, img_size, img_size))
+            # get logits fake throuch discriminator network
+            gen_logits_fake = D(fake_images.view(batch_size, 1, 28, 28))
+            # calculate generator loss
             g_error = generator_loss(gen_logits_fake)
-            #print("\n\ng_error: " + str(g_error))
-            # 
-            # Call backward() on the loss output and take an optimizer step for the generator.
-            # 
+            # backward the error
             g_error.backward()
+            # update generator weights
             G_solver.step()
             
             ##########       END      ##########

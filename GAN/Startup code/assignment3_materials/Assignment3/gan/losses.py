@@ -49,7 +49,8 @@ def generator_loss(logits_fake):
     ####################################
     #          YOUR CODE HERE          #
     ####################################
-	//TBA    
+    labels_fake = torch.zeros_like(logits_fake, dtype=torch.float)
+    loss = bce_loss(input=logits_fake, target=labels_fake)
     
     ##########       END      ##########
     
@@ -73,7 +74,10 @@ def ls_discriminator_loss(scores_real, scores_fake):
     ####################################
     #          YOUR CODE HERE          #
     ####################################
-	//TBA    
+    N = scores_real.size()
+    loss_real = 0.5*torch.mean(torch.pow(scores_real-Variable(torch.ones(N)).type(dtype), 2))
+    loss_fake = 0.5*torch.mean(torch.pow(scores_fake, 2))
+    loss = loss_real + loss_fake  
     
     ##########       END      ##########
     
@@ -95,7 +99,9 @@ def ls_generator_loss(scores_fake):
     ####################################
     #          YOUR CODE HERE          #
     ####################################
-	//TBA    
+    N = scores_real.size()
+    loss_fake = 0.5*torch.mean(torch.pow(scores_fake, 2))
+    loss = loss_fake   
     
     ##########       END      ##########
     

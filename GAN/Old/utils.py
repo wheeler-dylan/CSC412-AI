@@ -39,7 +39,7 @@ def deprocess_img(x):
 def rel_error(x,y):
     return np.max(np.abs(x - y) / (np.maximum(1e-8, np.abs(x) + np.abs(y))))
 
-def sample_noise(batch_size, dim, MNIST=False):
+def sample_noise(batch_size, dim):
     """
     Generate a PyTorch Tensor of uniform random noise.
 
@@ -51,10 +51,7 @@ def sample_noise(batch_size, dim, MNIST=False):
     - A PyTorch Tensor of shape (batch_size, dim) containing uniform
       random noise in the range (-1, 1).
     """
-    if MNIST:
-        to_return = torch.randn((batch_size, dim))
-    else:
-        to_return = torch.randn((batch_size, dim,1,1))
+    to_return = torch.randn((batch_size, dim))
     return to_return/torch.max(to_return)
 
 
